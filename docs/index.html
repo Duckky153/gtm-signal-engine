@@ -3,129 +3,193 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>GTM Signal Engine — buying signals from public job boards</title>
-<meta name="description" content="Reads 30 public ATS job boards, detects go-to-market buying signals, and ranks accounts by how ready they are to buy. No API keys, no paid data vendor.">
+<title>GTM Signal Engine — find the companies that are about to buy</title>
+<meta name="description" content="Reads public job boards and returns the companies that are scaling outbound right now, with the requisition that proves it. No API keys, no paid data vendor.">
 <style>
   :root{
-    --bg:#0b0d11; --panel:#12151c; --panel-2:#171b24; --line:#232936;
-    --ink:#e8ecf4; --ink-2:#9aa5b8; --ink-3:#6b7688;
-    --a:#5eead4; --a-dim:#134e4a; --b:#818cf8; --c:#f59e0b;
+    --bg:#f7f8fa; --card:#ffffff; --ink:#0c1220; --ink-2:#5a6478; --ink-3:#8b95a8;
+    --line:#e6e9f0; --line-2:#eef1f6;
+    --teal:#0d9488; --teal-2:#14b8a6; --teal-bg:#e6fffa;
+    --indigo:#4f46e5; --indigo-bg:#eef2ff;
+    --slate-bg:#f1f3f7;
+    --shadow:0 1px 2px rgba(12,18,32,.04),0 8px 24px -12px rgba(12,18,32,.12);
+    --shadow-lg:0 2px 4px rgba(12,18,32,.04),0 24px 48px -20px rgba(12,18,32,.18);
     --mono:ui-monospace,SFMono-Regular,"SF Mono",Menlo,monospace;
-    --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,sans-serif;
+    --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,Helvetica,sans-serif;
+    --r:14px;
   }
-  @media (prefers-color-scheme:light){
-    :root{--bg:#fbfcfe;--panel:#fff;--panel-2:#f4f6fa;--line:#e3e8f0;
-          --ink:#0f172a;--ink-2:#4a5568;--ink-3:#8a94a6;--a:#0d9488;--a-dim:#ccfbf1;}
+  @media (prefers-color-scheme:dark){
+    :root{--bg:#0a0c11;--card:#12151d;--ink:#eef1f7;--ink-2:#9aa4b8;--ink-3:#6b7688;
+          --line:#1e232e;--line-2:#191d26;--teal:#2dd4bf;--teal-2:#5eead4;--teal-bg:#0c2f2b;
+          --indigo:#a5b4fc;--indigo-bg:#1e1b4b;--slate-bg:#161a22;
+          --shadow:0 1px 2px rgba(0,0,0,.4);--shadow-lg:0 24px 48px -24px rgba(0,0,0,.7);}
   }
   *{box-sizing:border-box}
-  html{-webkit-text-size-adjust:100%}
+  html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
   body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);
-       line-height:1.6;-webkit-font-smoothing:antialiased}
-  .wrap{max-width:1080px;margin:0 auto;padding:0 20px}
-  a{color:var(--a)}
+       line-height:1.6;-webkit-font-smoothing:antialiased;font-size:16px}
+  .wrap{max-width:1120px;margin:0 auto;padding:0 24px}
+  a{color:var(--teal);text-underline-offset:3px}
 
-  header{padding:56px 0 32px;border-bottom:1px solid var(--line)}
-  .eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.14em;
-           text-transform:uppercase;color:var(--a);margin:0 0 14px}
-  h1{margin:0 0 14px;font-size:clamp(28px,5vw,44px);line-height:1.12;letter-spacing:-.02em}
-  .lede{margin:0;font-size:clamp(16px,2.2vw,19px);color:var(--ink-2);max-width:64ch}
-  .lede strong{color:var(--ink);font-weight:600}
+  /* ---- hero ---- */
+  .hero{padding:80px 0 0;position:relative;overflow:hidden}
+  .hero::before{content:"";position:absolute;inset:-40% 40% 55% -10%;
+    background:radial-gradient(closest-side,var(--teal-bg),transparent 70%);
+    opacity:.85;pointer-events:none}
+  .hero .wrap{position:relative}
+  .pill{display:inline-flex;align-items:center;gap:8px;background:var(--card);
+        border:1px solid var(--line);border-radius:99px;padding:6px 14px 6px 8px;
+        font-size:13px;color:var(--ink-2);box-shadow:var(--shadow);margin-bottom:26px}
+  .pill b{background:var(--teal);color:#fff;border-radius:99px;padding:2px 9px;
+          font-size:11px;letter-spacing:.06em;text-transform:uppercase;font-weight:700}
+  @media (prefers-color-scheme:dark){.pill b{color:#04211e}}
+  h1{margin:0 0 20px;font-size:clamp(34px,5.4vw,58px);line-height:1.06;
+     letter-spacing:-.035em;font-weight:700;max-width:17ch}
+  h1 em{font-style:normal;color:var(--teal)}
+  .lede{margin:0;font-size:clamp(17px,2.1vw,20px);color:var(--ink-2);max-width:60ch;line-height:1.55}
+  .lede b{color:var(--ink);font-weight:600}
 
-  .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
-         gap:12px;margin:32px 0 0}
-  .stat{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
-  .stat b{display:block;font-family:var(--mono);font-size:26px;letter-spacing:-.02em;color:var(--ink)}
-  .stat span{font-size:12.5px;color:var(--ink-3)}
+  .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));
+         gap:16px;margin:44px 0 0}
+  .stat{background:var(--card);border:1px solid var(--line);border-radius:var(--r);
+        padding:20px 22px;box-shadow:var(--shadow)}
+  .stat b{display:block;font-size:34px;line-height:1.1;letter-spacing:-.03em;
+          font-variant-numeric:tabular-nums;font-weight:700}
+  .stat span{font-size:13px;color:var(--ink-3);display:block;margin-top:4px}
+  .stat.accent b{color:var(--teal)}
 
-  section{padding:44px 0;border-bottom:1px solid var(--line)}
-  h2{margin:0 0 8px;font-size:22px;letter-spacing:-.01em}
-  .sub{margin:0 0 24px;color:var(--ink-2);font-size:15px;max-width:70ch}
+  /* ---- sections ---- */
+  section{padding:72px 0}
+  .divide{border-top:1px solid var(--line)}
+  .head{max-width:64ch;margin-bottom:32px}
+  h2{margin:0 0 10px;font-size:clamp(24px,3vw,32px);letter-spacing:-.025em;font-weight:700}
+  .sub{margin:0;color:var(--ink-2);font-size:16.5px}
 
-  .controls{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:18px}
+  /* ---- controls ---- */
+  .controls{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:20px}
   .controls input,.controls select{
-    background:var(--panel);border:1px solid var(--line);color:var(--ink);
-    border-radius:9px;padding:9px 12px;font-size:14px;font-family:inherit}
-  .controls input{flex:1;min-width:190px}
-  .controls input:focus,.controls select:focus{outline:2px solid var(--a);outline-offset:-1px}
+    background:var(--card);border:1px solid var(--line);color:var(--ink);
+    border-radius:10px;padding:11px 14px;font-size:14.5px;font-family:inherit;
+    box-shadow:var(--shadow)}
+  .controls input{flex:1;min-width:200px}
+  .controls input:focus,.controls select:focus{outline:2px solid var(--teal);outline-offset:1px}
 
-  .rows{display:flex;flex-direction:column;gap:8px}
-  .row{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
-  .row-head{display:grid;grid-template-columns:38px 1fr 128px 62px 26px;gap:14px;
-            align-items:center;padding:14px 16px;cursor:pointer;background:none;
-            border:0;width:100%;text-align:left;color:inherit;font:inherit}
-  .row-head:hover{background:var(--panel-2)}
-  .row-head:focus-visible{outline:2px solid var(--a);outline-offset:-2px}
-  .rank{font-family:var(--mono);font-size:13px;color:var(--ink-3)}
+  /* ---- rows ---- */
+  .rows{display:flex;flex-direction:column;gap:10px}
+  .row{background:var(--card);border:1px solid var(--line);border-radius:var(--r);
+       box-shadow:var(--shadow);transition:box-shadow .2s,border-color .2s}
+  .row[open]{box-shadow:var(--shadow-lg);border-color:var(--teal)}
+  .row-head{display:grid;grid-template-columns:56px 1fr auto 34px;gap:18px;
+            align-items:center;padding:18px 20px;cursor:pointer;background:none;
+            border:0;width:100%;text-align:left;color:inherit;font:inherit;border-radius:var(--r)}
+  .row-head:hover{background:var(--line-2)}
+  .row-head:focus-visible{outline:2px solid var(--teal);outline-offset:-2px}
+
+  .ring{position:relative;width:52px;height:52px}
+  .ring svg{transform:rotate(-90deg);display:block}
+  .ring track{stroke:var(--line)}
+  .ring .val{position:absolute;inset:0;display:grid;place-items:center;
+             font-size:15px;font-weight:700;font-variant-numeric:tabular-nums;
+             letter-spacing:-.02em}
+
   .co{min-width:0}
-  .co b{display:block;font-size:15.5px;letter-spacing:-.01em}
-  .co > span{display:block;font-size:13px;color:var(--ink-2);overflow:hidden;
-             text-overflow:ellipsis;white-space:nowrap}
-  .bar{height:7px;background:var(--panel-2);border-radius:99px;overflow:hidden;
-       border:1px solid var(--line)}
-  .bar i{display:block;height:100%;border-radius:99px;background:var(--a)}
-  .score{font-family:var(--mono);font-size:15px;text-align:right}
-  .tier{display:inline-block;font-family:var(--mono);font-size:11px;font-weight:700;
-        padding:1px 7px;border-radius:5px;margin-left:8px;vertical-align:1px}
-  .tier.A{background:var(--a-dim);color:var(--a)}
-  .tier.B{background:#312e81;color:#c7d2fe}
-  .tier.C{background:#2a2f3a;color:var(--ink-3)}
-  @media (prefers-color-scheme:light){
-    .tier.B{background:#e0e7ff;color:#4338ca}.tier.C{background:#eef1f6;color:#6b7688}
-  }
-  .chev{color:var(--ink-3);transition:transform .18s;font-size:13px}
-  .row[open] .chev{transform:rotate(90deg)}
+  .name{display:flex;align-items:center;gap:9px;flex-wrap:wrap;margin-bottom:3px}
+  .name b{font-size:17.5px;letter-spacing:-.02em;font-weight:650}
+  .why{font-size:14.5px;color:var(--ink-2);margin:0}
+  .tag{font-size:11px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;
+       padding:3px 9px;border-radius:99px}
+  .tag.A{background:var(--teal-bg);color:var(--teal)}
+  .tag.B{background:var(--indigo-bg);color:var(--indigo)}
+  .tag.C{background:var(--slate-bg);color:var(--ink-3)}
+  .seg{font-size:12px;color:var(--ink-3);border:1px solid var(--line);
+       padding:2px 9px;border-radius:99px}
+  .chev{color:var(--ink-3);transition:transform .2s;font-size:18px;text-align:center}
+  .row[open] .chev{transform:rotate(90deg);color:var(--teal)}
 
-  .detail{padding:2px 16px 16px;border-top:1px solid var(--line);display:none}
+  .detail{display:none;padding:4px 20px 20px;border-top:1px solid var(--line)}
   .row[open] .detail{display:block}
-  .sig{padding:14px 0;border-bottom:1px dashed var(--line)}
-  .sig:last-child{border-bottom:0}
-  .sig-top{display:flex;justify-content:space-between;gap:12px;align-items:baseline;flex-wrap:wrap}
-  .sig-top b{font-size:14.5px}
-  .pts{font-family:var(--mono);font-size:12px;color:var(--a);white-space:nowrap}
-  .why{margin:5px 0 10px;font-size:13.5px;color:var(--ink-2);max-width:76ch}
-  .ev{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:5px}
-  .ev li{font-size:13.5px;display:flex;gap:9px;align-items:baseline;flex-wrap:wrap}
-  .ev a{text-decoration:none;border-bottom:1px solid transparent}
-  .ev a:hover{border-bottom-color:var(--a)}
-  .loc{font-family:var(--mono);font-size:11.5px;color:var(--ink-3)}
+  .sig{padding:20px 0;border-bottom:1px solid var(--line-2)}
+  .sig:last-child{border-bottom:0;padding-bottom:4px}
+  .sig-top{display:flex;justify-content:space-between;gap:14px;align-items:center;
+           flex-wrap:wrap;margin-bottom:6px}
+  .sig-top b{font-size:16px;letter-spacing:-.015em}
+  .pts{font-family:var(--mono);font-size:12px;color:var(--teal);background:var(--teal-bg);
+       padding:4px 10px;border-radius:99px;white-space:nowrap;font-weight:600}
+  .rationale{margin:0 0 14px;font-size:14.5px;color:var(--ink-2);max-width:74ch}
+  .ev{list-style:none;margin:0;padding:0;display:grid;gap:2px}
+  .ev li{display:flex;gap:12px;align-items:baseline;padding:7px 10px;border-radius:8px;
+         font-size:14.5px}
+  .ev li:hover{background:var(--line-2)}
+  .ev a{text-decoration:none;font-weight:500;flex:1;min-width:0}
+  .ev a:hover{text-decoration:underline}
+  .loc{font-family:var(--mono);font-size:11.5px;color:var(--ink-3);white-space:nowrap}
 
-  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
-  .card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:18px}
-  .card h3{margin:0 0 6px;font-size:15px}
-  .card p{margin:0;font-size:13.5px;color:var(--ink-2)}
-  .w{font-family:var(--mono);font-size:11.5px;color:var(--a);display:block;margin-top:10px}
+  /* ---- cards ---- */
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:var(--r);
+        padding:24px;box-shadow:var(--shadow)}
+  .card .n{font-family:var(--mono);font-size:12px;color:var(--teal);font-weight:700;
+           letter-spacing:.08em}
+  .card h3{margin:10px 0 8px;font-size:17px;letter-spacing:-.02em}
+  .card p{margin:0;font-size:14.5px;color:var(--ink-2)}
+  .card .w{display:inline-block;margin-top:16px;font-family:var(--mono);font-size:11.5px;
+           color:var(--ink-3);background:var(--slate-bg);padding:4px 10px;border-radius:99px}
 
-  pre{background:var(--panel);border:1px solid var(--line);border-radius:10px;
-      padding:14px 16px;overflow-x:auto;font-family:var(--mono);font-size:13px;margin:0}
-  ul.plain{margin:0;padding-left:20px;color:var(--ink-2);font-size:14.5px}
-  ul.plain li{margin-bottom:7px}
-  footer{padding:32px 0 56px;color:var(--ink-3);font-size:13px}
-  .empty{padding:26px;text-align:center;color:var(--ink-3);font-size:14px}
-  @media (max-width:640px){
-    .row-head{grid-template-columns:26px 1fr 56px 22px;gap:10px}
-    .bar{display:none}
+  .points{display:grid;gap:14px;counter-reset:p}
+  .point{display:grid;grid-template-columns:30px 1fr;gap:16px;align-items:start;
+         background:var(--card);border:1px solid var(--line);border-radius:var(--r);
+         padding:20px 22px;box-shadow:var(--shadow)}
+  .point::before{counter-increment:p;content:counter(p);width:30px;height:30px;
+    background:var(--teal);color:#fff;border-radius:50%;display:grid;place-items:center;
+    font-size:14px;font-weight:700}
+  @media (prefers-color-scheme:dark){.point::before{color:#04211e}}
+  .point b{display:block;margin-bottom:3px;font-size:16px;letter-spacing:-.015em}
+  .point span{color:var(--ink-2);font-size:14.5px}
+
+  pre{background:var(--ink);color:#e6ecf5;border-radius:var(--r);padding:22px 24px;
+      overflow-x:auto;font-family:var(--mono);font-size:13.5px;margin:0;line-height:1.7;
+      box-shadow:var(--shadow)}
+  @media (prefers-color-scheme:dark){pre{background:#05070b;border:1px solid var(--line)}}
+  pre .c{color:#7f8ea3}
+
+  .limits{background:var(--card);border:1px solid var(--line);border-left:3px solid var(--teal);
+          border-radius:var(--r);padding:26px 28px;box-shadow:var(--shadow)}
+  .limits ul{margin:0;padding-left:20px;display:grid;gap:11px}
+  .limits li{color:var(--ink-2);font-size:15px}
+  .limits li b{color:var(--ink)}
+
+  footer{border-top:1px solid var(--line);padding:36px 0 64px;color:var(--ink-3);font-size:14px}
+  .empty{padding:40px;text-align:center;color:var(--ink-3);background:var(--card);
+         border:1px solid var(--line);border-radius:var(--r)}
+  @media (max-width:680px){
+    .hero{padding-top:52px} section{padding:52px 0}
+    .row-head{grid-template-columns:44px 1fr 26px;gap:14px;padding:16px}
+    .ring{width:44px;height:44px} .ring .val{font-size:13px}
+    .chev{font-size:15px}
   }
 </style>
 </head>
 <body>
 
-<header>
+<div class="hero">
   <div class="wrap">
-    <p class="eyebrow">GTM Signal Engine</p>
-    <h1>A job board is a public statement of where a company is about to spend money.</h1>
-    <p class="lede">This reads <strong>30 public ATS boards</strong>, finds the hiring patterns that
-      mean a company is building or scaling go-to-market, and ranks every account by how ready it is
-      to buy — with the exact requisition behind every score. <strong>No API keys. No paid data
-      vendor.</strong> Clone it and you get the same numbers.</p>
+    <span class="pill"><b>Live</b> Rebuilt from public data every run</span>
+    <h1>Find the companies that are <em>about to buy</em>.</h1>
+    <p class="lede">A job board is a public statement of where a company is about to spend
+      money. This reads <b>30 public job boards</b>, finds the hiring patterns that mean a
+      company is scaling go-to-market, and hands you a ranked list — with the exact job
+      posting that proves each one. <b>No API keys. No paid data vendor.</b></p>
     <div class="stats" id="stats"></div>
   </div>
-</header>
+</div>
 
 <section>
   <div class="wrap">
-    <h2>Ranked accounts</h2>
-    <p class="sub">Live output from the last run. Open any row to see the requisitions that produced
-      the score — every link goes to the company's own careers page.</p>
+    <div class="head">
+      <h2>Ranked accounts</h2>
+      <p class="sub">Live output from the last run. Open any row to see the job postings
+        behind the score — every link goes to the company's own careers page.</p>
+    </div>
     <div class="controls">
       <input id="q" type="search" placeholder="Search company or signal…" aria-label="Search">
       <select id="tier" aria-label="Filter by tier">
@@ -138,55 +202,68 @@
   </div>
 </section>
 
-<section>
+<section class="divide">
   <div class="wrap">
-    <h2>The five signals</h2>
-    <p class="sub">Weights are visible and editable in <code>engine/signals.py</code>. You should be
-      able to disagree with a number and change it, rather than trust a black box.</p>
+    <div class="head">
+      <h2>The five signals</h2>
+      <p class="sub">Every weight is visible and editable in one file. You should be able to
+        disagree with a number and change it, rather than trust a black box.</p>
+    </div>
     <div class="grid" id="rules"></div>
   </div>
 </section>
 
-<section>
+<section class="divide">
   <div class="wrap">
-    <h2>What it does that a keyword search does not</h2>
-    <ul class="plain">
-      <li><b>Counts roles, not postings.</b> One requisition listed in five cities is one role.
-        Scoring on raw posting count is the fastest way to look unserious to anyone who knows
-        how an ATS works.</li>
-      <li><b>Caps each signal.</b> A company with forty open AE seats does not out-rank a company
-        standing up its first GTM engineering team.</li>
-      <li><b>Carries its evidence.</b> Every score expands into the exact requisitions behind it,
-        so the number is auditable rather than asserted.</li>
-      <li><b>Reports failures out loud.</b> A board that cannot be read is listed as a failure,
-        never silently dropped as a zero.</li>
-    </ul>
+    <div class="head">
+      <h2>What it does that a keyword search doesn't</h2>
+    </div>
+    <div class="points">
+      <div class="point"><div><b>Counts roles, not postings.</b>
+        <span>One job listed in five cities is one job. Counting it as five is the fastest
+        way to look unserious to anyone who knows how a job board works.</span></div></div>
+      <div class="point"><div><b>Caps each signal.</b>
+        <span>A company with forty open sales seats doesn't out-rank a company standing up
+        its first go-to-market engineering team.</span></div></div>
+      <div class="point"><div><b>Carries its evidence.</b>
+        <span>Every score opens into the exact job postings behind it, so the number is
+        checkable instead of just asserted.</span></div></div>
+      <div class="point"><div><b>Reports failures out loud.</b>
+        <span>A board that can't be read is listed as a failure, never quietly counted as
+        a zero.</span></div></div>
+    </div>
   </div>
 </section>
 
-<section>
+<section class="divide">
   <div class="wrap">
-    <h2>Run it yourself</h2>
-    <p class="sub">Python 3.9+, standard library only. No install step, no credentials.</p>
+    <div class="head">
+      <h2>Run it yourself</h2>
+      <p class="sub">Python 3.9+, standard library only. No install step, no credentials,
+        no account. A full run takes about three seconds.</p>
+    </div>
     <pre>git clone https://github.com/Duckky153/gtm-signal-engine
 cd gtm-signal-engine
-python3 -m engine.run              # writes out/signals.{json,csv} and out/report.md
-python3 -m unittest discover -s tests</pre>
+
+python3 -m engine.run              <span class="c"># writes signals.json, signals.csv, report.md</span>
+python3 -m unittest discover -s tests   <span class="c"># 14 tests</span></pre>
   </div>
 </section>
 
-<section>
+<section class="divide">
   <div class="wrap">
-    <h2>Honest limits</h2>
-    <ul class="plain">
-      <li>Signals come from <b>job titles</b>, not descriptions. A posting that names Clay or Apollo
-        in its body is a strong signal this version does not yet read.</li>
-      <li>It sees <b>public ATS boards only</b>. A company hiring privately is invisible to it.</li>
-      <li>Hiring intent is <b>correlated with</b> buying intent, not identical to it. This ranks who
-        to research first — it does not close anyone.</li>
-      <li>The target list is 30 companies chosen to prove the mechanism. Pointing it at a real ICP
-        is a change to one JSON file.</li>
-    </ul>
+    <div class="head"><h2>Honest limits</h2></div>
+    <div class="limits">
+      <ul>
+        <li><b>It reads job titles, not job descriptions.</b> A posting that names Clay or
+          Apollo in the body is a strong signal this version doesn't catch yet.</li>
+        <li><b>It sees public job boards only.</b> A company hiring quietly is invisible to it.</li>
+        <li><b>Hiring intent isn't the same as buying intent.</b> This tells you who to
+          research first. It doesn't close anyone.</li>
+        <li><b>The 30-company list is a demonstration.</b> Pointing it at a real target
+          market is a change to one file.</li>
+      </ul>
+    </div>
   </div>
 </section>
 
@@ -199,28 +276,40 @@ python3 -m unittest discover -s tests</pre>
 
 <script>
 const RULES=[
- {k:"gtm_function_forming",t:"GTM function being built",w:"20 pts × up to 3 roles",
-  d:"They are standing up go-to-market engineering right now. Budget is approved, the process is not yet fixed, and outside help is cheapest to adopt at this exact moment."},
- {k:"revops_investment",t:"RevOps investment",w:"12 pts × up to 3 roles",
-  d:"Revenue operations hires signal that pipeline data and routing are already painful enough to staff against."},
- {k:"outbound_scaling",t:"Outbound being scaled",w:"12 pts × up to 5 roles",
-  d:"SDR and BDR headcount is the clearest tell that a company is betting on outbound. Every new rep multiplies the need for lists, enrichment and routing."},
- {k:"demand_leadership",t:"New demand leadership",w:"10 pts × up to 2 roles",
-  d:"A new growth or demand-gen leader arrives with a mandate and a budget, and replaces incumbent vendors early in their tenure."},
- {k:"sales_capacity",t:"Sales capacity growth",w:"4 pts × up to 6 roles",
-  d:"Account executives and sales engineers hired in volume create pipeline pressure roughly one quarter later."}];
+ {t:"A GTM team is being built",w:"20 points × up to 3 roles",
+  d:"They're standing up go-to-market engineering right now. Budget is approved and the process isn't fixed yet, which is the cheapest moment for them to take on outside help."},
+ {t:"They're investing in RevOps",w:"12 points × up to 3 roles",
+  d:"Hiring revenue operations means their pipeline data and routing already hurt enough to put a salary against it."},
+ {t:"Outbound is being scaled",w:"12 points × up to 5 roles",
+  d:"Sales development headcount is the clearest tell that a company is betting on outbound. Every new rep multiplies the need for lists, data and routing."},
+ {t:"New demand leadership",w:"10 points × up to 2 roles",
+  d:"A new growth or demand lead arrives with a mandate and a budget, and swaps out the vendors they inherited early on."},
+ {t:"Sales capacity is growing",w:"4 points × up to 6 roles",
+  d:"Account executives hired in volume create pressure to fill their pipeline about a quarter later."}];
 
 const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 let DATA=null;
 
-document.getElementById("rules").innerHTML=RULES.map(r=>
- `<div class="card"><h3>${esc(r.t)}</h3><p>${esc(r.d)}</p><span class="w">${esc(r.w)}</span></div>`).join("");
+document.getElementById("rules").innerHTML=RULES.map((r,i)=>
+ `<div class="card"><span class="n">0${i+1}</span><h3>${esc(r.t)}</h3>
+  <p>${esc(r.d)}</p><span class="w">${esc(r.w)}</span></div>`).join("");
+
+function ring(score){
+  const R=22,C=2*Math.PI*R,off=C*(1-score/100);
+  return `<span class="ring"><svg width="52" height="52" viewBox="0 0 52 52">
+    <circle cx="26" cy="26" r="${R}" fill="none" stroke="currentColor" stroke-width="4"
+      style="color:var(--line)"/>
+    <circle cx="26" cy="26" r="${R}" fill="none" stroke="var(--teal)" stroke-width="4"
+      stroke-linecap="round" stroke-dasharray="${C.toFixed(1)}"
+      stroke-dashoffset="${off.toFixed(1)}"/></svg>
+    <span class="val">${score}</span></span>`;
+}
 
 function stats(d){
   const a=d.results.filter(r=>r.tier==="A").length;
-  return [[d.companies_scanned,"boards read"],[d.postings_scanned.toLocaleString(),"postings scanned"],
-          [a,"tier-A accounts"],[d.failures.length,"read failures"]]
-    .map(([b,s])=>`<div class="stat"><b>${esc(b)}</b><span>${esc(s)}</span></div>`).join("");
+  return [[d.companies_scanned,"job boards read",0],[d.postings_scanned.toLocaleString(),"postings scanned",0],
+          [a,"companies worth calling",1],[d.failures.length,"read failures",0]]
+   .map(([b,s,acc])=>`<div class="stat${acc?" accent":""}"><b>${esc(b)}</b><span>${esc(s)}</span></div>`).join("");
 }
 
 function render(){
@@ -235,27 +324,30 @@ function render(){
       .toLowerCase().includes(q);
   });
   const host=document.getElementById("rows");
-  if(!rows.length){host.innerHTML='<div class="empty">No accounts match that filter.</div>';return;}
-  host.innerHTML=rows.map((r,i)=>`
-   <div class="row" data-i="${i}">
+  if(!rows.length){host.innerHTML='<div class="empty">No companies match that filter.</div>';return;}
+  host.innerHTML=rows.map(r=>`
+   <div class="row">
      <button class="row-head" aria-expanded="false">
-       <span class="rank">${String(i+1).padStart(2,"0")}</span>
-       <span class="co"><b>${esc(r.company)}<span class="tier ${esc(r.tier)}">${esc(r.tier)}</span></b>
-         <span>${esc(r.why_now)}</span></span>
-       <span class="bar"><i style="width:${Math.max(r.score,2)}%"></i></span>
-       <span class="score">${r.score}</span>
-       <span class="chev">▸</span>
+       ${ring(r.score)}
+       <span class="co">
+         <span class="name"><b>${esc(r.company)}</b>
+           <span class="tag ${esc(r.tier)}">Tier ${esc(r.tier)}</span>
+           ${r.segment?`<span class="seg">${esc(r.segment)}</span>`:""}</span>
+         <span class="why">${esc(r.why_now)}</span>
+       </span>
+       <span></span>
+       <span class="chev">›</span>
      </button>
      <div class="detail">${r.signals.map(s=>`
        <div class="sig">
          <div class="sig-top"><b>${esc(s.label)}</b>
            <span class="pts">${s.distinct_roles} role${s.distinct_roles===1?"":"s"}${
-             s.postings>s.distinct_roles?` / ${s.postings} postings`:""} · +${s.points} pts</span></div>
-         <p class="why">${esc(s.why_it_matters)}</p>
+             s.postings>s.distinct_roles?` · ${s.postings} postings`:""} · +${s.points}</span></div>
+         <p class="rationale">${esc(s.why_it_matters)}</p>
          <ul class="ev">${s.evidence.map(e=>
            `<li><a href="${esc(e.url)}" target="_blank" rel="noopener noreferrer">${esc(e.title)}</a>
             <span class="loc">${esc(e.location||"—")}</span></li>`).join("")}</ul>
-       </div>`).join("")||'<p class="why">No go-to-market hiring signal in this board right now.</p>'}
+       </div>`).join("")||'<p class="rationale">No go-to-market hiring signal on this board right now.</p>'}
      </div>
    </div>`).join("");
 }
@@ -266,8 +358,7 @@ document.getElementById("rows").addEventListener("click",e=>{
   open?row.removeAttribute("open"):row.setAttribute("open","");
   btn.setAttribute("aria-expanded",String(!open));
 });
-["q","tier","seg"].forEach(id=>document.getElementById(id)
-  .addEventListener("input",render));
+["q","tier","seg"].forEach(id=>document.getElementById(id).addEventListener("input",render));
 
 fetch("data/signals.json").then(r=>{
   if(!r.ok)throw new Error("HTTP "+r.status);return r.json();
@@ -277,13 +368,12 @@ fetch("data/signals.json").then(r=>{
   const segs=[...new Set(d.results.map(r=>r.segment).filter(Boolean))].sort();
   document.getElementById("seg").insertAdjacentHTML("beforeend",
     segs.map(s=>`<option value="${esc(s)}">${esc(s)}</option>`).join(""));
-  document.getElementById("gen").textContent=
-    "Generated "+new Date(d.generated_at).toLocaleDateString("en-US",
-      {year:"numeric",month:"long",day:"numeric"})+" from public job boards";
+  document.getElementById("gen").textContent="Last run "+
+    new Date(d.generated_at).toLocaleDateString("en-US",{year:"numeric",month:"long",day:"numeric"});
   render();
 }).catch(err=>{
   document.getElementById("rows").innerHTML=
-    '<div class="empty">Could not load data/signals.json ('+esc(err.message)+').</div>';
+    '<div class="empty">Could not load the data file ('+esc(err.message)+').</div>';
 });
 </script>
 </body>
