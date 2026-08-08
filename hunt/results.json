@@ -1,16 +1,30 @@
 {
-  "generated_at": "2026-08-08T14:58:47+00:00",
-  "boards_live": 100,
-  "boards_dead": 172,
-  "jobs_scanned": 7639,
+  "generated_at": "2026-08-08T15:46:37+00:00",
+  "boards_live": 152,
+  "boards_dead": 296,
+  "jobs_scanned": 11758,
   "rejected": {
-    "role": 7033,
-    "non_us": 259,
+    "role": 10808,
+    "non_us": 437,
     "contract": 0,
-    "sponsor": 1
+    "sponsor": 13
   },
-  "matches": 346,
+  "matches": 500,
   "results": [
+    {
+      "company": "omni",
+      "title": "Growth Manager, Performance Marketing",
+      "location": "San Francisco, CA",
+      "url": "https://jobs.ashbyhq.com/omni/2080eef2-1eee-4366-8db6-bcbbbb718c9e",
+      "board_size": 25,
+      "remote": true,
+      "green_flags": [
+        "portfolio"
+      ],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 59
+    },
     {
       "company": "commonroom",
       "title": "Solutions Consultant",
@@ -38,6 +52,20 @@
       "red_flags": [],
       "e_verify": false,
       "score": 53
+    },
+    {
+      "company": "Labelbox",
+      "title": "Forward Deployed Engineer, RL Environments",
+      "location": "San Francisco Bay Area",
+      "url": "https://job-boards.greenhouse.io/labelbox/jobs/5101187007",
+      "board_size": 8,
+      "remote": false,
+      "green_flags": [
+        "portfolio"
+      ],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 52
     },
     {
       "company": "bland",
@@ -106,10 +134,36 @@
       "score": 40
     },
     {
+      "company": "Komodo Health",
+      "title": "Senior AI Sales Engineer, AI Data Solutions",
+      "location": "United States",
+      "url": "https://job-boards.greenhouse.io/komodohealth/jobs/8588487002",
+      "board_size": 34,
+      "remote": false,
+      "green_flags": [
+        "portfolio"
+      ],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 39
+    },
+    {
       "company": "linear",
       "title": "Demand Generation Lead, Growth",
       "location": "North America",
       "url": "https://jobs.ashbyhq.com/linear/910805ac-96e8-42b9-a8e9-8adf4c4ef536",
+      "board_size": 27,
+      "remote": true,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 33
+    },
+    {
+      "company": "roboflow",
+      "title": "Growth Marketing",
+      "location": "NY, SF or Remote (US) ",
+      "url": "https://jobs.ashbyhq.com/roboflow/3e05222c-14ac-480e-9efa-9f3d3684c5f6",
       "board_size": 27,
       "remote": true,
       "green_flags": [],
@@ -191,6 +245,30 @@
       "green_flags": [
         "portfolio"
       ],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 32
+    },
+    {
+      "company": "posthog",
+      "title": "BizOps Manager (sales focused)",
+      "location": "Remote",
+      "url": "https://jobs.ashbyhq.com/posthog/ddb7032a-f85f-4029-b17f-790c612fec6d",
+      "board_size": 11,
+      "remote": true,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 32
+    },
+    {
+      "company": "prefect",
+      "title": "Senior Sales Engineer",
+      "location": "Remote",
+      "url": "https://jobs.ashbyhq.com/prefect/6dc1c002-b386-4a67-91c5-055692a93482",
+      "board_size": 6,
+      "remote": true,
+      "green_flags": [],
       "red_flags": [],
       "e_verify": false,
       "score": 32
@@ -280,6 +358,30 @@
       "score": 27
     },
     {
+      "company": "SingleStore",
+      "title": "Revenue Operations Manager",
+      "location": "United States",
+      "url": "https://job-boards.greenhouse.io/singlestore/jobs/7951345",
+      "board_size": 40,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 27
+    },
+    {
+      "company": "SingleStore",
+      "title": "Sr. Revenue Operations Analyst ",
+      "location": "United States",
+      "url": "https://job-boards.greenhouse.io/singlestore/jobs/7733044",
+      "board_size": 40,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 27
+    },
+    {
       "company": "gamma",
       "title": "Growth Marketing Manager",
       "location": "San Francisco",
@@ -304,11 +406,109 @@
       "score": 27
     },
     {
+      "company": "Axon",
+      "title": "Manager, Software Technical Account Managers",
+      "location": "Scottsdale, Arizona, United States",
+      "url": "https://job-boards.greenhouse.io/axon/jobs/7774152003",
+      "board_size": 489,
+      "remote": false,
+      "green_flags": [
+        "portfolio"
+      ],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 26
+    },
+    {
+      "company": "Axon",
+      "title": "Manager, Software Technical Account Managers",
+      "location": "Boston, Massachusetts, United States",
+      "url": "https://job-boards.greenhouse.io/axon/jobs/7749943003",
+      "board_size": 489,
+      "remote": false,
+      "green_flags": [
+        "portfolio"
+      ],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 26
+    },
+    {
+      "company": "Axon",
+      "title": "Manager, Software Technical Account Managers",
+      "location": "Seattle, Washington, United States",
+      "url": "https://job-boards.greenhouse.io/axon/jobs/7774150003",
+      "board_size": 489,
+      "remote": false,
+      "green_flags": [
+        "portfolio"
+      ],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 26
+    },
+    {
+      "company": "Elastic",
+      "title": "Partner Solutions Architect",
+      "location": "Colorado, United States",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8080876&gh_jid=8080876",
+      "board_size": 245,
+      "remote": false,
+      "green_flags": [
+        "portfolio"
+      ],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 26
+    },
+    {
+      "company": "Fastly",
+      "title": "Senior Customer Solutions Engineer",
+      "location": "Denver, CO; San Francisco, CA",
+      "url": "https://www.fastly.com/about/jobs/apply?gh_jid=7733190",
+      "board_size": 49,
+      "remote": false,
+      "green_flags": [
+        "portfolio"
+      ],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 26
+    },
+    {
       "company": "Fivetran ",
       "title": "Customer Solutions Architect 3",
       "location": "USA - Austin (dbt)",
       "url": "https://www.fivetran.com/careers/job?gh_jid=7786036003",
       "board_size": 197,
+      "remote": false,
+      "green_flags": [
+        "portfolio"
+      ],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 26
+    },
+    {
+      "company": "Netskope",
+      "title": "Channel Solutions Engineer - South",
+      "location": "Georgia, United States",
+      "url": "https://www.netskope.com/company/careers/open-positions/?gh_jid=7980408",
+      "board_size": 141,
+      "remote": false,
+      "green_flags": [
+        "portfolio"
+      ],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 26
+    },
+    {
+      "company": "Sigma Computing",
+      "title": "Forward Deployed Engineer",
+      "location": "New York City, NY",
+      "url": "https://job-boards.greenhouse.io/sigmacomputing/jobs/7776721003",
+      "board_size": 70,
       "remote": false,
       "green_flags": [
         "portfolio"
@@ -341,6 +541,18 @@
       "green_flags": [
         "portfolio"
       ],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 26
+    },
+    {
+      "company": "axiom",
+      "title": "Forward Deployed Engineer",
+      "location": "New York",
+      "url": "https://jobs.ashbyhq.com/axiom/a9fa1f80-a695-47cf-be13-d7a07a6b83d7",
+      "board_size": 3,
+      "remote": false,
+      "green_flags": [],
       "red_flags": [],
       "e_verify": false,
       "score": 26
@@ -612,6 +824,54 @@
       "score": 20
     },
     {
+      "company": "astronomer",
+      "title": "Sales Engineer",
+      "location": "New York City",
+      "url": "https://jobs.ashbyhq.com/astronomer/3e3be48c-ccf0-4a39-9eb2-03a896787999",
+      "board_size": 29,
+      "remote": true,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 19
+    },
+    {
+      "company": "astronomer",
+      "title": "Cloud Solutions Architect",
+      "location": "Remote (United States)",
+      "url": "https://jobs.ashbyhq.com/astronomer/14bd571c-84eb-447f-9cb5-08e353017a2e",
+      "board_size": 29,
+      "remote": true,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 19
+    },
+    {
+      "company": "astronomer",
+      "title": "Senior Solutions Architect - Airflow - East Coast",
+      "location": "New York City",
+      "url": "https://jobs.ashbyhq.com/astronomer/3dad0b4b-5aa8-4934-b085-b4a1c5d8d274",
+      "board_size": 29,
+      "remote": true,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 19
+    },
+    {
+      "company": "astronomer",
+      "title": "Senior Solutions Architect - Airflow - West Coast",
+      "location": "San Francisco",
+      "url": "https://jobs.ashbyhq.com/astronomer/039cd516-5bfd-4eeb-8742-1dc6d95097db",
+      "board_size": 29,
+      "remote": true,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 19
+    },
+    {
       "company": "attio",
       "title": "Solutions Engineer [Pre and Post-Sales] - Mid-Market",
       "location": "New York",
@@ -696,11 +956,83 @@
       "score": 19
     },
     {
+      "company": "braintrust",
+      "title": "Solutions Engineer (West Region)",
+      "location": "San Francisco",
+      "url": "https://jobs.ashbyhq.com/braintrust/8f7560d2-cfb1-4e3a-92d1-8e24b532d10c",
+      "board_size": 24,
+      "remote": true,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 19
+    },
+    {
+      "company": "braintrust",
+      "title": "Solutions Engineer (East Region)",
+      "location": "New York City",
+      "url": "https://jobs.ashbyhq.com/braintrust/e1bc9095-2460-4cf4-957f-ba076b6cb5ba",
+      "board_size": 24,
+      "remote": true,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 19
+    },
+    {
       "company": "linear",
       "title": "Implementation Manager",
       "location": "North America",
       "url": "https://jobs.ashbyhq.com/linear/cec84487-60f2-4216-a514-dcf190c86c1e",
       "board_size": 27,
+      "remote": true,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 19
+    },
+    {
+      "company": "omni",
+      "title": " Solutions Engineer I (Pre-Sales)",
+      "location": "San Francisco, CA",
+      "url": "https://jobs.ashbyhq.com/omni/621778d1-e247-455b-a7e2-37dd7cae0341",
+      "board_size": 25,
+      "remote": true,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 19
+    },
+    {
+      "company": "omni",
+      "title": "Senior Solutions Engineer  (Pre-Sales)",
+      "location": "United States",
+      "url": "https://jobs.ashbyhq.com/omni/66621d6c-33cc-4805-b69d-05987700fd34",
+      "board_size": 25,
+      "remote": true,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 19
+    },
+    {
+      "company": "omni",
+      "title": "Solutions Engineer II (Pre-Sales)",
+      "location": "San Francisco, CA",
+      "url": "https://jobs.ashbyhq.com/omni/b7b60407-17e5-4b25-855d-6667c9fc15b3",
+      "board_size": 25,
+      "remote": true,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 19
+    },
+    {
+      "company": "openrouter",
+      "title": "Forward Deployed Engineer",
+      "location": "Remote (US)",
+      "url": "https://jobs.ashbyhq.com/openrouter/1b26f0a2-4aab-4bef-8c21-0f8de9a059e3",
+      "board_size": 22,
       "remote": true,
       "green_flags": [],
       "red_flags": [],
@@ -754,6 +1086,18 @@
       "red_flags": [],
       "e_verify": false,
       "score": 19
+    },
+    {
+      "company": "Axon",
+      "title": "Growth Marketing Manager, Enterprise  ",
+      "location": "Boston, Massachusetts, United States",
+      "url": "https://job-boards.greenhouse.io/axon/jobs/7798282003",
+      "board_size": 489,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 14
     },
     {
       "company": "Brex",
@@ -912,6 +1256,54 @@
       "score": 14
     },
     {
+      "company": "MongoDB",
+      "title": "Growth Marketing Manager",
+      "location": "New York City; Tysons",
+      "url": "https://www.mongodb.com/careers/job/?gh_jid=7950458",
+      "board_size": 405,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 14
+    },
+    {
+      "company": "Netskope",
+      "title": "Sr. Network Automation Engineer",
+      "location": "California, United States",
+      "url": "https://www.netskope.com/company/careers/open-positions/?gh_jid=8080431",
+      "board_size": 141,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 14
+    },
+    {
+      "company": "Sigma Computing",
+      "title": "Revenue Operations Manager ",
+      "location": "New York City, NY",
+      "url": "https://job-boards.greenhouse.io/sigmacomputing/jobs/7750787003",
+      "board_size": 70,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 14
+    },
+    {
+      "company": "Smartsheet",
+      "title": " Sr. Revenue Operations Analyst - Insights",
+      "location": " -REMOTE, USA-",
+      "url": "https://job-boards.greenhouse.io/smartsheet/jobs/8078179",
+      "board_size": 99,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 14
+    },
+    {
       "company": "Stripe",
       "title": "Growth Engineer",
       "location": "New York, NY",
@@ -953,6 +1345,18 @@
       "location": "Hybrid - San Francisco, New York City, Austin",
       "url": "https://job-boards.greenhouse.io/vercel/jobs/6119988004",
       "board_size": 83,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 14
+    },
+    {
+      "company": "clickhouse",
+      "title": "GTM Engineer, AI & Automation",
+      "location": "United States",
+      "url": "https://jobs.ashbyhq.com/clickhouse/8997dfc4-1413-4b63-9388-904e289a9a6a",
+      "board_size": 166,
       "remote": false,
       "green_flags": [],
       "red_flags": [],
@@ -1236,6 +1640,18 @@
       "score": 13
     },
     {
+      "company": "PagerDuty",
+      "title": "Senior Solutions Consultant",
+      "location": "San Francisco",
+      "url": "https://job-boards.greenhouse.io/pagerduty/jobs/6113024004",
+      "board_size": 23,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": true,
+      "score": 13
+    },
+    {
       "company": "Pendo",
       "title": "Senior GTM Operations Manager, Customer Success",
       "location": "Raleigh, NC or New York, NY",
@@ -1253,6 +1669,18 @@
       "location": "Raleigh, NC or New York, NY",
       "url": "https://job-boards.greenhouse.io/pendo/jobs/8621661002",
       "board_size": 39,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 13
+    },
+    {
+      "company": "SingleStore",
+      "title": "GTM Systems Manager ",
+      "location": "United States",
+      "url": "https://job-boards.greenhouse.io/singlestore/jobs/7642496",
+      "board_size": 40,
       "remote": false,
       "green_flags": [],
       "red_flags": [],
@@ -1320,11 +1748,59 @@
       "score": 13
     },
     {
+      "company": "encord",
+      "title": "Forward Deployed Engineer",
+      "location": "San Francisco",
+      "url": "https://jobs.ashbyhq.com/encord/9f97576a-5381-4839-a7cf-ebfa82089a63",
+      "board_size": 32,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 13
+    },
+    {
+      "company": "encord",
+      "title": "Forward Deployed Engineer",
+      "location": "New York",
+      "url": "https://jobs.ashbyhq.com/encord/2eedc8eb-00c2-4cbe-862e-5e22960f0dbf",
+      "board_size": 32,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 13
+    },
+    {
+      "company": "encord",
+      "title": "Human Data Operations Strategist",
+      "location": "San Francisco",
+      "url": "https://jobs.ashbyhq.com/encord/84bafd3e-a33a-410e-806b-3497faa36114",
+      "board_size": 32,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 13
+    },
+    {
       "company": "gamma",
       "title": "Senior Lifecycle Marketing Manager",
       "location": "San Francisco",
       "url": "https://jobs.ashbyhq.com/gamma/5f2501c3-90d4-4385-b0fa-ed3a09269fbc",
       "board_size": 33,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 13
+    },
+    {
+      "company": "hex",
+      "title": "Sales Engineer, Commercial Mid-Market",
+      "location": "San Francisco",
+      "url": "https://jobs.ashbyhq.com/hex/a3cb1f18-0b37-454a-a3bd-3ce55444cbf6",
+      "board_size": 30,
       "remote": false,
       "green_flags": [],
       "red_flags": [],
@@ -1474,6 +1950,56 @@
       "red_flags": [],
       "e_verify": false,
       "score": 13
+    },
+    {
+      "company": "reducto",
+      "title": "Forward Deployed Engineer, Infrastructure Specialist",
+      "location": "San Francisco Office",
+      "url": "https://jobs.ashbyhq.com/reducto/cf1751ef-0b97-4bd3-af10-1f95514b8f8e",
+      "board_size": 30,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 13
+    },
+    {
+      "company": "reducto",
+      "title": "Forward Deployed Engineer",
+      "location": "San Francisco Office",
+      "url": "https://jobs.ashbyhq.com/reducto/b0c9caa5-6448-4b7c-8ee1-6e9630a60951",
+      "board_size": 30,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 13
+    },
+    {
+      "company": "reducto",
+      "title": "Solutions Engineer",
+      "location": "San Francisco Office",
+      "url": "https://jobs.ashbyhq.com/reducto/5cc2517c-42c6-47c1-b3cc-77c6c58bc7fa",
+      "board_size": 30,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 13
+    },
+    {
+      "company": "roboflow",
+      "title": "RevOps Analyst  ",
+      "location": "NY, SF or Remote (US) ",
+      "url": "https://jobs.ashbyhq.com/roboflow/c878667f-01c3-4c44-8f1e-07c8e03423df",
+      "board_size": 27,
+      "remote": true,
+      "green_flags": [],
+      "red_flags": [
+        "technical screen"
+      ],
+      "e_verify": false,
+      "score": 11
     },
     {
       "company": "baseten",
@@ -2340,6 +2866,86 @@
       "score": 6
     },
     {
+      "company": "Axon",
+      "title": "Business Solutions Architect: Accounting Systems",
+      "location": "Boston, Massachusetts, United States",
+      "url": "https://job-boards.greenhouse.io/axon/jobs/7820312003",
+      "board_size": 489,
+      "remote": false,
+      "green_flags": [
+        "portfolio"
+      ],
+      "red_flags": [
+        "algorithms"
+      ],
+      "e_verify": false,
+      "score": 4
+    },
+    {
+      "company": "Axon",
+      "title": "Business Solutions Architect: Accounting Systems",
+      "location": "Seattle, Washington, United States",
+      "url": "https://job-boards.greenhouse.io/axon/jobs/7820324003",
+      "board_size": 489,
+      "remote": false,
+      "green_flags": [
+        "portfolio"
+      ],
+      "red_flags": [
+        "algorithms"
+      ],
+      "e_verify": false,
+      "score": 4
+    },
+    {
+      "company": "Axon",
+      "title": "Business Solutions Architect: Accounting Systems",
+      "location": "San Francisco, California, United States",
+      "url": "https://job-boards.greenhouse.io/axon/jobs/7820323003",
+      "board_size": 489,
+      "remote": false,
+      "green_flags": [
+        "portfolio"
+      ],
+      "red_flags": [
+        "algorithms"
+      ],
+      "e_verify": false,
+      "score": 4
+    },
+    {
+      "company": "Axon",
+      "title": "Business Solutions Architect: Accounting Systems",
+      "location": "Scottsdale, Arizona, United States",
+      "url": "https://job-boards.greenhouse.io/axon/jobs/7820317003",
+      "board_size": 489,
+      "remote": false,
+      "green_flags": [
+        "portfolio"
+      ],
+      "red_flags": [
+        "algorithms"
+      ],
+      "e_verify": false,
+      "score": 4
+    },
+    {
+      "company": "Axon",
+      "title": "Business Solutions Architect: Accounting Systems",
+      "location": "New York, New York, United States",
+      "url": "https://job-boards.greenhouse.io/axon/jobs/7820315003",
+      "board_size": 489,
+      "remote": false,
+      "green_flags": [
+        "portfolio"
+      ],
+      "red_flags": [
+        "algorithms"
+      ],
+      "e_verify": false,
+      "score": 4
+    },
+    {
       "company": "Datadog",
       "title": "Datadog for Startups - Forward Deployed Engineering Lead",
       "location": "San Francisco, California, USA",
@@ -2370,6 +2976,474 @@
       ],
       "e_verify": false,
       "score": 4
+    },
+    {
+      "company": "Axon",
+      "title": "Certinia Implementation Consultant",
+      "location": "Boston, Massachusetts, United States",
+      "url": "https://job-boards.greenhouse.io/axon/jobs/7776679003",
+      "board_size": 489,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 0
+    },
+    {
+      "company": "Axon",
+      "title": "Certinia Implementation Consultant",
+      "location": "Scottsdale, Arizona, United States",
+      "url": "https://job-boards.greenhouse.io/axon/jobs/7612106003",
+      "board_size": 489,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 0
+    },
+    {
+      "company": "Axon",
+      "title": "Certinia Implementation Consultant",
+      "location": "Seattle, Washington, United States",
+      "url": "https://job-boards.greenhouse.io/axon/jobs/7776676003",
+      "board_size": 489,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 0
+    },
+    {
+      "company": "Axon",
+      "title": "Data Solutions Engineer II",
+      "location": "Scottsdale, Arizona, United States",
+      "url": "https://job-boards.greenhouse.io/axon/jobs/5414654003",
+      "board_size": 489,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 0
+    },
+    {
+      "company": "Axon",
+      "title": "Embedded Technical Account Manager - El Paso 911 District HQ",
+      "location": "Texas-Remote, United States",
+      "url": "https://job-boards.greenhouse.io/axon/jobs/7791817003",
+      "board_size": 489,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 0
+    },
+    {
+      "company": "Axon",
+      "title": "Implementation Engineer II, Fusus",
+      "location": "Atlanta, Georgia, United States",
+      "url": "https://job-boards.greenhouse.io/axon/jobs/6592811003",
+      "board_size": 489,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 0
+    },
+    {
+      "company": "Axon",
+      "title": "Implementation Engineer II, Fusus",
+      "location": "Seattle, Washington, United States",
+      "url": "https://job-boards.greenhouse.io/axon/jobs/6592819003",
+      "board_size": 489,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 0
+    },
+    {
+      "company": "Axon",
+      "title": "Implementation Engineer II, Fusus ",
+      "location": "Scottsdale, Arizona, United States",
+      "url": "https://job-boards.greenhouse.io/axon/jobs/6559527003",
+      "board_size": 489,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 0
+    },
+    {
+      "company": "Axon",
+      "title": "Implementation Engineer II, Fusus ",
+      "location": "Boston, Massachusetts, United States",
+      "url": "https://job-boards.greenhouse.io/axon/jobs/6592810003",
+      "board_size": 489,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 0
+    },
+    {
+      "company": "Axon",
+      "title": "Manager, Solutions Architect (Deployment)",
+      "location": "Seattle, Washington, United States",
+      "url": "https://job-boards.greenhouse.io/axon/jobs/7826889003",
+      "board_size": 489,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 0
+    },
+    {
+      "company": "Axon",
+      "title": "Manager, Solutions Architect (Deployment)",
+      "location": "Scottsdale, Arizona, United States",
+      "url": "https://job-boards.greenhouse.io/axon/jobs/7674134003",
+      "board_size": 489,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 0
+    },
+    {
+      "company": "Axon",
+      "title": "Sales Engineer II - Dedrone",
+      "location": "United States",
+      "url": "https://job-boards.greenhouse.io/axon/jobs/7833633003",
+      "board_size": 489,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 0
+    },
+    {
+      "company": "Axon",
+      "title": "Sales Engineer II - Dedrone",
+      "location": "Texas-Remote, United States",
+      "url": "https://job-boards.greenhouse.io/axon/jobs/7833637003",
+      "board_size": 489,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 0
+    },
+    {
+      "company": "Axon",
+      "title": "Sales Engineer II - Dedrone",
+      "location": "Denver, Colorado, United States",
+      "url": "https://job-boards.greenhouse.io/axon/jobs/7833638003",
+      "board_size": 489,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 0
+    },
+    {
+      "company": "Axon",
+      "title": "Sales Engineer II - Dedrone",
+      "location": "Boston, Massachusetts, United States",
+      "url": "https://job-boards.greenhouse.io/axon/jobs/7833635003",
+      "board_size": 489,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 0
+    },
+    {
+      "company": "Axon",
+      "title": "Sales Engineer II - Dedrone (Federal)",
+      "location": "Texas-Remote, United States",
+      "url": "https://job-boards.greenhouse.io/axon/jobs/7826736003",
+      "board_size": 489,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 0
+    },
+    {
+      "company": "Axon",
+      "title": "Sales Engineer II - Dedrone (Federal)",
+      "location": "Washington, District of Columbia, United States",
+      "url": "https://job-boards.greenhouse.io/axon/jobs/7806380003",
+      "board_size": 489,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 0
+    },
+    {
+      "company": "Axon",
+      "title": "Sales Engineer II - Dedrone (Federal)",
+      "location": "Scottsdale, Arizona, United States",
+      "url": "https://job-boards.greenhouse.io/axon/jobs/7826735003",
+      "board_size": 489,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 0
+    },
+    {
+      "company": "Axon",
+      "title": "Sales Engineer II - Dedrone (Federal)",
+      "location": "Boston, Massachusetts, United States",
+      "url": "https://job-boards.greenhouse.io/axon/jobs/7826732003",
+      "board_size": 489,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 0
+    },
+    {
+      "company": "Axon",
+      "title": "Sales Engineer II - Dedrone (Federal)",
+      "location": "Denver, Colorado, United States",
+      "url": "https://job-boards.greenhouse.io/axon/jobs/7826739003",
+      "board_size": 489,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 0
+    },
+    {
+      "company": "Axon",
+      "title": "Senior Sales Engineer, Enterprise",
+      "location": "Dallas, TX",
+      "url": "https://job-boards.greenhouse.io/axon/jobs/7677988003",
+      "board_size": 489,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 0
+    },
+    {
+      "company": "Axon",
+      "title": "Senior Sales Engineer, Enterprise",
+      "location": "San Francisco, California, United States",
+      "url": "https://job-boards.greenhouse.io/axon/jobs/7677990003",
+      "board_size": 489,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 0
+    },
+    {
+      "company": "Axon",
+      "title": "Senior Sales Engineer, Enterprise",
+      "location": "Arizona, USA",
+      "url": "https://job-boards.greenhouse.io/axon/jobs/7672454003",
+      "board_size": 489,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 0
+    },
+    {
+      "company": "Axon",
+      "title": "Senior Sales Engineer, Enterprise",
+      "location": "Texas-Remote, United States",
+      "url": "https://job-boards.greenhouse.io/axon/jobs/7677985003",
+      "board_size": 489,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 0
+    },
+    {
+      "company": "Axon",
+      "title": "Senior Sales Engineer, Enterprise",
+      "location": "Los Angeles, CA",
+      "url": "https://job-boards.greenhouse.io/axon/jobs/7677991003",
+      "board_size": 489,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 0
+    },
+    {
+      "company": "Axon",
+      "title": "Senior Sales Engineer, Enterprise Air",
+      "location": "Seattle, Washington, United States",
+      "url": "https://job-boards.greenhouse.io/axon/jobs/7672456003",
+      "board_size": 489,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 0
+    },
+    {
+      "company": "Axon",
+      "title": "Senior Sales Engineer, Enterprise Air",
+      "location": "Denver, Colorado, United States",
+      "url": "https://job-boards.greenhouse.io/axon/jobs/7672885003",
+      "board_size": 489,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 0
+    },
+    {
+      "company": "Axon",
+      "title": "Software Technical Account Manager - Boise ",
+      "location": "Boise, Idaho, United States",
+      "url": "https://job-boards.greenhouse.io/axon/jobs/7824675003",
+      "board_size": 489,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 0
+    },
+    {
+      "company": "Axon",
+      "title": "Software Technical Account Manager - Dedrone",
+      "location": "New York, New York, United States",
+      "url": "https://job-boards.greenhouse.io/axon/jobs/7671023003",
+      "board_size": 489,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 0
+    },
+    {
+      "company": "Axon",
+      "title": "Software Technical Account Manager II - Cuyahoga County Sheriff's Office",
+      "location": "Ohio, United States",
+      "url": "https://job-boards.greenhouse.io/axon/jobs/7600722003",
+      "board_size": 489,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 0
+    },
+    {
+      "company": "Axon",
+      "title": "Software Technical Account Manager - Kalamazoo, MI",
+      "location": "Lansing, Michigan, United States",
+      "url": "https://job-boards.greenhouse.io/axon/jobs/7826563003",
+      "board_size": 489,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 0
+    },
+    {
+      "company": "Axon",
+      "title": "Software Technical Account Manager - Virginia",
+      "location": "Richmond, Virginia, United States",
+      "url": "https://job-boards.greenhouse.io/axon/jobs/7765275003",
+      "board_size": 489,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 0
+    },
+    {
+      "company": "Axon",
+      "title": "Solutions Architect, Axon 911 ( East Coast) ",
+      "location": "New York, New York, United States",
+      "url": "https://job-boards.greenhouse.io/axon/jobs/7826098003",
+      "board_size": 489,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 0
+    },
+    {
+      "company": "Axon",
+      "title": "Solutions Architect, Software Deployments (Conversions)",
+      "location": "Boston, Massachusetts, United States",
+      "url": "https://job-boards.greenhouse.io/axon/jobs/6591186003",
+      "board_size": 489,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 0
+    },
+    {
+      "company": "Axon",
+      "title": "Solutions Architect, Software Deployments (Conversions)",
+      "location": "Seattle, Washington, United States",
+      "url": "https://job-boards.greenhouse.io/axon/jobs/7791969003",
+      "board_size": 489,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 0
+    },
+    {
+      "company": "Axon",
+      "title": "Solutions Architect, Software Deployments (Conversions)",
+      "location": "Scottsdale, Arizona, United States",
+      "url": "https://job-boards.greenhouse.io/axon/jobs/6591183003",
+      "board_size": 489,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 0
+    },
+    {
+      "company": "Axon",
+      "title": "Solutions Architect, Software Deployments (Conversions)",
+      "location": "Atlanta, Georgia, United States",
+      "url": "https://job-boards.greenhouse.io/axon/jobs/6591185003",
+      "board_size": 489,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 0
+    },
+    {
+      "company": "Axon",
+      "title": "Sr Technical Account Manager, Enterprise",
+      "location": "Atlanta, Georgia, United States",
+      "url": "https://job-boards.greenhouse.io/axon/jobs/7764705003",
+      "board_size": 489,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 0
+    },
+    {
+      "company": "Axon",
+      "title": "Technical Account Manager - Dedrone",
+      "location": "New York, New York, United States",
+      "url": "https://job-boards.greenhouse.io/axon/jobs/7724840003",
+      "board_size": 489,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 0
     },
     {
       "company": "Brex",
@@ -2816,6 +3890,90 @@
       "score": 0
     },
     {
+      "company": "Elastic",
+      "title": "Senior Solutions Architect - Federal Civilian",
+      "location": "Arlington, VA",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8068023&gh_jid=8068023",
+      "board_size": 245,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 0
+    },
+    {
+      "company": "Elastic",
+      "title": "Senior Solutions Architect - SLED",
+      "location": "Massachusetts, United States",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=7747631&gh_jid=7747631",
+      "board_size": 245,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 0
+    },
+    {
+      "company": "Elastic",
+      "title": "Senior Solutions Architect - SLED",
+      "location": "New York, United States",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=7747112&gh_jid=7747112",
+      "board_size": 245,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 0
+    },
+    {
+      "company": "Elastic",
+      "title": "Solutions Architect -  General Business, East (Presales)",
+      "location": "Georgia, United States",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=7939709&gh_jid=7939709",
+      "board_size": 245,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 0
+    },
+    {
+      "company": "Elastic",
+      "title": "Solutions Architect - General Business, East (Presales)",
+      "location": "Texas, United States",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=7944199&gh_jid=7944199",
+      "board_size": 245,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 0
+    },
+    {
+      "company": "Elastic",
+      "title": "Sr. Solutions Architect - Enterprise Expand, West Coast (Presales)",
+      "location": "California, United States",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=7663327&gh_jid=7663327",
+      "board_size": 245,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 0
+    },
+    {
+      "company": "Fastly",
+      "title": "Manager - Customer Solutions Engineering",
+      "location": "Denver, CO; New York City, NY; San Francisco, CA",
+      "url": "https://www.fastly.com/about/jobs/apply?gh_jid=7980055",
+      "board_size": 49,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 0
+    },
+    {
       "company": "Fin",
       "title": "Senior Forward Deployed Engineer",
       "location": "San Francisco, California",
@@ -3224,6 +4382,414 @@
       "score": 0
     },
     {
+      "company": "MongoDB",
+      "title": "Senior Business Operations\u00a0& Strategy Analyst",
+      "location": "New York City",
+      "url": "https://www.mongodb.com/careers/job/?gh_jid=7760225",
+      "board_size": 405,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 0
+    },
+    {
+      "company": "MongoDB",
+      "title": "Senior Business Operations\u00a0& Strategy Analyst",
+      "location": "New York City",
+      "url": "https://www.mongodb.com/careers/job/?gh_jid=7760222",
+      "board_size": 405,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 0
+    },
+    {
+      "company": "MongoDB",
+      "title": "Senior Partner Solutions Architect",
+      "location": "Atlanta; Austin; Dallas; Florida; Miami",
+      "url": "https://www.mongodb.com/careers/job/?gh_jid=7683484",
+      "board_size": 405,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 0
+    },
+    {
+      "company": "Netskope",
+      "title": "Solutions Engineer",
+      "location": "Louisiana, United States",
+      "url": "https://www.netskope.com/company/careers/open-positions/?gh_jid=8064990",
+      "board_size": 141,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 0
+    },
+    {
+      "company": "Netskope",
+      "title": "Solutions Engineer",
+      "location": "Indiana, United States",
+      "url": "https://www.netskope.com/company/careers/open-positions/?gh_jid=8053973",
+      "board_size": 141,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 0
+    },
+    {
+      "company": "Netskope",
+      "title": "Solutions Engineer",
+      "location": "Colorado, United States",
+      "url": "https://www.netskope.com/company/careers/open-positions/?gh_jid=7794109",
+      "board_size": 141,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 0
+    },
+    {
+      "company": "Netskope",
+      "title": "Solutions Engineer",
+      "location": "Texas, United States",
+      "url": "https://www.netskope.com/company/careers/open-positions/?gh_jid=8075199",
+      "board_size": 141,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 0
+    },
+    {
+      "company": "Netskope",
+      "title": "Solutions Engineer",
+      "location": "Texas, United States",
+      "url": "https://www.netskope.com/company/careers/open-positions/?gh_jid=8095464",
+      "board_size": 141,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 0
+    },
+    {
+      "company": "Netskope",
+      "title": "Solutions Engineer",
+      "location": "Arkansas, United States",
+      "url": "https://www.netskope.com/company/careers/open-positions/?gh_jid=8065010",
+      "board_size": 141,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 0
+    },
+    {
+      "company": "Netskope",
+      "title": "Solutions Engineer",
+      "location": "Nebraska, United States",
+      "url": "https://www.netskope.com/company/careers/open-positions/?gh_jid=8100253",
+      "board_size": 141,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 0
+    },
+    {
+      "company": "Netskope",
+      "title": "Solutions Engineer",
+      "location": "Texas, United States",
+      "url": "https://www.netskope.com/company/careers/open-positions/?gh_jid=8045247",
+      "board_size": 141,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 0
+    },
+    {
+      "company": "Netskope",
+      "title": "Solutions Engineer",
+      "location": "Oklahoma, United States",
+      "url": "https://www.netskope.com/company/careers/open-positions/?gh_jid=8064979",
+      "board_size": 141,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 0
+    },
+    {
+      "company": "Netskope",
+      "title": "Solutions Engineer",
+      "location": "Missouri, United States",
+      "url": "https://www.netskope.com/company/careers/open-positions/?gh_jid=8014399",
+      "board_size": 141,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 0
+    },
+    {
+      "company": "Netskope",
+      "title": "Solutions Engineer",
+      "location": "Tennessee, United States",
+      "url": "https://www.netskope.com/company/careers/open-positions/?gh_jid=7984543",
+      "board_size": 141,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 0
+    },
+    {
+      "company": "Netskope",
+      "title": "Solutions Engineer",
+      "location": "Utah, United States",
+      "url": "https://www.netskope.com/company/careers/open-positions/?gh_jid=7993595",
+      "board_size": 141,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 0
+    },
+    {
+      "company": "Netskope",
+      "title": "Solutions Engineer",
+      "location": "Oregon, United States",
+      "url": "https://www.netskope.com/company/careers/open-positions/?gh_jid=7993594",
+      "board_size": 141,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 0
+    },
+    {
+      "company": "Netskope",
+      "title": "Solutions Engineer",
+      "location": "Nevada, United States",
+      "url": "https://www.netskope.com/company/careers/open-positions/?gh_jid=7986160",
+      "board_size": 141,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 0
+    },
+    {
+      "company": "Netskope",
+      "title": "Solutions Engineer",
+      "location": "Arizona, United States",
+      "url": "https://www.netskope.com/company/careers/open-positions/?gh_jid=7986156",
+      "board_size": 141,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 0
+    },
+    {
+      "company": "Netskope",
+      "title": "Solutions Engineer",
+      "location": "Pennsylvania, United States",
+      "url": "https://www.netskope.com/company/careers/open-positions/?gh_jid=8080635",
+      "board_size": 141,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 0
+    },
+    {
+      "company": "Netskope",
+      "title": "Solutions Engineer",
+      "location": "New York, United States",
+      "url": "https://www.netskope.com/company/careers/open-positions/?gh_jid=8044210",
+      "board_size": 141,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 0
+    },
+    {
+      "company": "Netskope",
+      "title": "Solutions Engineer",
+      "location": "Ohio, United States",
+      "url": "https://www.netskope.com/company/careers/open-positions/?gh_jid=8045255",
+      "board_size": 141,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 0
+    },
+    {
+      "company": "Netskope",
+      "title": "Solutions Engineer",
+      "location": "Pennsylvania, United States",
+      "url": "https://www.netskope.com/company/careers/open-positions/?gh_jid=8053964",
+      "board_size": 141,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 0
+    },
+    {
+      "company": "Netskope",
+      "title": "Solutions Engineer ",
+      "location": "Utah, United States",
+      "url": "https://www.netskope.com/company/careers/open-positions/?gh_jid=8067498",
+      "board_size": 141,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 0
+    },
+    {
+      "company": "Netskope",
+      "title": "Solutions Engineer ",
+      "location": "Nevada, United States",
+      "url": "https://www.netskope.com/company/careers/open-positions/?gh_jid=8067493",
+      "board_size": 141,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 0
+    },
+    {
+      "company": "Netskope",
+      "title": "Solutions Engineer ",
+      "location": "Arizona, United States",
+      "url": "https://www.netskope.com/company/careers/open-positions/?gh_jid=7829145",
+      "board_size": 141,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 0
+    },
+    {
+      "company": "Netskope",
+      "title": "Solutions Engineer ",
+      "location": "California, United States",
+      "url": "https://www.netskope.com/company/careers/open-positions/?gh_jid=8067502",
+      "board_size": 141,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 0
+    },
+    {
+      "company": "Netskope",
+      "title": "Solutions Engineer - SLED",
+      "location": "Texas, United States",
+      "url": "https://www.netskope.com/company/careers/open-positions/?gh_jid=8045243",
+      "board_size": 141,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 0
+    },
+    {
+      "company": "Netskope",
+      "title": "Sr. Sales Engineer Enablement Manager ",
+      "location": "United States",
+      "url": "https://www.netskope.com/company/careers/open-positions/?gh_jid=7560000",
+      "board_size": 141,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 0
+    },
+    {
+      "company": "Netskope",
+      "title": "Sr. Solutions Engineer",
+      "location": "California, United States",
+      "url": "https://www.netskope.com/company/careers/open-positions/?gh_jid=7942319",
+      "board_size": 141,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 0
+    },
+    {
+      "company": "Okta",
+      "title": "Senior Solutions Engineer, Okta (Mid Atlantic)",
+      "location": "Maryland; Virginia; Washington, DC",
+      "url": "https://www.okta.com/company/careers/opportunity/7940112?gh_jid=7940112",
+      "board_size": 343,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 0
+    },
+    {
+      "company": "Okta",
+      "title": "Senior Solutions Engineer, Strategic (Chicago)",
+      "location": "Chicago, Illinois",
+      "url": "https://www.okta.com/company/careers/opportunity/6907820?gh_jid=6907820",
+      "board_size": 343,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 0
+    },
+    {
+      "company": "Okta",
+      "title": "Senior Solutions Engineer- West Coast",
+      "location": "Los Angeles, California; San Francisco, California",
+      "url": "https://www.okta.com/company/careers/opportunity/7536447?gh_jid=7536447",
+      "board_size": 343,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 0
+    },
+    {
+      "company": "Okta",
+      "title": "Solutions Engineer, Okta (Enterprise)",
+      "location": "Washington, DC",
+      "url": "https://www.okta.com/company/careers/opportunity/8051063?gh_jid=8051063",
+      "board_size": 343,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 0
+    },
+    {
+      "company": "Okta",
+      "title": "Solutions Engineer, Okta (North East)",
+      "location": "Connecticut; Massachusetts; New York, New York",
+      "url": "https://www.okta.com/company/careers/opportunity/7607557?gh_jid=7607557",
+      "board_size": 343,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 0
+    },
+    {
       "company": "Samsara",
       "title": "AI Architect - GTM Systems",
       "location": "Remote - US",
@@ -3620,6 +5186,54 @@
       "score": 0
     },
     {
+      "company": "Smartsheet",
+      "title": "Commercial Solutions Engineer ",
+      "location": " -REMOTE, USA-",
+      "url": "https://job-boards.greenhouse.io/smartsheet/jobs/7974885",
+      "board_size": 99,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 0
+    },
+    {
+      "company": "Smartsheet",
+      "title": "Enterprise Technical Solutions Engineer",
+      "location": " -REMOTE, USA-",
+      "url": "https://job-boards.greenhouse.io/smartsheet/jobs/8083523",
+      "board_size": 99,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 0
+    },
+    {
+      "company": "Smartsheet",
+      "title": "Solutions Consultant - East",
+      "location": "-REMOTE, USA-",
+      "url": "https://job-boards.greenhouse.io/smartsheet/jobs/8109667",
+      "board_size": 99,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 0
+    },
+    {
+      "company": "Smartsheet",
+      "title": "Sr. Commercial Solutions Engineer ",
+      "location": " -REMOTE, USA-",
+      "url": "https://job-boards.greenhouse.io/smartsheet/jobs/8082218",
+      "board_size": 99,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 0
+    },
+    {
       "company": "Stripe",
       "title": "Executive Lifecycle Marketing Manager",
       "location": "San Francisco or New York or US-Remote",
@@ -3865,6 +5479,222 @@
       "location": "Waltham, Massachusetts, United States",
       "url": "https://www.zoominfo.com/careers?gh_jid=8577950002",
       "board_size": 102,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 0
+    },
+    {
+      "company": "Zscaler",
+      "title": "Commercial Sales Engineer - Central",
+      "location": "Remote - Illinois, USA; Remote - Kansas, USA; Remote - Kentucky, USA; Remote - Michigan, USA; Remote - Missouri, USA; Remote - Ohio, USA; Remote - Tennessee, USA",
+      "url": "https://job-boards.greenhouse.io/zscaler/jobs/5206113007",
+      "board_size": 327,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 0
+    },
+    {
+      "company": "Zscaler",
+      "title": "Commercial Sales Engineer - NY/NJ",
+      "location": "New York City, New York, USA; Remote - New Jersey, USA",
+      "url": "https://job-boards.greenhouse.io/zscaler/jobs/5187339007",
+      "board_size": 327,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 0
+    },
+    {
+      "company": "Zscaler",
+      "title": "Manager, Sales Engineering - Federal",
+      "location": "Remote - D.C., USA",
+      "url": "https://job-boards.greenhouse.io/zscaler/jobs/5186981007",
+      "board_size": 327,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 0
+    },
+    {
+      "company": "Zscaler",
+      "title": "Senior Sales Engineer, Enterprise - California",
+      "location": "Remote - California, USA",
+      "url": "https://job-boards.greenhouse.io/zscaler/jobs/5173076007",
+      "board_size": 327,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 0
+    },
+    {
+      "company": "Zscaler",
+      "title": "Senior Sales Engineer - Enterprise, Carolinas/Georgia",
+      "location": "Remote - Georgia, USA; Remote - North Carolina, USA; Remote - South Carolina, USA",
+      "url": "https://job-boards.greenhouse.io/zscaler/jobs/5082269007",
+      "board_size": 327,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 0
+    },
+    {
+      "company": "Zscaler",
+      "title": "Senior Sales Engineer, Enterprise - New England",
+      "location": "Remote - Maine, USA; Remote - Massachusetts, USA; Remote - New Hampshire, USA; Remote - Rhode Island, USA; Remote - Vermont, USA",
+      "url": "https://job-boards.greenhouse.io/zscaler/jobs/5183747007",
+      "board_size": 327,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 0
+    },
+    {
+      "company": "Zscaler",
+      "title": "Senior Sales Engineer - Enterprise, Texas",
+      "location": "Remote - Texas, USA",
+      "url": "https://job-boards.greenhouse.io/zscaler/jobs/5202109007",
+      "board_size": 327,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 0
+    },
+    {
+      "company": "Zscaler",
+      "title": "Senior Sales Engineer, Majors",
+      "location": "Remote - New Jersey, USA; Remote - New York, USA; Remote - North Carolina, USA",
+      "url": "https://job-boards.greenhouse.io/zscaler/jobs/5032672007",
+      "board_size": 327,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 0
+    },
+    {
+      "company": "Zscaler",
+      "title": "Senior Sales Engineer - Majors, Florida",
+      "location": "Remote - Florida, USA",
+      "url": "https://job-boards.greenhouse.io/zscaler/jobs/5198892007",
+      "board_size": 327,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 0
+    },
+    {
+      "company": "Zscaler",
+      "title": "Senior Sales Engineer - Majors, Georgia",
+      "location": "Remote - Georgia, USA",
+      "url": "https://job-boards.greenhouse.io/zscaler/jobs/5198888007",
+      "board_size": 327,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 0
+    },
+    {
+      "company": "Zscaler",
+      "title": "Senior Sales Engineer - Majors, North Carolina",
+      "location": "Remote - North Carolina, USA",
+      "url": "https://job-boards.greenhouse.io/zscaler/jobs/5198890007",
+      "board_size": 327,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 0
+    },
+    {
+      "company": "Zscaler",
+      "title": "Senior Sales Engineer - Majors, Texas",
+      "location": "Remote - Texas, USA",
+      "url": "https://job-boards.greenhouse.io/zscaler/jobs/5167453007",
+      "board_size": 327,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 0
+    },
+    {
+      "company": "Zscaler",
+      "title": "Senior Sales Engineer, Majors - TN/KY",
+      "location": "Remote - Kentucky, USA; Remote - Tennessee, USA",
+      "url": "https://job-boards.greenhouse.io/zscaler/jobs/5190628007",
+      "board_size": 327,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 0
+    },
+    {
+      "company": "Zscaler",
+      "title": "Senior Sales Engineer - Majors, TOLA",
+      "location": "Remote - Texas, USA",
+      "url": "https://job-boards.greenhouse.io/zscaler/jobs/5198894007",
+      "board_size": 327,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 0
+    },
+    {
+      "company": "Zscaler",
+      "title": "Senior Sales Engineer, SLED - California ",
+      "location": "Remote - California, USA",
+      "url": "https://job-boards.greenhouse.io/zscaler/jobs/5177711007",
+      "board_size": 327,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 0
+    },
+    {
+      "company": "Zscaler",
+      "title": "Senior Sales Engineer, SLED - Texas ",
+      "location": "Remote - Texas, USA",
+      "url": "https://job-boards.greenhouse.io/zscaler/jobs/5177715007",
+      "board_size": 327,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 0
+    },
+    {
+      "company": "clickhouse",
+      "title": "Solutions Architect - Langfuse ",
+      "location": "United States",
+      "url": "https://jobs.ashbyhq.com/clickhouse/bb3fd808-a87e-4b63-b675-f3ce55f4d1a6",
+      "board_size": 166,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [],
+      "e_verify": false,
+      "score": 0
+    },
+    {
+      "company": "clickhouse",
+      "title": "Marketing Operations Manager",
+      "location": "United States",
+      "url": "https://jobs.ashbyhq.com/clickhouse/8b979cad-e68c-4214-8253-bca819590447",
+      "board_size": 166,
       "remote": false,
       "green_flags": [],
       "red_flags": [],
@@ -4124,6 +5954,48 @@
       "score": 0
     },
     {
+      "company": "Komodo Health",
+      "title": "Senior Forward Deployed Engineer, AI Infrastructure & Deployments",
+      "location": "United States",
+      "url": "https://job-boards.greenhouse.io/komodohealth/jobs/8659469002",
+      "board_size": 34,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [
+        "algorithms"
+      ],
+      "e_verify": false,
+      "score": -9
+    },
+    {
+      "company": "roboflow",
+      "title": "Implementation Engineer",
+      "location": "NY, SF or Remote ",
+      "url": "https://jobs.ashbyhq.com/roboflow/54b89f1c-605d-4fce-b007-365fadbe0184",
+      "board_size": 27,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [
+        "technical screen"
+      ],
+      "e_verify": false,
+      "score": -9
+    },
+    {
+      "company": "roboflow",
+      "title": "Solutions Architect",
+      "location": "NY, SF or Remote ",
+      "url": "https://jobs.ashbyhq.com/roboflow/fa06d985-6671-4cdd-afff-dc67344db1d6",
+      "board_size": 27,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [
+        "technical screen"
+      ],
+      "e_verify": false,
+      "score": -9
+    },
+    {
       "company": "deepgram",
       "title": "Senior Solutions Architect - Europe",
       "location": "EU | Remote",
@@ -4194,6 +6066,20 @@
       "score": -22
     },
     {
+      "company": "Netskope",
+      "title": "Solutions Architect ",
+      "location": "Santa Clara, California, United States",
+      "url": "https://www.netskope.com/company/careers/open-positions/?gh_jid=7787875",
+      "board_size": 141,
+      "remote": false,
+      "green_flags": [],
+      "red_flags": [
+        "technical screen"
+      ],
+      "e_verify": false,
+      "score": -22
+    },
+    {
       "company": "langchain",
       "title": "Solutions Architect (San Francisco)",
       "location": "San Francisco, CA",
@@ -4206,6 +6092,21 @@
       ],
       "e_verify": false,
       "score": -22
+    },
+    {
+      "company": "roboflow",
+      "title": "Forward Deployed Engineer",
+      "location": "NY, SF or Remote (US) ",
+      "url": "https://jobs.ashbyhq.com/roboflow/444ee288-cb72-4751-b16d-67c27749e901",
+      "board_size": 27,
+      "remote": true,
+      "green_flags": [],
+      "red_flags": [
+        "live coding",
+        "technical screen"
+      ],
+      "e_verify": false,
+      "score": -25
     }
   ]
 }
