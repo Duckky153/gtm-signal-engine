@@ -1,0 +1,290 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GTM Signal Engine — buying signals from public job boards</title>
+<meta name="description" content="Reads 30 public ATS job boards, detects go-to-market buying signals, and ranks accounts by how ready they are to buy. No API keys, no paid data vendor.">
+<style>
+  :root{
+    --bg:#0b0d11; --panel:#12151c; --panel-2:#171b24; --line:#232936;
+    --ink:#e8ecf4; --ink-2:#9aa5b8; --ink-3:#6b7688;
+    --a:#5eead4; --a-dim:#134e4a; --b:#818cf8; --c:#f59e0b;
+    --mono:ui-monospace,SFMono-Regular,"SF Mono",Menlo,monospace;
+    --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,sans-serif;
+  }
+  @media (prefers-color-scheme:light){
+    :root{--bg:#fbfcfe;--panel:#fff;--panel-2:#f4f6fa;--line:#e3e8f0;
+          --ink:#0f172a;--ink-2:#4a5568;--ink-3:#8a94a6;--a:#0d9488;--a-dim:#ccfbf1;}
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);
+       line-height:1.6;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+  a{color:var(--a)}
+
+  header{padding:56px 0 32px;border-bottom:1px solid var(--line)}
+  .eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.14em;
+           text-transform:uppercase;color:var(--a);margin:0 0 14px}
+  h1{margin:0 0 14px;font-size:clamp(28px,5vw,44px);line-height:1.12;letter-spacing:-.02em}
+  .lede{margin:0;font-size:clamp(16px,2.2vw,19px);color:var(--ink-2);max-width:64ch}
+  .lede strong{color:var(--ink);font-weight:600}
+
+  .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+         gap:12px;margin:32px 0 0}
+  .stat{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+  .stat b{display:block;font-family:var(--mono);font-size:26px;letter-spacing:-.02em;color:var(--ink)}
+  .stat span{font-size:12.5px;color:var(--ink-3)}
+
+  section{padding:44px 0;border-bottom:1px solid var(--line)}
+  h2{margin:0 0 8px;font-size:22px;letter-spacing:-.01em}
+  .sub{margin:0 0 24px;color:var(--ink-2);font-size:15px;max-width:70ch}
+
+  .controls{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:18px}
+  .controls input,.controls select{
+    background:var(--panel);border:1px solid var(--line);color:var(--ink);
+    border-radius:9px;padding:9px 12px;font-size:14px;font-family:inherit}
+  .controls input{flex:1;min-width:190px}
+  .controls input:focus,.controls select:focus{outline:2px solid var(--a);outline-offset:-1px}
+
+  .rows{display:flex;flex-direction:column;gap:8px}
+  .row{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+  .row-head{display:grid;grid-template-columns:38px 1fr 128px 62px 26px;gap:14px;
+            align-items:center;padding:14px 16px;cursor:pointer;background:none;
+            border:0;width:100%;text-align:left;color:inherit;font:inherit}
+  .row-head:hover{background:var(--panel-2)}
+  .row-head:focus-visible{outline:2px solid var(--a);outline-offset:-2px}
+  .rank{font-family:var(--mono);font-size:13px;color:var(--ink-3)}
+  .co{min-width:0}
+  .co b{display:block;font-size:15.5px;letter-spacing:-.01em}
+  .co > span{display:block;font-size:13px;color:var(--ink-2);overflow:hidden;
+             text-overflow:ellipsis;white-space:nowrap}
+  .bar{height:7px;background:var(--panel-2);border-radius:99px;overflow:hidden;
+       border:1px solid var(--line)}
+  .bar i{display:block;height:100%;border-radius:99px;background:var(--a)}
+  .score{font-family:var(--mono);font-size:15px;text-align:right}
+  .tier{display:inline-block;font-family:var(--mono);font-size:11px;font-weight:700;
+        padding:1px 7px;border-radius:5px;margin-left:8px;vertical-align:1px}
+  .tier.A{background:var(--a-dim);color:var(--a)}
+  .tier.B{background:#312e81;color:#c7d2fe}
+  .tier.C{background:#2a2f3a;color:var(--ink-3)}
+  @media (prefers-color-scheme:light){
+    .tier.B{background:#e0e7ff;color:#4338ca}.tier.C{background:#eef1f6;color:#6b7688}
+  }
+  .chev{color:var(--ink-3);transition:transform .18s;font-size:13px}
+  .row[open] .chev{transform:rotate(90deg)}
+
+  .detail{padding:2px 16px 16px;border-top:1px solid var(--line);display:none}
+  .row[open] .detail{display:block}
+  .sig{padding:14px 0;border-bottom:1px dashed var(--line)}
+  .sig:last-child{border-bottom:0}
+  .sig-top{display:flex;justify-content:space-between;gap:12px;align-items:baseline;flex-wrap:wrap}
+  .sig-top b{font-size:14.5px}
+  .pts{font-family:var(--mono);font-size:12px;color:var(--a);white-space:nowrap}
+  .why{margin:5px 0 10px;font-size:13.5px;color:var(--ink-2);max-width:76ch}
+  .ev{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:5px}
+  .ev li{font-size:13.5px;display:flex;gap:9px;align-items:baseline;flex-wrap:wrap}
+  .ev a{text-decoration:none;border-bottom:1px solid transparent}
+  .ev a:hover{border-bottom-color:var(--a)}
+  .loc{font-family:var(--mono);font-size:11.5px;color:var(--ink-3)}
+
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:18px}
+  .card h3{margin:0 0 6px;font-size:15px}
+  .card p{margin:0;font-size:13.5px;color:var(--ink-2)}
+  .w{font-family:var(--mono);font-size:11.5px;color:var(--a);display:block;margin-top:10px}
+
+  pre{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+      padding:14px 16px;overflow-x:auto;font-family:var(--mono);font-size:13px;margin:0}
+  ul.plain{margin:0;padding-left:20px;color:var(--ink-2);font-size:14.5px}
+  ul.plain li{margin-bottom:7px}
+  footer{padding:32px 0 56px;color:var(--ink-3);font-size:13px}
+  .empty{padding:26px;text-align:center;color:var(--ink-3);font-size:14px}
+  @media (max-width:640px){
+    .row-head{grid-template-columns:26px 1fr 56px 22px;gap:10px}
+    .bar{display:none}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <p class="eyebrow">GTM Signal Engine</p>
+    <h1>A job board is a public statement of where a company is about to spend money.</h1>
+    <p class="lede">This reads <strong>30 public ATS boards</strong>, finds the hiring patterns that
+      mean a company is building or scaling go-to-market, and ranks every account by how ready it is
+      to buy — with the exact requisition behind every score. <strong>No API keys. No paid data
+      vendor.</strong> Clone it and you get the same numbers.</p>
+    <div class="stats" id="stats"></div>
+  </div>
+</header>
+
+<section>
+  <div class="wrap">
+    <h2>Ranked accounts</h2>
+    <p class="sub">Live output from the last run. Open any row to see the requisitions that produced
+      the score — every link goes to the company's own careers page.</p>
+    <div class="controls">
+      <input id="q" type="search" placeholder="Search company or signal…" aria-label="Search">
+      <select id="tier" aria-label="Filter by tier">
+        <option value="">All tiers</option><option value="A">Tier A only</option>
+        <option value="B">Tier B only</option><option value="C">Tier C only</option>
+      </select>
+      <select id="seg" aria-label="Filter by segment"><option value="">All segments</option></select>
+    </div>
+    <div class="rows" id="rows"></div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>The five signals</h2>
+    <p class="sub">Weights are visible and editable in <code>engine/signals.py</code>. You should be
+      able to disagree with a number and change it, rather than trust a black box.</p>
+    <div class="grid" id="rules"></div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>What it does that a keyword search does not</h2>
+    <ul class="plain">
+      <li><b>Counts roles, not postings.</b> One requisition listed in five cities is one role.
+        Scoring on raw posting count is the fastest way to look unserious to anyone who knows
+        how an ATS works.</li>
+      <li><b>Caps each signal.</b> A company with forty open AE seats does not out-rank a company
+        standing up its first GTM engineering team.</li>
+      <li><b>Carries its evidence.</b> Every score expands into the exact requisitions behind it,
+        so the number is auditable rather than asserted.</li>
+      <li><b>Reports failures out loud.</b> A board that cannot be read is listed as a failure,
+        never silently dropped as a zero.</li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Run it yourself</h2>
+    <p class="sub">Python 3.9+, standard library only. No install step, no credentials.</p>
+    <pre>git clone https://github.com/Duckky153/gtm-signal-engine
+cd gtm-signal-engine
+python3 -m engine.run              # writes out/signals.{json,csv} and out/report.md
+python3 -m unittest discover -s tests</pre>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Honest limits</h2>
+    <ul class="plain">
+      <li>Signals come from <b>job titles</b>, not descriptions. A posting that names Clay or Apollo
+        in its body is a strong signal this version does not yet read.</li>
+      <li>It sees <b>public ATS boards only</b>. A company hiring privately is invisible to it.</li>
+      <li>Hiring intent is <b>correlated with</b> buying intent, not identical to it. This ranks who
+        to research first — it does not close anyone.</li>
+      <li>The target list is 30 companies chosen to prove the mechanism. Pointing it at a real ICP
+        is a change to one JSON file.</li>
+    </ul>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <span id="gen"></span> · Built by Dakshit Raj ·
+    <a href="https://github.com/Duckky153/gtm-signal-engine">Source on GitHub</a>
+  </div>
+</footer>
+
+<script>
+const RULES=[
+ {k:"gtm_function_forming",t:"GTM function being built",w:"20 pts × up to 3 roles",
+  d:"They are standing up go-to-market engineering right now. Budget is approved, the process is not yet fixed, and outside help is cheapest to adopt at this exact moment."},
+ {k:"revops_investment",t:"RevOps investment",w:"12 pts × up to 3 roles",
+  d:"Revenue operations hires signal that pipeline data and routing are already painful enough to staff against."},
+ {k:"outbound_scaling",t:"Outbound being scaled",w:"12 pts × up to 5 roles",
+  d:"SDR and BDR headcount is the clearest tell that a company is betting on outbound. Every new rep multiplies the need for lists, enrichment and routing."},
+ {k:"demand_leadership",t:"New demand leadership",w:"10 pts × up to 2 roles",
+  d:"A new growth or demand-gen leader arrives with a mandate and a budget, and replaces incumbent vendors early in their tenure."},
+ {k:"sales_capacity",t:"Sales capacity growth",w:"4 pts × up to 6 roles",
+  d:"Account executives and sales engineers hired in volume create pipeline pressure roughly one quarter later."}];
+
+const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+let DATA=null;
+
+document.getElementById("rules").innerHTML=RULES.map(r=>
+ `<div class="card"><h3>${esc(r.t)}</h3><p>${esc(r.d)}</p><span class="w">${esc(r.w)}</span></div>`).join("");
+
+function stats(d){
+  const a=d.results.filter(r=>r.tier==="A").length;
+  return [[d.companies_scanned,"boards read"],[d.postings_scanned.toLocaleString(),"postings scanned"],
+          [a,"tier-A accounts"],[d.failures.length,"read failures"]]
+    .map(([b,s])=>`<div class="stat"><b>${esc(b)}</b><span>${esc(s)}</span></div>`).join("");
+}
+
+function render(){
+  const q=document.getElementById("q").value.trim().toLowerCase();
+  const tier=document.getElementById("tier").value;
+  const seg=document.getElementById("seg").value;
+  const rows=DATA.results.filter(r=>{
+    if(tier&&r.tier!==tier)return false;
+    if(seg&&r.segment!==seg)return false;
+    if(!q)return true;
+    return (r.company+" "+r.segment+" "+r.why_now+" "+r.signals.map(s=>s.label).join(" "))
+      .toLowerCase().includes(q);
+  });
+  const host=document.getElementById("rows");
+  if(!rows.length){host.innerHTML='<div class="empty">No accounts match that filter.</div>';return;}
+  host.innerHTML=rows.map((r,i)=>`
+   <div class="row" data-i="${i}">
+     <button class="row-head" aria-expanded="false">
+       <span class="rank">${String(i+1).padStart(2,"0")}</span>
+       <span class="co"><b>${esc(r.company)}<span class="tier ${esc(r.tier)}">${esc(r.tier)}</span></b>
+         <span>${esc(r.why_now)}</span></span>
+       <span class="bar"><i style="width:${Math.max(r.score,2)}%"></i></span>
+       <span class="score">${r.score}</span>
+       <span class="chev">▸</span>
+     </button>
+     <div class="detail">${r.signals.map(s=>`
+       <div class="sig">
+         <div class="sig-top"><b>${esc(s.label)}</b>
+           <span class="pts">${s.distinct_roles} role${s.distinct_roles===1?"":"s"}${
+             s.postings>s.distinct_roles?` / ${s.postings} postings`:""} · +${s.points} pts</span></div>
+         <p class="why">${esc(s.why_it_matters)}</p>
+         <ul class="ev">${s.evidence.map(e=>
+           `<li><a href="${esc(e.url)}" target="_blank" rel="noopener noreferrer">${esc(e.title)}</a>
+            <span class="loc">${esc(e.location||"—")}</span></li>`).join("")}</ul>
+       </div>`).join("")||'<p class="why">No go-to-market hiring signal in this board right now.</p>'}
+     </div>
+   </div>`).join("");
+}
+
+document.getElementById("rows").addEventListener("click",e=>{
+  const btn=e.target.closest(".row-head"); if(!btn)return;
+  const row=btn.parentElement, open=row.hasAttribute("open");
+  open?row.removeAttribute("open"):row.setAttribute("open","");
+  btn.setAttribute("aria-expanded",String(!open));
+});
+["q","tier","seg"].forEach(id=>document.getElementById(id)
+  .addEventListener("input",render));
+
+fetch("data/signals.json").then(r=>{
+  if(!r.ok)throw new Error("HTTP "+r.status);return r.json();
+}).then(d=>{
+  DATA=d;
+  document.getElementById("stats").innerHTML=stats(d);
+  const segs=[...new Set(d.results.map(r=>r.segment).filter(Boolean))].sort();
+  document.getElementById("seg").insertAdjacentHTML("beforeend",
+    segs.map(s=>`<option value="${esc(s)}">${esc(s)}</option>`).join(""));
+  document.getElementById("gen").textContent=
+    "Generated "+new Date(d.generated_at).toLocaleDateString("en-US",
+      {year:"numeric",month:"long",day:"numeric"})+" from public job boards";
+  render();
+}).catch(err=>{
+  document.getElementById("rows").innerHTML=
+    '<div class="empty">Could not load data/signals.json ('+esc(err.message)+').</div>';
+});
+</script>
+</body>
+</html>
