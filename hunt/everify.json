@@ -1,0 +1,702 @@
+[
+  {
+    "company": "Hightouch",
+    "jobs": 69,
+    "everify_mentions": 69,
+    "us_legal_mentions": 18,
+    "status": "STATED"
+  },
+  {
+    "company": "Carta",
+    "jobs": 61,
+    "everify_mentions": 61,
+    "us_legal_mentions": 61,
+    "status": "STATED"
+  },
+  {
+    "company": "column",
+    "jobs": 23,
+    "everify_mentions": 23,
+    "us_legal_mentions": 3,
+    "status": "STATED"
+  },
+  {
+    "company": "Melio",
+    "jobs": 24,
+    "everify_mentions": 16,
+    "us_legal_mentions": 19,
+    "status": "STATED"
+  },
+  {
+    "company": "anyscale",
+    "jobs": 18,
+    "everify_mentions": 10,
+    "us_legal_mentions": 13,
+    "status": "STATED"
+  },
+  {
+    "company": "stytch",
+    "jobs": 5,
+    "everify_mentions": 5,
+    "us_legal_mentions": 0,
+    "status": "STATED"
+  },
+  {
+    "company": "6sense",
+    "jobs": 31,
+    "everify_mentions": 0,
+    "us_legal_mentions": 31,
+    "status": "US-EMPLOYER"
+  },
+  {
+    "company": "Airtable",
+    "jobs": 38,
+    "everify_mentions": 0,
+    "us_legal_mentions": 35,
+    "status": "US-EMPLOYER"
+  },
+  {
+    "company": "Alloy",
+    "jobs": 21,
+    "everify_mentions": 0,
+    "us_legal_mentions": 2,
+    "status": "US-EMPLOYER"
+  },
+  {
+    "company": "Amplitude ",
+    "jobs": 33,
+    "everify_mentions": 0,
+    "us_legal_mentions": 25,
+    "status": "US-EMPLOYER"
+  },
+  {
+    "company": "Attentive",
+    "jobs": 41,
+    "everify_mentions": 0,
+    "us_legal_mentions": 41,
+    "status": "US-EMPLOYER"
+  },
+  {
+    "company": "Brex",
+    "jobs": 303,
+    "everify_mentions": 0,
+    "us_legal_mentions": 40,
+    "status": "US-EMPLOYER"
+  },
+  {
+    "company": "Checkr",
+    "jobs": 49,
+    "everify_mentions": 0,
+    "us_legal_mentions": 11,
+    "status": "US-EMPLOYER"
+  },
+  {
+    "company": "Clari + Salesloft",
+    "jobs": 36,
+    "everify_mentions": 0,
+    "us_legal_mentions": 33,
+    "status": "US-EMPLOYER"
+  },
+  {
+    "company": "ClickHouse",
+    "jobs": 166,
+    "everify_mentions": 0,
+    "us_legal_mentions": 3,
+    "status": "US-EMPLOYER"
+  },
+  {
+    "company": "Cockroach Labs",
+    "jobs": 26,
+    "everify_mentions": 0,
+    "us_legal_mentions": 25,
+    "status": "US-EMPLOYER"
+  },
+  {
+    "company": "Contentful",
+    "jobs": 27,
+    "everify_mentions": 0,
+    "us_legal_mentions": 27,
+    "status": "US-EMPLOYER"
+  },
+  {
+    "company": "Datadog",
+    "jobs": 441,
+    "everify_mentions": 0,
+    "us_legal_mentions": 441,
+    "status": "US-EMPLOYER"
+  },
+  {
+    "company": "Dialpad",
+    "jobs": 91,
+    "everify_mentions": 0,
+    "us_legal_mentions": 33,
+    "status": "US-EMPLOYER"
+  },
+  {
+    "company": "Duda",
+    "jobs": 6,
+    "everify_mentions": 0,
+    "us_legal_mentions": 6,
+    "status": "US-EMPLOYER"
+  },
+  {
+    "company": "Fieldwire",
+    "jobs": 23,
+    "everify_mentions": 0,
+    "us_legal_mentions": 18,
+    "status": "US-EMPLOYER"
+  },
+  {
+    "company": "Fin",
+    "jobs": 122,
+    "everify_mentions": 0,
+    "us_legal_mentions": 28,
+    "status": "US-EMPLOYER"
+  },
+  {
+    "company": "Fivetran ",
+    "jobs": 197,
+    "everify_mentions": 0,
+    "us_legal_mentions": 21,
+    "status": "US-EMPLOYER"
+  },
+  {
+    "company": "Flexport",
+    "jobs": 161,
+    "everify_mentions": 0,
+    "us_legal_mentions": 44,
+    "status": "US-EMPLOYER"
+  },
+  {
+    "company": "GoFundMe",
+    "jobs": 41,
+    "everify_mentions": 0,
+    "us_legal_mentions": 41,
+    "status": "US-EMPLOYER"
+  },
+  {
+    "company": "Greenhouse",
+    "jobs": 19,
+    "everify_mentions": 0,
+    "us_legal_mentions": 19,
+    "status": "US-EMPLOYER"
+  },
+  {
+    "company": "Gusto, Inc.",
+    "jobs": 91,
+    "everify_mentions": 0,
+    "us_legal_mentions": 91,
+    "status": "US-EMPLOYER"
+  },
+  {
+    "company": "Honeycomb.io",
+    "jobs": 14,
+    "everify_mentions": 0,
+    "us_legal_mentions": 14,
+    "status": "US-EMPLOYER"
+  },
+  {
+    "company": "Justworks",
+    "jobs": 95,
+    "everify_mentions": 0,
+    "us_legal_mentions": 95,
+    "status": "US-EMPLOYER"
+  },
+  {
+    "company": "Klaviyo",
+    "jobs": 148,
+    "everify_mentions": 0,
+    "us_legal_mentions": 30,
+    "status": "US-EMPLOYER"
+  },
+  {
+    "company": "Lattice",
+    "jobs": 8,
+    "everify_mentions": 0,
+    "us_legal_mentions": 8,
+    "status": "US-EMPLOYER"
+  },
+  {
+    "company": "LaunchDarkly",
+    "jobs": 38,
+    "everify_mentions": 0,
+    "us_legal_mentions": 38,
+    "status": "US-EMPLOYER"
+  },
+  {
+    "company": "Mercury",
+    "jobs": 55,
+    "everify_mentions": 0,
+    "us_legal_mentions": 9,
+    "status": "US-EMPLOYER"
+  },
+  {
+    "company": "Mixpanel",
+    "jobs": 57,
+    "everify_mentions": 0,
+    "us_legal_mentions": 57,
+    "status": "US-EMPLOYER"
+  },
+  {
+    "company": "Motive",
+    "jobs": 10,
+    "everify_mentions": 0,
+    "us_legal_mentions": 7,
+    "status": "US-EMPLOYER"
+  },
+  {
+    "company": "Netlify",
+    "jobs": 3,
+    "everify_mentions": 0,
+    "us_legal_mentions": 3,
+    "status": "US-EMPLOYER"
+  },
+  {
+    "company": "Northbeam",
+    "jobs": 6,
+    "everify_mentions": 0,
+    "us_legal_mentions": 6,
+    "status": "US-EMPLOYER"
+  },
+  {
+    "company": "Pendo",
+    "jobs": 39,
+    "everify_mentions": 0,
+    "us_legal_mentions": 39,
+    "status": "US-EMPLOYER"
+  },
+  {
+    "company": "PlanetScale",
+    "jobs": 9,
+    "everify_mentions": 0,
+    "us_legal_mentions": 1,
+    "status": "US-EMPLOYER"
+  },
+  {
+    "company": "Postscript",
+    "jobs": 6,
+    "everify_mentions": 0,
+    "us_legal_mentions": 4,
+    "status": "US-EMPLOYER"
+  },
+  {
+    "company": "Samsara",
+    "jobs": 290,
+    "everify_mentions": 0,
+    "us_legal_mentions": 81,
+    "status": "US-EMPLOYER"
+  },
+  {
+    "company": "Squarespace",
+    "jobs": 18,
+    "everify_mentions": 0,
+    "us_legal_mentions": 4,
+    "status": "US-EMPLOYER"
+  },
+  {
+    "company": "Storyblok",
+    "jobs": 12,
+    "everify_mentions": 0,
+    "us_legal_mentions": 1,
+    "status": "US-EMPLOYER"
+  },
+  {
+    "company": "Stripe",
+    "jobs": 550,
+    "everify_mentions": 0,
+    "us_legal_mentions": 76,
+    "status": "US-EMPLOYER"
+  },
+  {
+    "company": "Toast",
+    "jobs": 323,
+    "everify_mentions": 0,
+    "us_legal_mentions": 63,
+    "status": "US-EMPLOYER"
+  },
+  {
+    "company": "Triple Whale",
+    "jobs": 12,
+    "everify_mentions": 0,
+    "us_legal_mentions": 12,
+    "status": "US-EMPLOYER"
+  },
+  {
+    "company": "Vercel",
+    "jobs": 83,
+    "everify_mentions": 0,
+    "us_legal_mentions": 8,
+    "status": "US-EMPLOYER"
+  },
+  {
+    "company": "Webflow",
+    "jobs": 29,
+    "everify_mentions": 0,
+    "us_legal_mentions": 29,
+    "status": "US-EMPLOYER"
+  },
+  {
+    "company": "Yotpo",
+    "jobs": 14,
+    "everify_mentions": 0,
+    "us_legal_mentions": 5,
+    "status": "US-EMPLOYER"
+  },
+  {
+    "company": "ZoomInfo Technologies LLC",
+    "jobs": 102,
+    "everify_mentions": 0,
+    "us_legal_mentions": 102,
+    "status": "US-EMPLOYER"
+  },
+  {
+    "company": "abridge",
+    "jobs": 44,
+    "everify_mentions": 0,
+    "us_legal_mentions": 44,
+    "status": "US-EMPLOYER"
+  },
+  {
+    "company": "attio",
+    "jobs": 42,
+    "everify_mentions": 0,
+    "us_legal_mentions": 2,
+    "status": "US-EMPLOYER"
+  },
+  {
+    "company": "baseten",
+    "jobs": 65,
+    "everify_mentions": 0,
+    "us_legal_mentions": 65,
+    "status": "US-EMPLOYER"
+  },
+  {
+    "company": "bland",
+    "jobs": 14,
+    "everify_mentions": 0,
+    "us_legal_mentions": 0,
+    "status": "UNKNOWN"
+  },
+  {
+    "company": "browserbase",
+    "jobs": 8,
+    "everify_mentions": 0,
+    "us_legal_mentions": 6,
+    "status": "US-EMPLOYER"
+  },
+  {
+    "company": "cohere",
+    "jobs": 141,
+    "everify_mentions": 0,
+    "us_legal_mentions": 40,
+    "status": "US-EMPLOYER"
+  },
+  {
+    "company": "commercetools",
+    "jobs": 21,
+    "everify_mentions": 0,
+    "us_legal_mentions": 21,
+    "status": "US-EMPLOYER"
+  },
+  {
+    "company": "commonroom",
+    "jobs": 10,
+    "everify_mentions": 0,
+    "us_legal_mentions": 10,
+    "status": "US-EMPLOYER"
+  },
+  {
+    "company": "cursor",
+    "jobs": 119,
+    "everify_mentions": 0,
+    "us_legal_mentions": 18,
+    "status": "US-EMPLOYER"
+  },
+  {
+    "company": "decagon",
+    "jobs": 126,
+    "everify_mentions": 0,
+    "us_legal_mentions": 20,
+    "status": "US-EMPLOYER"
+  },
+  {
+    "company": "deepgram",
+    "jobs": 80,
+    "everify_mentions": 0,
+    "us_legal_mentions": 80,
+    "status": "US-EMPLOYER"
+  },
+  {
+    "company": "elevenlabs",
+    "jobs": 229,
+    "everify_mentions": 0,
+    "us_legal_mentions": 229,
+    "status": "US-EMPLOYER"
+  },
+  {
+    "company": "finch",
+    "jobs": 3,
+    "everify_mentions": 0,
+    "us_legal_mentions": 0,
+    "status": "UNKNOWN"
+  },
+  {
+    "company": "fireworks",
+    "jobs": 58,
+    "everify_mentions": 0,
+    "us_legal_mentions": 4,
+    "status": "US-EMPLOYER"
+  },
+  {
+    "company": "gamma",
+    "jobs": 33,
+    "everify_mentions": 0,
+    "us_legal_mentions": 4,
+    "status": "US-EMPLOYER"
+  },
+  {
+    "company": "gladia",
+    "jobs": 1,
+    "everify_mentions": 0,
+    "us_legal_mentions": 1,
+    "status": "US-EMPLOYER"
+  },
+  {
+    "company": "harvey",
+    "jobs": 373,
+    "everify_mentions": 0,
+    "us_legal_mentions": 373,
+    "status": "US-EMPLOYER"
+  },
+  {
+    "company": "knock",
+    "jobs": 3,
+    "everify_mentions": 0,
+    "us_legal_mentions": 3,
+    "status": "US-EMPLOYER"
+  },
+  {
+    "company": "langchain",
+    "jobs": 101,
+    "everify_mentions": 0,
+    "us_legal_mentions": 101,
+    "status": "US-EMPLOYER"
+  },
+  {
+    "company": "linear",
+    "jobs": 27,
+    "everify_mentions": 0,
+    "us_legal_mentions": 27,
+    "status": "US-EMPLOYER"
+  },
+  {
+    "company": "llamaindex",
+    "jobs": 15,
+    "everify_mentions": 0,
+    "us_legal_mentions": 1,
+    "status": "US-EMPLOYER"
+  },
+  {
+    "company": "lovable",
+    "jobs": 67,
+    "everify_mentions": 0,
+    "us_legal_mentions": 5,
+    "status": "US-EMPLOYER"
+  },
+  {
+    "company": "mercor",
+    "jobs": 80,
+    "everify_mentions": 0,
+    "us_legal_mentions": 24,
+    "status": "US-EMPLOYER"
+  },
+  {
+    "company": "merge",
+    "jobs": 20,
+    "everify_mentions": 0,
+    "us_legal_mentions": 7,
+    "status": "US-EMPLOYER"
+  },
+  {
+    "company": "modal",
+    "jobs": 31,
+    "everify_mentions": 0,
+    "us_legal_mentions": 1,
+    "status": "US-EMPLOYER"
+  },
+  {
+    "company": "n8n",
+    "jobs": 39,
+    "everify_mentions": 0,
+    "us_legal_mentions": 39,
+    "status": "US-EMPLOYER"
+  },
+  {
+    "company": "nango",
+    "jobs": 3,
+    "everify_mentions": 0,
+    "us_legal_mentions": 3,
+    "status": "US-EMPLOYER"
+  },
+  {
+    "company": "openai",
+    "jobs": 747,
+    "everify_mentions": 0,
+    "us_legal_mentions": 747,
+    "status": "US-EMPLOYER"
+  },
+  {
+    "company": "openevidence",
+    "jobs": 7,
+    "everify_mentions": 0,
+    "us_legal_mentions": 0,
+    "status": "UNKNOWN"
+  },
+  {
+    "company": "paragon",
+    "jobs": 2,
+    "everify_mentions": 0,
+    "us_legal_mentions": 0,
+    "status": "UNKNOWN"
+  },
+  {
+    "company": "perplexity",
+    "jobs": 92,
+    "everify_mentions": 0,
+    "us_legal_mentions": 14,
+    "status": "US-EMPLOYER"
+  },
+  {
+    "company": "pinecone",
+    "jobs": 8,
+    "everify_mentions": 0,
+    "us_legal_mentions": 8,
+    "status": "US-EMPLOYER"
+  },
+  {
+    "company": "plaid",
+    "jobs": 106,
+    "everify_mentions": 0,
+    "us_legal_mentions": 106,
+    "status": "US-EMPLOYER"
+  },
+  {
+    "company": "project44",
+    "jobs": 38,
+    "everify_mentions": 0,
+    "us_legal_mentions": 32,
+    "status": "US-EMPLOYER"
+  },
+  {
+    "company": "pylon",
+    "jobs": 12,
+    "everify_mentions": 0,
+    "us_legal_mentions": 5,
+    "status": "US-EMPLOYER"
+  },
+  {
+    "company": "ramp",
+    "jobs": 122,
+    "everify_mentions": 0,
+    "us_legal_mentions": 122,
+    "status": "US-EMPLOYER"
+  },
+  {
+    "company": "replit",
+    "jobs": 88,
+    "everify_mentions": 0,
+    "us_legal_mentions": 88,
+    "status": "US-EMPLOYER"
+  },
+  {
+    "company": "resend",
+    "jobs": 12,
+    "everify_mentions": 0,
+    "us_legal_mentions": 0,
+    "status": "UNKNOWN"
+  },
+  {
+    "company": "runpod",
+    "jobs": 23,
+    "everify_mentions": 0,
+    "us_legal_mentions": 22,
+    "status": "US-EMPLOYER"
+  },
+  {
+    "company": "sierra",
+    "jobs": 191,
+    "everify_mentions": 0,
+    "us_legal_mentions": 35,
+    "status": "US-EMPLOYER"
+  },
+  {
+    "company": "supabase",
+    "jobs": 58,
+    "everify_mentions": 0,
+    "us_legal_mentions": 6,
+    "status": "US-EMPLOYER"
+  },
+  {
+    "company": "synthesia",
+    "jobs": 71,
+    "everify_mentions": 0,
+    "us_legal_mentions": 12,
+    "status": "US-EMPLOYER"
+  },
+  {
+    "company": "unify",
+    "jobs": 7,
+    "everify_mentions": 0,
+    "us_legal_mentions": 4,
+    "status": "US-EMPLOYER"
+  },
+  {
+    "company": "unit",
+    "jobs": 5,
+    "everify_mentions": 0,
+    "us_legal_mentions": 1,
+    "status": "US-EMPLOYER"
+  },
+  {
+    "company": "vanta",
+    "jobs": 88,
+    "everify_mentions": 0,
+    "us_legal_mentions": 88,
+    "status": "US-EMPLOYER"
+  },
+  {
+    "company": "vapi",
+    "jobs": 31,
+    "everify_mentions": 0,
+    "us_legal_mentions": 31,
+    "status": "US-EMPLOYER"
+  },
+  {
+    "company": "weaviate",
+    "jobs": 3,
+    "everify_mentions": 0,
+    "us_legal_mentions": 0,
+    "status": "UNKNOWN"
+  },
+  {
+    "company": "workos",
+    "jobs": 25,
+    "everify_mentions": 0,
+    "us_legal_mentions": 25,
+    "status": "US-EMPLOYER"
+  },
+  {
+    "company": "writer",
+    "jobs": 55,
+    "everify_mentions": 0,
+    "us_legal_mentions": 1,
+    "status": "US-EMPLOYER"
+  },
+  {
+    "company": "zapier",
+    "jobs": 11,
+    "everify_mentions": 0,
+    "us_legal_mentions": 0,
+    "status": "UNKNOWN"
+  }
+]
