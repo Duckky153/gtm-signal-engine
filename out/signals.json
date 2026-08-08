@@ -1,0 +1,2937 @@
+{
+  "generated_at": "2026-08-08T03:49:04+00:00",
+  "companies_scanned": 30,
+  "companies_read": 30,
+  "postings_scanned": 5622,
+  "failures": [],
+  "results": [
+    {
+      "company": "Stripe",
+      "segment": "Payments",
+      "score": 84,
+      "tier": "A",
+      "why_now": "Stripe has 9 open outbound sales roles across 11 postings.",
+      "open_roles_total": 550,
+      "signals": [
+        {
+          "key": "outbound_scaling",
+          "label": "Outbound being scaled",
+          "why_it_matters": "SDR and BDR headcount is the clearest tell that a company is betting on outbound. Every new rep multiplies the need for lists, enrichment and routing.",
+          "distinct_roles": 9,
+          "postings": 11,
+          "counted": 5,
+          "points": 60,
+          "evidence": [
+            {
+              "title": "Head of Sales Development, AMER",
+              "location": "Chicago",
+              "url": "https://stripe.com/jobs/search?gh_jid=8072764"
+            },
+            {
+              "title": "Head of Startups and Velocity Sales Development",
+              "location": "Dublin",
+              "url": "https://stripe.com/jobs/search?gh_jid=7337546"
+            },
+            {
+              "title": "Manager, Sales Development",
+              "location": "Chicago, Illinois",
+              "url": "https://stripe.com/jobs/search?gh_jid=7896538"
+            },
+            {
+              "title": "Manager, Sales Development",
+              "location": "Dublin",
+              "url": "https://stripe.com/jobs/search?gh_jid=7337544"
+            },
+            {
+              "title": "Sales Development Change Management Specialist",
+              "location": "CHI and DUB",
+              "url": "https://stripe.com/jobs/search?gh_jid=7953987"
+            },
+            {
+              "title": "Sales Development Representative",
+              "location": "Tokyo",
+              "url": "https://stripe.com/jobs/search?gh_jid=6470774"
+            },
+            {
+              "title": "Sales Development Representative",
+              "location": "Chicago, Illinois",
+              "url": "https://stripe.com/jobs/search?gh_jid=6570253"
+            },
+            {
+              "title": "Sales Development Representative, AUNZ",
+              "location": "Sydney",
+              "url": "https://stripe.com/jobs/search?gh_jid=8074892"
+            }
+          ]
+        },
+        {
+          "key": "gtm_function_forming",
+          "label": "GTM function being built",
+          "why_it_matters": "They are standing up go-to-market engineering right now. Budget is approved, the process is not yet fixed, and outside help is cheapest to adopt at this exact moment.",
+          "distinct_roles": 2,
+          "postings": 2,
+          "counted": 2,
+          "points": 40,
+          "evidence": [
+            {
+              "title": "Growth Engineer",
+              "location": "New York, NY",
+              "url": "https://stripe.com/jobs/search?gh_jid=8008880"
+            },
+            {
+              "title": "GTM Operations Process Architect",
+              "location": "US Remote National",
+              "url": "https://stripe.com/jobs/search?gh_jid=7993610"
+            }
+          ]
+        },
+        {
+          "key": "revops_investment",
+          "label": "RevOps investment",
+          "why_it_matters": "Revenue operations hires signal that pipeline data and routing are already painful enough to staff against.",
+          "distinct_roles": 2,
+          "postings": 2,
+          "counted": 2,
+          "points": 24,
+          "evidence": [
+            {
+              "title": "Head of Marketing Operations",
+              "location": "San Francisco, New York, Seattle, Chicago, Atlanta, Toronto, Remote in the US, Remote in Canada",
+              "url": "https://stripe.com/jobs/search?gh_jid=8065643"
+            },
+            {
+              "title": "Marketing Operations Manager",
+              "location": "India, Bangalore",
+              "url": "https://stripe.com/jobs/search?gh_jid=7805386"
+            }
+          ]
+        },
+        {
+          "key": "sales_capacity",
+          "label": "Sales capacity growth",
+          "why_it_matters": "Account executives and sales engineers hired in volume create pipeline pressure roughly one quarter later.",
+          "distinct_roles": 76,
+          "postings": 80,
+          "counted": 6,
+          "points": 24,
+          "evidence": [
+            {
+              "title": "Account Executive, Bridge",
+              "location": "London",
+              "url": "https://stripe.com/jobs/search?gh_jid=8023928"
+            },
+            {
+              "title": "Account Executive, Bridge",
+              "location": "SF, NYC, SEA, CHI",
+              "url": "https://stripe.com/jobs/search?gh_jid=8077887"
+            },
+            {
+              "title": "Account Executive, Commercial Grower (Japanese Fluency)",
+              "location": "Japan",
+              "url": "https://stripe.com/jobs/search?gh_jid=8042978"
+            },
+            {
+              "title": "Account Executive, Commercial Hunter (Japanese Fluency)",
+              "location": "Japan",
+              "url": "https://stripe.com/jobs/search?gh_jid=7789539"
+            },
+            {
+              "title": "Account Executive, Cross Border China",
+              "location": "Singapore",
+              "url": "https://stripe.com/jobs/search?gh_jid=7893199"
+            },
+            {
+              "title": "Account Executive - Enterprise, Grower",
+              "location": "US-Remote, US-San Francisco, US-Chicago, US-New York, US-Seattle, US-Texas",
+              "url": "https://stripe.com/jobs/search?gh_jid=7993151"
+            },
+            {
+              "title": "Account Executive, Enterprise - Grower",
+              "location": "US-New York, US-Chicago, US-Atlanta, US-San Francisco, US-Texas",
+              "url": "https://stripe.com/jobs/search?gh_jid=7997555"
+            },
+            {
+              "title": "Account Executive - Enterprise, Growth",
+              "location": "US-San Francisco, US-California, US-Chicago",
+              "url": "https://stripe.com/jobs/search?gh_jid=7997146"
+            }
+          ]
+        },
+        {
+          "key": "demand_leadership",
+          "label": "New demand leadership",
+          "why_it_matters": "A new growth or demand-gen leader arrives with a mandate and a budget, and replaces incumbent vendors early in their tenure.",
+          "distinct_roles": 3,
+          "postings": 3,
+          "counted": 2,
+          "points": 20,
+          "evidence": [
+            {
+              "title": "Growth Marketing Manager, Greater China",
+              "location": "Singapore",
+              "url": "https://stripe.com/jobs/search?gh_jid=8078168"
+            },
+            {
+              "title": "Head of Marketing Operations",
+              "location": "San Francisco, New York, Seattle, Chicago, Atlanta, Toronto, Remote in the US, Remote in Canada",
+              "url": "https://stripe.com/jobs/search?gh_jid=8065643"
+            },
+            {
+              "title": "Head of Marketing, Southeast Asia",
+              "location": "Singapore",
+              "url": "https://stripe.com/jobs/search?gh_jid=8059299"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "company": "Cloudflare",
+      "segment": "Infrastructure",
+      "score": 70,
+      "tier": "A",
+      "why_now": "Cloudflare has 9 open outbound sales roles.",
+      "open_roles_total": 300,
+      "signals": [
+        {
+          "key": "outbound_scaling",
+          "label": "Outbound being scaled",
+          "why_it_matters": "SDR and BDR headcount is the clearest tell that a company is betting on outbound. Every new rep multiplies the need for lists, enrichment and routing.",
+          "distinct_roles": 9,
+          "postings": 9,
+          "counted": 5,
+          "points": 60,
+          "evidence": [
+            {
+              "title": "Business Development Representative",
+              "location": "Hybrid",
+              "url": "https://boards.greenhouse.io/cloudflare/jobs/8078210?gh_jid=8078210"
+            },
+            {
+              "title": "Business Development Representative - Arabic Speaking",
+              "location": "Hybrid",
+              "url": "https://boards.greenhouse.io/cloudflare/jobs/6696709?gh_jid=6696709"
+            },
+            {
+              "title": "Business Development Representative (BDR)",
+              "location": "Hybrid",
+              "url": "https://boards.greenhouse.io/cloudflare/jobs/6557318?gh_jid=6557318"
+            },
+            {
+              "title": "Business Development Representative (BDR), LATAM Spanish Speaking",
+              "location": "Hybrid",
+              "url": "https://boards.greenhouse.io/cloudflare/jobs/7991345?gh_jid=7991345"
+            },
+            {
+              "title": "Business Development Representative - Danish, Norwegian or Swedish Speaking",
+              "location": "Hybrid",
+              "url": "https://boards.greenhouse.io/cloudflare/jobs/7657028?gh_jid=7657028"
+            },
+            {
+              "title": "Business Development Representative - Dutch Speaking",
+              "location": "Hybrid",
+              "url": "https://boards.greenhouse.io/cloudflare/jobs/7883803?gh_jid=7883803"
+            },
+            {
+              "title": "Business Development Representative - German Speaking",
+              "location": "Hybrid",
+              "url": "https://boards.greenhouse.io/cloudflare/jobs/7504487?gh_jid=7504487"
+            },
+            {
+              "title": "Business Development Representative - Turkish Speaking",
+              "location": "Hybrid",
+              "url": "https://boards.greenhouse.io/cloudflare/jobs/7772239?gh_jid=7772239"
+            }
+          ]
+        },
+        {
+          "key": "revops_investment",
+          "label": "RevOps investment",
+          "why_it_matters": "Revenue operations hires signal that pipeline data and routing are already painful enough to staff against.",
+          "distinct_roles": 3,
+          "postings": 3,
+          "counted": 3,
+          "points": 36,
+          "evidence": [
+            {
+              "title": "Deal Desk Engineer",
+              "location": "Hybrid",
+              "url": "https://boards.greenhouse.io/cloudflare/jobs/8059772?gh_jid=8059772"
+            },
+            {
+              "title": "Deal Desk Manager",
+              "location": "Hybrid",
+              "url": "https://boards.greenhouse.io/cloudflare/jobs/8052464?gh_jid=8052464"
+            },
+            {
+              "title": "Deal Desk Manager, EMEA",
+              "location": "Hybrid",
+              "url": "https://boards.greenhouse.io/cloudflare/jobs/7544182?gh_jid=7544182"
+            }
+          ]
+        },
+        {
+          "key": "sales_capacity",
+          "label": "Sales capacity growth",
+          "why_it_matters": "Account executives and sales engineers hired in volume create pipeline pressure roughly one quarter later.",
+          "distinct_roles": 77,
+          "postings": 79,
+          "counted": 6,
+          "points": 24,
+          "evidence": [
+            {
+              "title": "Commercial Account Executive (German speaking)",
+              "location": "Hybrid",
+              "url": "https://boards.greenhouse.io/cloudflare/jobs/7478874?gh_jid=7478874"
+            },
+            {
+              "title": "Commercial Account Executive, Saudi Arabia",
+              "location": "Hybrid",
+              "url": "https://boards.greenhouse.io/cloudflare/jobs/8045313?gh_jid=8045313"
+            },
+            {
+              "title": "Commercial Account Executive, UAE & Oman",
+              "location": "Hybrid",
+              "url": "https://boards.greenhouse.io/cloudflare/jobs/8045292?gh_jid=8045292"
+            },
+            {
+              "title": "Major Account Executive, France",
+              "location": "Hybrid",
+              "url": "https://boards.greenhouse.io/cloudflare/jobs/7552575?gh_jid=7552575"
+            },
+            {
+              "title": "Named Account Executive",
+              "location": "Hybrid",
+              "url": "https://boards.greenhouse.io/cloudflare/jobs/6540163?gh_jid=6540163"
+            },
+            {
+              "title": "Named Account Executive, FSI (Hong Kong)",
+              "location": "Hybrid",
+              "url": "https://boards.greenhouse.io/cloudflare/jobs/7868936?gh_jid=7868936"
+            },
+            {
+              "title": "Named Account Executive, Thailand",
+              "location": "Hybrid",
+              "url": "https://boards.greenhouse.io/cloudflare/jobs/7783835?gh_jid=7783835"
+            },
+            {
+              "title": "Partner Solutions Architect- Service Providers  Location New York, Atlanta, Charlotte, New Jersey and FL",
+              "location": "Distributed",
+              "url": "https://boards.greenhouse.io/cloudflare/jobs/8049820?gh_jid=8049820"
+            }
+          ]
+        },
+        {
+          "key": "gtm_function_forming",
+          "label": "GTM function being built",
+          "why_it_matters": "They are standing up go-to-market engineering right now. Budget is approved, the process is not yet fixed, and outside help is cheapest to adopt at this exact moment.",
+          "distinct_roles": 1,
+          "postings": 1,
+          "counted": 1,
+          "points": 20,
+          "evidence": [
+            {
+              "title": "GTM Engineer",
+              "location": "Hybrid",
+              "url": "https://boards.greenhouse.io/cloudflare/jobs/7963860?gh_jid=7963860"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "company": "OpenAI",
+      "segment": "AI",
+      "score": 70,
+      "tier": "A",
+      "why_now": "OpenAI has 3 open go-to-market engineering roles.",
+      "open_roles_total": 747,
+      "signals": [
+        {
+          "key": "gtm_function_forming",
+          "label": "GTM function being built",
+          "why_it_matters": "They are standing up go-to-market engineering right now. Budget is approved, the process is not yet fixed, and outside help is cheapest to adopt at this exact moment.",
+          "distinct_roles": 3,
+          "postings": 3,
+          "counted": 3,
+          "points": 60,
+          "evidence": [
+            {
+              "title": "Enterprise Application Data Architect, GTM Systems",
+              "location": "San Francisco",
+              "url": "https://jobs.ashbyhq.com/openai/a057c19d-83db-4bb2-a86f-07caa422d770"
+            },
+            {
+              "title": "Software Engineer, GTM Growth Engineering",
+              "location": "San Francisco",
+              "url": "https://jobs.ashbyhq.com/openai/1bb1f351-41a2-43a5-bac1-259859886cb3"
+            },
+            {
+              "title": "Applied AI Software Engineer, GTM Growth Engineering",
+              "location": "San Francisco",
+              "url": "https://jobs.ashbyhq.com/openai/38e3c4bf-a632-405e-9619-b87382ca2472"
+            }
+          ]
+        },
+        {
+          "key": "outbound_scaling",
+          "label": "Outbound being scaled",
+          "why_it_matters": "SDR and BDR headcount is the clearest tell that a company is betting on outbound. Every new rep multiplies the need for lists, enrichment and routing.",
+          "distinct_roles": 2,
+          "postings": 2,
+          "counted": 2,
+          "points": 24,
+          "evidence": [
+            {
+              "title": "Sales Development Manager, Enterprise (AMER)",
+              "location": "San Francisco",
+              "url": "https://jobs.ashbyhq.com/openai/dd48e74c-b08e-4527-8d1a-9297856b015a"
+            },
+            {
+              "title": "APAC Sales Development Leader",
+              "location": "Singapore",
+              "url": "https://jobs.ashbyhq.com/openai/371afd71-386b-40a0-be0a-e90f010b7bd0"
+            }
+          ]
+        },
+        {
+          "key": "sales_capacity",
+          "label": "Sales capacity growth",
+          "why_it_matters": "Account executives and sales engineers hired in volume create pipeline pressure roughly one quarter later.",
+          "distinct_roles": 13,
+          "postings": 20,
+          "counted": 6,
+          "points": 24,
+          "evidence": [
+            {
+              "title": "Solutions Engineer, Pre-Sales",
+              "location": "San Francisco",
+              "url": "https://jobs.ashbyhq.com/openai/98a36c10-3497-4955-9cc0-a6f211e4dc1b"
+            },
+            {
+              "title": "IT Solutions Engineer",
+              "location": "San Francisco",
+              "url": "https://jobs.ashbyhq.com/openai/6c6c1ace-12d6-48f0-88f0-488ff8521571"
+            },
+            {
+              "title": "Solutions Engineer, Pre-Sales - Tokyo",
+              "location": "Tokyo, Japan",
+              "url": "https://jobs.ashbyhq.com/openai/57cfe1d3-27b6-4761-909c-fec7829e9227"
+            },
+            {
+              "title": "Solutions Engineer",
+              "location": "Delhi, India",
+              "url": "https://jobs.ashbyhq.com/openai/28cd6fe2-4096-426b-8b08-52a66458e2c6"
+            },
+            {
+              "title": "Solutions Engineer",
+              "location": "Seoul, South Korea",
+              "url": "https://jobs.ashbyhq.com/openai/ad06299f-d4e2-4de6-a925-b2e94b3c1d0b"
+            },
+            {
+              "title": "Solutions Engineer, Large Enterprise",
+              "location": "Munich, Germany",
+              "url": "https://jobs.ashbyhq.com/openai/c00094f9-e071-4870-afec-104beb3ce499"
+            },
+            {
+              "title": "Solutions Engineer, Pre-Sales",
+              "location": "New York City",
+              "url": "https://jobs.ashbyhq.com/openai/e665817a-bf86-4208-8cf3-c1754c28b401"
+            },
+            {
+              "title": "Solutions Engineer, Digital Natives (Strategics)",
+              "location": "San Francisco",
+              "url": "https://jobs.ashbyhq.com/openai/56fceb8e-589b-410e-8b21-24f9945ccb9d"
+            }
+          ]
+        },
+        {
+          "key": "demand_leadership",
+          "label": "New demand leadership",
+          "why_it_matters": "A new growth or demand-gen leader arrives with a mandate and a budget, and replaces incumbent vendors early in their tenure.",
+          "distinct_roles": 3,
+          "postings": 3,
+          "counted": 2,
+          "points": 20,
+          "evidence": [
+            {
+              "title": "Data Scientist, B2B Demand Generation, Growth & Measurement",
+              "location": "San Francisco",
+              "url": "https://jobs.ashbyhq.com/openai/7f299784-2c75-4d73-99e5-1e5043ec7b48"
+            },
+            {
+              "title": "Head of Growth GSIs - Cognizant Infosys & Wipro",
+              "location": "San Francisco",
+              "url": "https://jobs.ashbyhq.com/openai/8adb1529-bca1-4aad-b539-04f83924a111"
+            },
+            {
+              "title": "Growth Marketing Manager, SMB Ads",
+              "location": "San Francisco",
+              "url": "https://jobs.ashbyhq.com/openai/dc503400-f7a8-4ad4-b50b-b33d2d12cc2d"
+            }
+          ]
+        },
+        {
+          "key": "revops_investment",
+          "label": "RevOps investment",
+          "why_it_matters": "Revenue operations hires signal that pipeline data and routing are already painful enough to staff against.",
+          "distinct_roles": 1,
+          "postings": 1,
+          "counted": 1,
+          "points": 12,
+          "evidence": [
+            {
+              "title": "Revenue Operations Business Partner - Technical Success",
+              "location": "San Francisco",
+              "url": "https://jobs.ashbyhq.com/openai/d929aa17-a339-4b96-b0ee-b0fc0ed9218c"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "company": "Asana",
+      "segment": "Productivity",
+      "score": 50,
+      "tier": "A",
+      "why_now": "Asana has 2 open go-to-market engineering roles.",
+      "open_roles_total": 150,
+      "signals": [
+        {
+          "key": "gtm_function_forming",
+          "label": "GTM function being built",
+          "why_it_matters": "They are standing up go-to-market engineering right now. Budget is approved, the process is not yet fixed, and outside help is cheapest to adopt at this exact moment.",
+          "distinct_roles": 2,
+          "postings": 2,
+          "counted": 2,
+          "points": 40,
+          "evidence": [
+            {
+              "title": "GTM Operations Manager - New Products",
+              "location": "Chicago",
+              "url": "https://www.asana.com/jobs/apply/8027465?gh_jid=8027465"
+            },
+            {
+              "title": "GTM Systems and Business Process Manager - Renewals and CX",
+              "location": "San Francisco",
+              "url": "https://www.asana.com/jobs/apply/8048277?gh_jid=8048277"
+            }
+          ]
+        },
+        {
+          "key": "revops_investment",
+          "label": "RevOps investment",
+          "why_it_matters": "Revenue operations hires signal that pipeline data and routing are already painful enough to staff against.",
+          "distinct_roles": 2,
+          "postings": 2,
+          "counted": 2,
+          "points": 24,
+          "evidence": [
+            {
+              "title": "Deal Desk Manager",
+              "location": "San Francisco",
+              "url": "https://www.asana.com/jobs/apply/8107461?gh_jid=8107461"
+            },
+            {
+              "title": "Marketing Operations Manager, Strategy",
+              "location": "San Francisco",
+              "url": "https://www.asana.com/jobs/apply/7920801?gh_jid=7920801"
+            }
+          ]
+        },
+        {
+          "key": "sales_capacity",
+          "label": "Sales capacity growth",
+          "why_it_matters": "Account executives and sales engineers hired in volume create pipeline pressure roughly one quarter later.",
+          "distinct_roles": 17,
+          "postings": 27,
+          "counted": 6,
+          "points": 24,
+          "evidence": [
+            {
+              "title": "Corporate Account Executive",
+              "location": "Tokyo",
+              "url": "https://www.asana.com/jobs/apply/8055062?gh_jid=8055062"
+            },
+            {
+              "title": "Corporate Account Executive",
+              "location": "Chicago",
+              "url": "https://www.asana.com/jobs/apply/6981655?gh_jid=6981655"
+            },
+            {
+              "title": "Corporate Account Executive, DACH",
+              "location": "Munich",
+              "url": "https://www.asana.com/jobs/apply/7962960?gh_jid=7962960"
+            },
+            {
+              "title": "Emerging Enterprise Account Executive",
+              "location": "San Francisco",
+              "url": "https://www.asana.com/jobs/apply/8078121?gh_jid=8078121"
+            },
+            {
+              "title": "Emerging Enterprise Account Executive",
+              "location": "Chicago",
+              "url": "https://www.asana.com/jobs/apply/8105360?gh_jid=8105360"
+            },
+            {
+              "title": "Enterprise Account Executive, Command",
+              "location": "London",
+              "url": "https://www.asana.com/jobs/apply/8027454?gh_jid=8027454"
+            },
+            {
+              "title": "Enterprise Account Executive - Dutch Speaking",
+              "location": "Stockholm",
+              "url": "https://www.asana.com/jobs/apply/8075573?gh_jid=8075573"
+            },
+            {
+              "title": "Enterprise Account Executive, Service Management",
+              "location": "New York City",
+              "url": "https://www.asana.com/jobs/apply/8027425?gh_jid=8027425"
+            }
+          ]
+        },
+        {
+          "key": "outbound_scaling",
+          "label": "Outbound being scaled",
+          "why_it_matters": "SDR and BDR headcount is the clearest tell that a company is betting on outbound. Every new rep multiplies the need for lists, enrichment and routing.",
+          "distinct_roles": 1,
+          "postings": 1,
+          "counted": 1,
+          "points": 12,
+          "evidence": [
+            {
+              "title": "Business Development Representative, German Speaking",
+              "location": "Dublin",
+              "url": "https://www.asana.com/jobs/apply/7477015?gh_jid=7477015"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "company": "Sierra",
+      "segment": "AI",
+      "score": 48,
+      "tier": "A",
+      "why_now": "Sierra has 4 open go-to-market engineering roles across 6 postings.",
+      "open_roles_total": 191,
+      "signals": [
+        {
+          "key": "gtm_function_forming",
+          "label": "GTM function being built",
+          "why_it_matters": "They are standing up go-to-market engineering right now. Budget is approved, the process is not yet fixed, and outside help is cheapest to adopt at this exact moment.",
+          "distinct_roles": 4,
+          "postings": 6,
+          "counted": 3,
+          "points": 60,
+          "evidence": [
+            {
+              "title": "GTM Engineer",
+              "location": "San Francisco, CA",
+              "url": "https://jobs.ashbyhq.com/sierra/1c991675-099f-49dd-9b9b-bd3c9111e65c"
+            },
+            {
+              "title": "GTM Operations Analyst, Agent Development",
+              "location": "San Francisco, CA",
+              "url": "https://jobs.ashbyhq.com/sierra/85e1d0f9-e0d5-4a82-9b30-fa4372e32872"
+            },
+            {
+              "title": "GTM Operations",
+              "location": "London",
+              "url": "https://jobs.ashbyhq.com/sierra/d5acde3b-9d8c-4ece-a73c-a02521f24d72"
+            },
+            {
+              "title": "GTM Operations, Agent Development Enablement",
+              "location": "San Francisco, CA",
+              "url": "https://jobs.ashbyhq.com/sierra/84a9ecff-115c-452f-9f1f-1b0b142e256f"
+            },
+            {
+              "title": "GTM Operations",
+              "location": "Tokyo",
+              "url": "https://jobs.ashbyhq.com/sierra/f608f09d-fd99-4eac-978a-264e6ae99a17"
+            },
+            {
+              "title": "GTM Operations Analyst, Agent Development",
+              "location": "Singapore",
+              "url": "https://jobs.ashbyhq.com/sierra/6c246883-6335-413e-9183-ece94780590c"
+            }
+          ]
+        },
+        {
+          "key": "sales_capacity",
+          "label": "Sales capacity growth",
+          "why_it_matters": "Account executives and sales engineers hired in volume create pipeline pressure roughly one quarter later.",
+          "distinct_roles": 13,
+          "postings": 17,
+          "counted": 6,
+          "points": 24,
+          "evidence": [
+            {
+              "title": "Enterprise Sales Engineer",
+              "location": "San Francisco, CA",
+              "url": "https://jobs.ashbyhq.com/sierra/8152eaf6-012b-4154-95e2-7d6c52faba93"
+            },
+            {
+              "title": "High Growth Enterprise Account Executive",
+              "location": "San Francisco, CA",
+              "url": "https://jobs.ashbyhq.com/sierra/8da2071d-5e2f-43da-9bb1-2c7b30c078af"
+            },
+            {
+              "title": "Enterprise Account Executive, Europe",
+              "location": "London",
+              "url": "https://jobs.ashbyhq.com/sierra/9501ffa2-b433-4f51-b7f0-d8e53e37442d"
+            },
+            {
+              "title": "Sales Engineer",
+              "location": "London",
+              "url": "https://jobs.ashbyhq.com/sierra/ba9ca2da-c0c3-4673-b496-f820223c77c1"
+            },
+            {
+              "title": "Enterprise Account Executive, Benelux",
+              "location": "Paris",
+              "url": "https://jobs.ashbyhq.com/sierra/2e5e46fd-9444-4768-94aa-2ef2bba54618"
+            },
+            {
+              "title": "Enterprise Account Executive, Europe (Italian speaking)",
+              "location": "London",
+              "url": "https://jobs.ashbyhq.com/sierra/9f5b273f-1604-4b5b-bbbb-13cf0af35150"
+            },
+            {
+              "title": "Enterprise Account Executive, Spain",
+              "location": "Madrid",
+              "url": "https://jobs.ashbyhq.com/sierra/ef109d91-43de-4f96-94e5-fac6f1d8c8e1"
+            },
+            {
+              "title": "Enterprise Account Executive",
+              "location": "Singapore",
+              "url": "https://jobs.ashbyhq.com/sierra/b514c750-efde-46ca-b9d3-6e76e64eb6c7"
+            }
+          ]
+        },
+        {
+          "key": "revops_investment",
+          "label": "RevOps investment",
+          "why_it_matters": "Revenue operations hires signal that pipeline data and routing are already painful enough to staff against.",
+          "distinct_roles": 1,
+          "postings": 1,
+          "counted": 1,
+          "points": 12,
+          "evidence": [
+            {
+              "title": "Marketing Operations & Analytics Lead",
+              "location": "San Francisco, CA",
+              "url": "https://jobs.ashbyhq.com/sierra/8a906ec6-5ec5-4619-82de-7a3c665998f5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "company": "Decagon",
+      "segment": "AI",
+      "score": 48,
+      "tier": "A",
+      "why_now": "Decagon has 3 open revenue operations roles.",
+      "open_roles_total": 126,
+      "signals": [
+        {
+          "key": "revops_investment",
+          "label": "RevOps investment",
+          "why_it_matters": "Revenue operations hires signal that pipeline data and routing are already painful enough to staff against.",
+          "distinct_roles": 3,
+          "postings": 3,
+          "counted": 3,
+          "points": 36,
+          "evidence": [
+            {
+              "title": "Marketing Operations Associate",
+              "location": "San Francisco",
+              "url": "https://jobs.ashbyhq.com/decagon/c6e70f60-9ed5-416a-8b37-bff69de9db93"
+            },
+            {
+              "title": "Deal Desk Manager",
+              "location": "San Francisco",
+              "url": "https://jobs.ashbyhq.com/decagon/76b7427f-4d3a-491a-8096-745303f46a31"
+            },
+            {
+              "title": "Revenue Operations Associate",
+              "location": "San Francisco",
+              "url": "https://jobs.ashbyhq.com/decagon/a37149ba-06c8-4b3a-8965-4c4eff89bee7"
+            }
+          ]
+        },
+        {
+          "key": "outbound_scaling",
+          "label": "Outbound being scaled",
+          "why_it_matters": "SDR and BDR headcount is the clearest tell that a company is betting on outbound. Every new rep multiplies the need for lists, enrichment and routing.",
+          "distinct_roles": 3,
+          "postings": 3,
+          "counted": 3,
+          "points": 36,
+          "evidence": [
+            {
+              "title": "Sales Development Representative (SDR)",
+              "location": "San Francisco",
+              "url": "https://jobs.ashbyhq.com/decagon/5bf50bc3-f676-4edc-90d2-bc8154d7ee84"
+            },
+            {
+              "title": "Sales Development Representative - London",
+              "location": "London",
+              "url": "https://jobs.ashbyhq.com/decagon/1092b10a-f4d4-4150-b780-62b87f7661e1"
+            },
+            {
+              "title": "Manager, Sales Development",
+              "location": "New York City",
+              "url": "https://jobs.ashbyhq.com/decagon/037ea083-e556-4ce7-aca0-ec88f63772fc"
+            }
+          ]
+        },
+        {
+          "key": "sales_capacity",
+          "label": "Sales capacity growth",
+          "why_it_matters": "Account executives and sales engineers hired in volume create pipeline pressure roughly one quarter later.",
+          "distinct_roles": 8,
+          "postings": 17,
+          "counted": 6,
+          "points": 24,
+          "evidence": [
+            {
+              "title": "Enterprise Account Executive",
+              "location": "San Francisco",
+              "url": "https://jobs.ashbyhq.com/decagon/67c794bd-e423-44b2-8b80-d7b759994cde"
+            },
+            {
+              "title": "Senior Solutions Engineer",
+              "location": "San Francisco",
+              "url": "https://jobs.ashbyhq.com/decagon/63dd8fb8-8c5b-44e4-8371-5ad453b56eb8"
+            },
+            {
+              "title": "Enterprise Account Executive",
+              "location": "New York City",
+              "url": "https://jobs.ashbyhq.com/decagon/db2926db-4f62-49fc-bbcd-29825ada8d8c"
+            },
+            {
+              "title": "Solutions Architect - Infrastructure",
+              "location": "San Francisco",
+              "url": "https://jobs.ashbyhq.com/decagon/a81a1a50-d497-4dff-8105-c7a890310396"
+            },
+            {
+              "title": "Senior Solutions Engineer",
+              "location": "London",
+              "url": "https://jobs.ashbyhq.com/decagon/1a7adb8e-f652-4556-9540-651f5299a0cd"
+            },
+            {
+              "title": "Enterprise Account Executive",
+              "location": "London",
+              "url": "https://jobs.ashbyhq.com/decagon/a60722ec-7a38-4d1b-a603-568f1cec92c4"
+            },
+            {
+              "title": "Solutions Architect - Salesforce",
+              "location": "San Francisco",
+              "url": "https://jobs.ashbyhq.com/decagon/83267854-2ea8-4322-8ba3-88c2dcb086a5"
+            },
+            {
+              "title": "Senior Solutions Engineer",
+              "location": "New York City",
+              "url": "https://jobs.ashbyhq.com/decagon/73ef8e9d-a6b3-4817-ab02-893c4ac72bad"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "company": "Twilio",
+      "segment": "Communications",
+      "score": 47,
+      "tier": "A",
+      "why_now": "Twilio has 3 open revenue operations roles.",
+      "open_roles_total": 173,
+      "signals": [
+        {
+          "key": "revops_investment",
+          "label": "RevOps investment",
+          "why_it_matters": "Revenue operations hires signal that pipeline data and routing are already painful enough to staff against.",
+          "distinct_roles": 3,
+          "postings": 3,
+          "counted": 3,
+          "points": 36,
+          "evidence": [
+            {
+              "title": "Deal Desk Manager",
+              "location": "Remote - Singapore",
+              "url": "https://job-boards.greenhouse.io/twilio/jobs/8042052"
+            },
+            {
+              "title": "Deal Desk Senior Analyst",
+              "location": "Remote - Mexico",
+              "url": "https://job-boards.greenhouse.io/twilio/jobs/8031643"
+            },
+            {
+              "title": "Manager, Deal Desk",
+              "location": "Remote - US",
+              "url": "https://job-boards.greenhouse.io/twilio/jobs/8102948"
+            }
+          ]
+        },
+        {
+          "key": "outbound_scaling",
+          "label": "Outbound being scaled",
+          "why_it_matters": "SDR and BDR headcount is the clearest tell that a company is betting on outbound. Every new rep multiplies the need for lists, enrichment and routing.",
+          "distinct_roles": 2,
+          "postings": 2,
+          "counted": 2,
+          "points": 24,
+          "evidence": [
+            {
+              "title": "Manager, Sales Development-LATAM / NAMER Hybrid",
+              "location": "Remote - US",
+              "url": "https://job-boards.greenhouse.io/twilio/jobs/8065930"
+            },
+            {
+              "title": "Sales Development Representative",
+              "location": "Remote - US",
+              "url": "https://job-boards.greenhouse.io/twilio/jobs/7481689"
+            }
+          ]
+        },
+        {
+          "key": "sales_capacity",
+          "label": "Sales capacity growth",
+          "why_it_matters": "Account executives and sales engineers hired in volume create pipeline pressure roughly one quarter later.",
+          "distinct_roles": 18,
+          "postings": 27,
+          "counted": 6,
+          "points": 24,
+          "evidence": [
+            {
+              "title": "Account Executive 4",
+              "location": "Remote - Singapore",
+              "url": "https://job-boards.greenhouse.io/twilio/jobs/7906141"
+            },
+            {
+              "title": "Account Executive 4",
+              "location": "Remote - Mexico",
+              "url": "https://job-boards.greenhouse.io/twilio/jobs/7967998"
+            },
+            {
+              "title": "Account Executive New Business",
+              "location": "Remote - Australia",
+              "url": "https://job-boards.greenhouse.io/twilio/jobs/7984917"
+            },
+            {
+              "title": "Enterprise Account Executive",
+              "location": "Remote - United Kingdom",
+              "url": "https://job-boards.greenhouse.io/twilio/jobs/8026619"
+            },
+            {
+              "title": "New Business Account Executive",
+              "location": "Remote - Japan",
+              "url": "https://job-boards.greenhouse.io/twilio/jobs/7515753"
+            },
+            {
+              "title": "New Business Account Executive",
+              "location": "Remote - Singapore",
+              "url": "https://job-boards.greenhouse.io/twilio/jobs/6372770"
+            },
+            {
+              "title": "Presales Engineer",
+              "location": "Remote - United Kingdom",
+              "url": "https://job-boards.greenhouse.io/twilio/jobs/8064090"
+            },
+            {
+              "title": "Principal Presales Engineer",
+              "location": "Remote - US",
+              "url": "https://job-boards.greenhouse.io/twilio/jobs/7938968"
+            }
+          ]
+        },
+        {
+          "key": "demand_leadership",
+          "label": "New demand leadership",
+          "why_it_matters": "A new growth or demand-gen leader arrives with a mandate and a budget, and replaces incumbent vendors early in their tenure.",
+          "distinct_roles": 1,
+          "postings": 1,
+          "counted": 1,
+          "points": 10,
+          "evidence": [
+            {
+              "title": "Director of Demand Generation",
+              "location": "Remote - US",
+              "url": "https://job-boards.greenhouse.io/twilio/jobs/8077540"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "company": "Databricks",
+      "segment": "Data / AI",
+      "score": 46,
+      "tier": "A",
+      "why_now": "Databricks has 4 open outbound sales roles across 5 postings.",
+      "open_roles_total": 819,
+      "signals": [
+        {
+          "key": "outbound_scaling",
+          "label": "Outbound being scaled",
+          "why_it_matters": "SDR and BDR headcount is the clearest tell that a company is betting on outbound. Every new rep multiplies the need for lists, enrichment and routing.",
+          "distinct_roles": 4,
+          "postings": 5,
+          "counted": 4,
+          "points": 48,
+          "evidence": [
+            {
+              "title": "Business Development Representative",
+              "location": "Washington, D.C.",
+              "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8423167002"
+            },
+            {
+              "title": "Business Development Representative",
+              "location": "Chicago, Illinois",
+              "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8423165002"
+            },
+            {
+              "title": "Business Development Representative (Italian-speaking)",
+              "location": "Paris, France",
+              "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8590201002"
+            },
+            {
+              "title": "Manager, Sales Development",
+              "location": "Chicago, Illinois",
+              "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8074772002"
+            },
+            {
+              "title": "SDR",
+              "location": "Heredia, Costa Rica",
+              "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8621920002"
+            }
+          ]
+        },
+        {
+          "key": "sales_capacity",
+          "label": "Sales capacity growth",
+          "why_it_matters": "Account executives and sales engineers hired in volume create pipeline pressure roughly one quarter later.",
+          "distinct_roles": 173,
+          "postings": 233,
+          "counted": 6,
+          "points": 24,
+          "evidence": [
+            {
+              "title": "Account Executive",
+              "location": "Bengaluru, India; Mumbai, India",
+              "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=6918763002"
+            },
+            {
+              "title": "Account Executive - Federal",
+              "location": "Australian Capital Territory, Australia",
+              "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8441877002"
+            },
+            {
+              "title": "Account Executive, Singapore",
+              "location": "Singapore",
+              "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7726495002"
+            },
+            {
+              "title": "Core Account Executive, Nordics (Digital Natives)",
+              "location": "Stockholm, Sweden",
+              "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8460871002"
+            },
+            {
+              "title": "Core Account Executive - Public Sector",
+              "location": "Sydney, Australia",
+              "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8441865002"
+            },
+            {
+              "title": "Delivery Solutions Architect",
+              "location": "London, United Kingdom",
+              "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8549681002"
+            },
+            {
+              "title": "Delivery Solutions Architect",
+              "location": "Seoul, South Korea",
+              "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8482406002"
+            },
+            {
+              "title": "Delivery Solutions Architect",
+              "location": "Canada",
+              "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8549044002"
+            }
+          ]
+        },
+        {
+          "key": "demand_leadership",
+          "label": "New demand leadership",
+          "why_it_matters": "A new growth or demand-gen leader arrives with a mandate and a budget, and replaces incumbent vendors early in their tenure.",
+          "distinct_roles": 2,
+          "postings": 2,
+          "counted": 2,
+          "points": 20,
+          "evidence": [
+            {
+              "title": "Head of Marketing - Japan",
+              "location": "Tokyo, Japan",
+              "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8493722002"
+            },
+            {
+              "title": "Principal Demand Generation Manager",
+              "location": "United States",
+              "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8407917002"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "company": "Brex",
+      "segment": "Fintech",
+      "score": 44,
+      "tier": "A",
+      "why_now": "Brex has 3 open outbound sales roles across 14 postings.",
+      "open_roles_total": 303,
+      "signals": [
+        {
+          "key": "outbound_scaling",
+          "label": "Outbound being scaled",
+          "why_it_matters": "SDR and BDR headcount is the clearest tell that a company is betting on outbound. Every new rep multiplies the need for lists, enrichment and routing.",
+          "distinct_roles": 3,
+          "postings": 14,
+          "counted": 3,
+          "points": 36,
+          "evidence": [
+            {
+              "title": "Manager, Sales Development",
+              "location": "San Francisco, California, United States",
+              "url": "https://www.brex.com/careers/8475632002?gh_jid=8475632002"
+            },
+            {
+              "title": "Manager, Sales Development",
+              "location": "New York, New York, United States",
+              "url": "https://www.brex.com/careers/8477508002?gh_jid=8477508002"
+            },
+            {
+              "title": "Manager, Sales Development",
+              "location": "Salt Lake City, Utah, United States",
+              "url": "https://www.brex.com/careers/8477492002?gh_jid=8477492002"
+            },
+            {
+              "title": "Manager, Sales Development",
+              "location": "Seattle, Washington, United States",
+              "url": "https://www.brex.com/careers/8477485002?gh_jid=8477485002"
+            },
+            {
+              "title": "Manager, Sales Development",
+              "location": "Vancouver, British Columbia, Canada",
+              "url": "https://www.brex.com/careers/8477507002?gh_jid=8477507002"
+            },
+            {
+              "title": "Outbound Sales Development Representative",
+              "location": "S\u00e3o Paulo, S\u00e3o Paulo, Brazil",
+              "url": "https://www.brex.com/careers/8660218002?gh_jid=8660218002"
+            },
+            {
+              "title": "Outbound Sales Development Representative",
+              "location": "San Francisco, California, United States",
+              "url": "https://www.brex.com/careers/8614548002?gh_jid=8614548002"
+            },
+            {
+              "title": "Outbound Sales Development Representative",
+              "location": "Salt Lake City, Utah, United States",
+              "url": "https://www.brex.com/careers/8660043002?gh_jid=8660043002"
+            }
+          ]
+        },
+        {
+          "key": "gtm_function_forming",
+          "label": "GTM function being built",
+          "why_it_matters": "They are standing up go-to-market engineering right now. Budget is approved, the process is not yet fixed, and outside help is cheapest to adopt at this exact moment.",
+          "distinct_roles": 1,
+          "postings": 4,
+          "counted": 1,
+          "points": 20,
+          "evidence": [
+            {
+              "title": "Engineering Manager, GTM Engineering",
+              "location": "New York, New York, United States",
+              "url": "https://www.brex.com/careers/8367549002?gh_jid=8367549002"
+            },
+            {
+              "title": "Engineering Manager, GTM Engineering",
+              "location": "Seattle, Washington, United States",
+              "url": "https://www.brex.com/careers/8367552002?gh_jid=8367552002"
+            },
+            {
+              "title": "Engineering Manager, GTM Engineering",
+              "location": "Vancouver, British Columbia, Canada",
+              "url": "https://www.brex.com/careers/8367553002?gh_jid=8367553002"
+            },
+            {
+              "title": "Engineering Manager, GTM Engineering",
+              "location": "San Francisco, California, United States",
+              "url": "https://www.brex.com/careers/8339037002?gh_jid=8339037002"
+            }
+          ]
+        },
+        {
+          "key": "sales_capacity",
+          "label": "Sales capacity growth",
+          "why_it_matters": "Account executives and sales engineers hired in volume create pipeline pressure roughly one quarter later.",
+          "distinct_roles": 5,
+          "postings": 18,
+          "counted": 5,
+          "points": 20,
+          "evidence": [
+            {
+              "title": "Account Executive, Mid Market",
+              "location": "San Francisco, California, United States",
+              "url": "https://www.brex.com/careers/7704415002?gh_jid=7704415002"
+            },
+            {
+              "title": "Account Executive, Mid Market",
+              "location": "Seattle, Washington, United States",
+              "url": "https://www.brex.com/careers/8377280002?gh_jid=8377280002"
+            },
+            {
+              "title": "Account Executive, Mid Market",
+              "location": "Vancouver, British Columbia, Canada",
+              "url": "https://www.brex.com/careers/8399566002?gh_jid=8399566002"
+            },
+            {
+              "title": "Account Executive, Mid Market",
+              "location": "New York, New York, United States",
+              "url": "https://www.brex.com/careers/7704444002?gh_jid=7704444002"
+            },
+            {
+              "title": "Account Executive, Mid Market",
+              "location": "Salt Lake City, Utah, United States",
+              "url": "https://www.brex.com/careers/7704446002?gh_jid=7704446002"
+            },
+            {
+              "title": "Account Executive, Small Business",
+              "location": "San Francisco, California, United States",
+              "url": "https://www.brex.com/careers/8686667002?gh_jid=8686667002"
+            },
+            {
+              "title": "Account Executive, Small Business",
+              "location": "Salt Lake City, Utah, United States",
+              "url": "https://www.brex.com/careers/8688112002?gh_jid=8688112002"
+            },
+            {
+              "title": "Account Executive, Small Business",
+              "location": "New York, New York, United States",
+              "url": "https://www.brex.com/careers/8688110002?gh_jid=8688110002"
+            }
+          ]
+        },
+        {
+          "key": "revops_investment",
+          "label": "RevOps investment",
+          "why_it_matters": "Revenue operations hires signal that pipeline data and routing are already painful enough to staff against.",
+          "distinct_roles": 1,
+          "postings": 5,
+          "counted": 1,
+          "points": 12,
+          "evidence": [
+            {
+              "title": "Revenue Operations Manager",
+              "location": "Vancouver, British Columbia, Canada",
+              "url": "https://www.brex.com/careers/8621537002?gh_jid=8621537002"
+            },
+            {
+              "title": "Revenue Operations Manager",
+              "location": "San Francisco, California, United States",
+              "url": "https://www.brex.com/careers/8621522002?gh_jid=8621522002"
+            },
+            {
+              "title": "Revenue Operations Manager",
+              "location": "Salt Lake City, Utah, United States",
+              "url": "https://www.brex.com/careers/8621533002?gh_jid=8621533002"
+            },
+            {
+              "title": "Revenue Operations Manager",
+              "location": "Seattle, Washington, United States",
+              "url": "https://www.brex.com/careers/8621518002?gh_jid=8621518002"
+            },
+            {
+              "title": "Revenue Operations Manager",
+              "location": "New York, New York, United States",
+              "url": "https://www.brex.com/careers/8621408002?gh_jid=8621408002"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "company": "Replit",
+      "segment": "DevTools",
+      "score": 44,
+      "tier": "A",
+      "why_now": "Replit has 2 open revenue operations roles.",
+      "open_roles_total": 88,
+      "signals": [
+        {
+          "key": "revops_investment",
+          "label": "RevOps investment",
+          "why_it_matters": "Revenue operations hires signal that pipeline data and routing are already painful enough to staff against.",
+          "distinct_roles": 2,
+          "postings": 2,
+          "counted": 2,
+          "points": 24,
+          "evidence": [
+            {
+              "title": "RevOps Architect",
+              "location": "Foster City, CA",
+              "url": "https://jobs.ashbyhq.com/replit/e6b55837-b60b-4564-92cc-e8624fd6ee60"
+            },
+            {
+              "title": "Head of Marketing Operations",
+              "location": "Foster City, CA",
+              "url": "https://jobs.ashbyhq.com/replit/9394684e-814c-4a3c-b5ed-19612e4331bc"
+            }
+          ]
+        },
+        {
+          "key": "outbound_scaling",
+          "label": "Outbound being scaled",
+          "why_it_matters": "SDR and BDR headcount is the clearest tell that a company is betting on outbound. Every new rep multiplies the need for lists, enrichment and routing.",
+          "distinct_roles": 2,
+          "postings": 2,
+          "counted": 2,
+          "points": 24,
+          "evidence": [
+            {
+              "title": "Business Development Representative",
+              "location": "Salt Lake City, UT",
+              "url": "https://jobs.ashbyhq.com/replit/1c40b253-c33c-49d0-a1e0-d3e49aedf54c"
+            },
+            {
+              "title": "Business Development Representative (London)",
+              "location": "Remote - United Kingdom",
+              "url": "https://jobs.ashbyhq.com/replit/7b5e1698-7baa-442e-a0d2-9683f93dbdd1"
+            }
+          ]
+        },
+        {
+          "key": "demand_leadership",
+          "label": "New demand leadership",
+          "why_it_matters": "A new growth or demand-gen leader arrives with a mandate and a budget, and replaces incumbent vendors early in their tenure.",
+          "distinct_roles": 2,
+          "postings": 2,
+          "counted": 2,
+          "points": 20,
+          "evidence": [
+            {
+              "title": "Senior Manager, Demand Generation",
+              "location": "Foster City, CA",
+              "url": "https://jobs.ashbyhq.com/replit/30f0b322-1d81-45c2-a86c-01d6ae308547"
+            },
+            {
+              "title": "Head of Marketing Operations",
+              "location": "Foster City, CA",
+              "url": "https://jobs.ashbyhq.com/replit/9394684e-814c-4a3c-b5ed-19612e4331bc"
+            }
+          ]
+        },
+        {
+          "key": "sales_capacity",
+          "label": "Sales capacity growth",
+          "why_it_matters": "Account executives and sales engineers hired in volume create pipeline pressure roughly one quarter later.",
+          "distinct_roles": 5,
+          "postings": 7,
+          "counted": 5,
+          "points": 20,
+          "evidence": [
+            {
+              "title": "Mid-Market Account Executive",
+              "location": "Foster City, CA",
+              "url": "https://jobs.ashbyhq.com/replit/a0ad29c9-0e9a-437c-82b3-94d4d8383eb5"
+            },
+            {
+              "title": "Mid-Market Account Executive",
+              "location": "NYC (SoHo)",
+              "url": "https://jobs.ashbyhq.com/replit/87a2be44-737c-4f13-8c68-d6d848db4ef9"
+            },
+            {
+              "title": "Enterprise Account Executive",
+              "location": "NYC (SoHo)",
+              "url": "https://jobs.ashbyhq.com/replit/ecebead2-74fc-4d00-98c5-6f67266cbab5"
+            },
+            {
+              "title": "Mid-Market Account Executive",
+              "location": "Salt Lake City, UT",
+              "url": "https://jobs.ashbyhq.com/replit/f4e571e4-3505-4149-8930-eefa7a29fabc"
+            },
+            {
+              "title": "Account Executive (Japan)",
+              "location": "Remote - Japan",
+              "url": "https://jobs.ashbyhq.com/replit/bcfdb564-48c9-42c9-ab5b-c901b6babb44"
+            },
+            {
+              "title": "Account Executive (Brazil)",
+              "location": "Brazil",
+              "url": "https://jobs.ashbyhq.com/replit/afd16138-8863-4236-b9c9-fbaf6526624f"
+            },
+            {
+              "title": "Account Executive (India)",
+              "location": "India",
+              "url": "https://jobs.ashbyhq.com/replit/910691ab-8f9a-4859-b4ad-786c63ed51e2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "company": "GitLab",
+      "segment": "DevTools",
+      "score": 42,
+      "tier": "A",
+      "why_now": "GitLab has 3 open outbound sales roles across 4 postings.",
+      "open_roles_total": 189,
+      "signals": [
+        {
+          "key": "outbound_scaling",
+          "label": "Outbound being scaled",
+          "why_it_matters": "SDR and BDR headcount is the clearest tell that a company is betting on outbound. Every new rep multiplies the need for lists, enrichment and routing.",
+          "distinct_roles": 3,
+          "postings": 4,
+          "counted": 3,
+          "points": 36,
+          "evidence": [
+            {
+              "title": "Business Development Representative",
+              "location": "Remote, EMEA; Remote, Germany; Remote, Ireland; Remote, Netherlands; Remote, United Kingdom",
+              "url": "https://job-boards.greenhouse.io/gitlab/jobs/8532274002"
+            },
+            {
+              "title": "Business Development Representative",
+              "location": "Remote, North America",
+              "url": "https://job-boards.greenhouse.io/gitlab/jobs/8532272002"
+            },
+            {
+              "title": "Business Development Representative - MENA",
+              "location": "Remote, UAE",
+              "url": "https://job-boards.greenhouse.io/gitlab/jobs/8608546002"
+            },
+            {
+              "title": "Business Development Representative - UKI",
+              "location": "Remote Ireland; Remote, Germany; Remote, Netherlands; Remote, United Kingdom",
+              "url": "https://job-boards.greenhouse.io/gitlab/jobs/8687381002"
+            }
+          ]
+        },
+        {
+          "key": "revops_investment",
+          "label": "RevOps investment",
+          "why_it_matters": "Revenue operations hires signal that pipeline data and routing are already painful enough to staff against.",
+          "distinct_roles": 2,
+          "postings": 2,
+          "counted": 2,
+          "points": 24,
+          "evidence": [
+            {
+              "title": "Senior Deal Desk Analyst, Philippines",
+              "location": "Remote, Phillipines",
+              "url": "https://job-boards.greenhouse.io/gitlab/jobs/8648306002"
+            },
+            {
+              "title": "Staff Product Manager,  RevOps & Finance Systems",
+              "location": "Remote, US",
+              "url": "https://job-boards.greenhouse.io/gitlab/jobs/8612937002"
+            }
+          ]
+        },
+        {
+          "key": "sales_capacity",
+          "label": "Sales capacity growth",
+          "why_it_matters": "Account executives and sales engineers hired in volume create pipeline pressure roughly one quarter later.",
+          "distinct_roles": 41,
+          "postings": 43,
+          "counted": 6,
+          "points": 24,
+          "evidence": [
+            {
+              "title": "Account Executive - Italy",
+              "location": "Remote, Italy",
+              "url": "https://job-boards.greenhouse.io/gitlab/jobs/8503792002"
+            },
+            {
+              "title": "Associate Solutions Architect (French or German fluency)",
+              "location": "Remote Ireland",
+              "url": "https://job-boards.greenhouse.io/gitlab/jobs/8675543002"
+            },
+            {
+              "title": "Associate Solutions Architect (French or German fluency)",
+              "location": "Remote, Spain",
+              "url": "https://job-boards.greenhouse.io/gitlab/jobs/8687171002"
+            },
+            {
+              "title": "Commercial Account Executive - Australia",
+              "location": "Remote, Australia",
+              "url": "https://job-boards.greenhouse.io/gitlab/jobs/8617211002"
+            },
+            {
+              "title": "Commercial Account Executive - Greece/Malta",
+              "location": "Remote, France; Remote, Germany; Remote, Ireland; Remote, Italy; Remote, Spain; Remote, United Kingdom",
+              "url": "https://job-boards.greenhouse.io/gitlab/jobs/8528922002"
+            },
+            {
+              "title": "Commercial Account Executive - MENA",
+              "location": "Remote, KSA",
+              "url": "https://job-boards.greenhouse.io/gitlab/jobs/8638001002"
+            },
+            {
+              "title": "Commercial Account Executive - Mid-Market, Canada",
+              "location": "Remote, Canada",
+              "url": "https://job-boards.greenhouse.io/gitlab/jobs/8561622002"
+            },
+            {
+              "title": "Commercial Account Executive - Named, US East",
+              "location": "Remote, United States",
+              "url": "https://job-boards.greenhouse.io/gitlab/jobs/8611838002"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "company": "Instacart",
+      "segment": "Marketplace",
+      "score": 42,
+      "tier": "A",
+      "why_now": "Instacart has 6 open outbound sales roles.",
+      "open_roles_total": 116,
+      "signals": [
+        {
+          "key": "outbound_scaling",
+          "label": "Outbound being scaled",
+          "why_it_matters": "SDR and BDR headcount is the clearest tell that a company is betting on outbound. Every new rep multiplies the need for lists, enrichment and routing.",
+          "distinct_roles": 6,
+          "postings": 6,
+          "counted": 5,
+          "points": 60,
+          "evidence": [
+            {
+              "title": "Activation Sales Development Representative I",
+              "location": "United States - Remote",
+              "url": "https://instacart.careers/job/?gh_jid=7144697"
+            },
+            {
+              "title": "Retention Sales Development Representative II",
+              "location": "United States - Remote",
+              "url": "https://instacart.careers/job/?gh_jid=7712406"
+            },
+            {
+              "title": "Sales Development Representative II, Local Independent Grocery - Boston",
+              "location": "Boston, MA",
+              "url": "https://instacart.careers/job/?gh_jid=8069983"
+            },
+            {
+              "title": "Sales Development Representative II, Local Independent Grocery - Chicago",
+              "location": "Chicago, IL",
+              "url": "https://instacart.careers/job/?gh_jid=8069980"
+            },
+            {
+              "title": "Sales Development Representative II, Local Independent Grocery - New York",
+              "location": "United States - Remote",
+              "url": "https://instacart.careers/job/?gh_jid=8029661"
+            },
+            {
+              "title": "Sales Development Representative II, Local Independent Grocery - Toronto",
+              "location": "Canada - Remote (ON, AB, BC, or NS Only)",
+              "url": "https://instacart.careers/job/?gh_jid=8029663"
+            }
+          ]
+        },
+        {
+          "key": "revops_investment",
+          "label": "RevOps investment",
+          "why_it_matters": "Revenue operations hires signal that pipeline data and routing are already painful enough to staff against.",
+          "distinct_roles": 1,
+          "postings": 2,
+          "counted": 1,
+          "points": 12,
+          "evidence": [
+            {
+              "title": "Senior Revenue Operations Manager - Eversight",
+              "location": "Canada - Remote (ON, AB, BC, or NS Only)",
+              "url": "https://instacart.careers/job/?gh_jid=8104343"
+            },
+            {
+              "title": "Senior Revenue Operations Manager - Eversight",
+              "location": "United States - Remote",
+              "url": "https://instacart.careers/job/?gh_jid=8104341"
+            }
+          ]
+        },
+        {
+          "key": "sales_capacity",
+          "label": "Sales capacity growth",
+          "why_it_matters": "Account executives and sales engineers hired in volume create pipeline pressure roughly one quarter later.",
+          "distinct_roles": 3,
+          "postings": 4,
+          "counted": 3,
+          "points": 12,
+          "evidence": [
+            {
+              "title": "AI Solutions Architect",
+              "location": "Canada - Remote (ON, AB, BC, or NS Only)",
+              "url": "https://instacart.careers/job/?gh_jid=7976932"
+            },
+            {
+              "title": "AI Solutions Architect",
+              "location": "United States - Remote",
+              "url": "https://instacart.careers/job/?gh_jid=7976934"
+            },
+            {
+              "title": "Senior Software Engineer II, Ads Data Solutions Engineering",
+              "location": "Canada - Remote (ON, AB, BC, or NS Only)",
+              "url": "https://instacart.careers/job/?gh_jid=7951938"
+            },
+            {
+              "title": "Senior Solutions Architect II",
+              "location": "Canada - Remote (ON, AB, BC, or NS Only)",
+              "url": "https://instacart.careers/job/?gh_jid=8009366"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "company": "Samsara",
+      "segment": "IoT / Fleet",
+      "score": 40,
+      "tier": "A",
+      "why_now": "Samsara has 6 open revenue operations roles across 7 postings.",
+      "open_roles_total": 292,
+      "signals": [
+        {
+          "key": "revops_investment",
+          "label": "RevOps investment",
+          "why_it_matters": "Revenue operations hires signal that pipeline data and routing are already painful enough to staff against.",
+          "distinct_roles": 6,
+          "postings": 7,
+          "counted": 3,
+          "points": 36,
+          "evidence": [
+            {
+              "title": "Sales Operations Manager",
+              "location": "Remote - Mexico",
+              "url": "https://www.samsara.com/company/careers/roles/8076592?gh_jid=8076592"
+            },
+            {
+              "title": "Sales Operations Manager",
+              "location": "Remote - US",
+              "url": "https://www.samsara.com/company/careers/roles/7555217?gh_jid=7555217"
+            },
+            {
+              "title": "Sales Operations Manager - Enterprise",
+              "location": "Remote - US",
+              "url": "https://www.samsara.com/company/careers/roles/7815804?gh_jid=7815804"
+            },
+            {
+              "title": "Senior Deal Desk Analyst",
+              "location": "Remote - SF Bay Area",
+              "url": "https://www.samsara.com/company/careers/roles/7974089?gh_jid=7974089"
+            },
+            {
+              "title": "Senior Manager, Deal Desk - EMEA & Mexico",
+              "location": "London - UK2; Mexico",
+              "url": "https://www.samsara.com/company/careers/roles/7974115?gh_jid=7974115"
+            },
+            {
+              "title": "Sr. Analyst, Sales Operations",
+              "location": "Remote - US",
+              "url": "https://www.samsara.com/company/careers/roles/7592390?gh_jid=7592390"
+            },
+            {
+              "title": "Sr. Marketing Operations Manager - Global Lead Flow",
+              "location": "Remote - US",
+              "url": "https://www.samsara.com/company/careers/roles/8053373?gh_jid=8053373"
+            }
+          ]
+        },
+        {
+          "key": "sales_capacity",
+          "label": "Sales capacity growth",
+          "why_it_matters": "Account executives and sales engineers hired in volume create pipeline pressure roughly one quarter later.",
+          "distinct_roles": 49,
+          "postings": 63,
+          "counted": 6,
+          "points": 24,
+          "evidence": [
+            {
+              "title": "Account Executive, Commercial",
+              "location": "Atlanta, GA",
+              "url": "https://www.samsara.com/company/careers/roles/6605601?gh_jid=6605601"
+            },
+            {
+              "title": "Account Executive, Commercial",
+              "location": "Boston, MA",
+              "url": "https://www.samsara.com/company/careers/roles/6605604?gh_jid=6605604"
+            },
+            {
+              "title": "Account Executive, Commercial",
+              "location": "Seattle, WA",
+              "url": "https://www.samsara.com/company/careers/roles/7612447?gh_jid=7612447"
+            },
+            {
+              "title": "Account Executive, Commercial",
+              "location": "San Diego, CA",
+              "url": "https://www.samsara.com/company/careers/roles/7612446?gh_jid=7612446"
+            },
+            {
+              "title": "Account Executive, Commercial",
+              "location": "Phoenix, Arizona",
+              "url": "https://www.samsara.com/company/careers/roles/7612449?gh_jid=7612449"
+            },
+            {
+              "title": "Account Executive, Commercial",
+              "location": "Columbus, OH",
+              "url": "https://www.samsara.com/company/careers/roles/6605602?gh_jid=6605602"
+            },
+            {
+              "title": "Account Executive, Commercial",
+              "location": "Remote - US",
+              "url": "https://www.samsara.com/company/careers/roles/7612441?gh_jid=7612441"
+            },
+            {
+              "title": "Account Executive, Commercial",
+              "location": "Salt Lake City, UT",
+              "url": "https://www.samsara.com/company/careers/roles/7612445?gh_jid=7612445"
+            }
+          ]
+        },
+        {
+          "key": "gtm_function_forming",
+          "label": "GTM function being built",
+          "why_it_matters": "They are standing up go-to-market engineering right now. Budget is approved, the process is not yet fixed, and outside help is cheapest to adopt at this exact moment.",
+          "distinct_roles": 1,
+          "postings": 2,
+          "counted": 1,
+          "points": 20,
+          "evidence": [
+            {
+              "title": "AI Architect - GTM Systems",
+              "location": "Remote - US",
+              "url": "https://www.samsara.com/company/careers/roles/7578952?gh_jid=7578952"
+            },
+            {
+              "title": "AI Architect - GTM Systems",
+              "location": "Remote - Canada",
+              "url": "https://www.samsara.com/company/careers/roles/8104166?gh_jid=8104166"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "company": "Cursor",
+      "segment": "DevTools",
+      "score": 36,
+      "tier": "B",
+      "why_now": "Cursor has 3 open outbound sales roles.",
+      "open_roles_total": 119,
+      "signals": [
+        {
+          "key": "outbound_scaling",
+          "label": "Outbound being scaled",
+          "why_it_matters": "SDR and BDR headcount is the clearest tell that a company is betting on outbound. Every new rep multiplies the need for lists, enrichment and routing.",
+          "distinct_roles": 3,
+          "postings": 3,
+          "counted": 3,
+          "points": 36,
+          "evidence": [
+            {
+              "title": "Sales Development Representative",
+              "location": "San Francisco",
+              "url": "https://jobs.ashbyhq.com/cursor/dbdccf8f-cc8f-4701-94ea-5d0a33efad80"
+            },
+            {
+              "title": "Sales Development Representative - Spanish speaking",
+              "location": "London",
+              "url": "https://jobs.ashbyhq.com/cursor/7b0b5994-5405-419c-bdca-c7b7ca05b613"
+            },
+            {
+              "title": "Regional Director, Sales Development, APJ",
+              "location": "Australia",
+              "url": "https://jobs.ashbyhq.com/cursor/a59371c8-cd50-48e3-9f21-4b79a6f0e3b2"
+            }
+          ]
+        },
+        {
+          "key": "sales_capacity",
+          "label": "Sales capacity growth",
+          "why_it_matters": "Account executives and sales engineers hired in volume create pipeline pressure roughly one quarter later.",
+          "distinct_roles": 23,
+          "postings": 24,
+          "counted": 6,
+          "points": 24,
+          "evidence": [
+            {
+              "title": "Account Executive, Geo Enterprise - San Francisco",
+              "location": "San Francisco",
+              "url": "https://jobs.ashbyhq.com/cursor/61e4677d-cf3d-458a-bf6c-02287d5d2c39"
+            },
+            {
+              "title": "Account Executive, Commercial Expansion - San Francisco",
+              "location": "San Francisco",
+              "url": "https://jobs.ashbyhq.com/cursor/85c98417-583b-412e-b31a-e4052195b703"
+            },
+            {
+              "title": "Account Executive, Commercial",
+              "location": "New York",
+              "url": "https://jobs.ashbyhq.com/cursor/13ceadb8-638f-40c7-a59d-70dab2f4de0b"
+            },
+            {
+              "title": "Strategic Account Executive, Enterprise - East",
+              "location": "New York",
+              "url": "https://jobs.ashbyhq.com/cursor/eb238291-8a00-4385-8108-4e4d634c2be0"
+            },
+            {
+              "title": "Strategic Account Executive, Enterprise - West",
+              "location": "San Francisco",
+              "url": "https://jobs.ashbyhq.com/cursor/88c6e423-1217-42f0-ada4-8cbaf9c24790"
+            },
+            {
+              "title": "Strategic Account Executive, High Tech",
+              "location": "Remote",
+              "url": "https://jobs.ashbyhq.com/cursor/3b1ec65c-0d2b-43e1-81db-4d33a9a2faa4"
+            },
+            {
+              "title": "Strategic Account Executive, Retail",
+              "location": "Remote",
+              "url": "https://jobs.ashbyhq.com/cursor/409d6bff-d60c-45b7-8d4c-21f6574010de"
+            },
+            {
+              "title": "Solutions Architect",
+              "location": "Remote",
+              "url": "https://jobs.ashbyhq.com/cursor/cda9256f-e820-4f0a-9e77-e44c61295e1d"
+            }
+          ]
+        },
+        {
+          "key": "revops_investment",
+          "label": "RevOps investment",
+          "why_it_matters": "Revenue operations hires signal that pipeline data and routing are already painful enough to staff against.",
+          "distinct_roles": 1,
+          "postings": 1,
+          "counted": 1,
+          "points": 12,
+          "evidence": [
+            {
+              "title": "Deal Desk Manager, APJ",
+              "location": "Singapore",
+              "url": "https://jobs.ashbyhq.com/cursor/64606b00-0273-4f74-966b-19f3ea01c469"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "company": "Ramp",
+      "segment": "Fintech",
+      "score": 34,
+      "tier": "B",
+      "why_now": "Ramp has 12 open sales capacity roles.",
+      "open_roles_total": 123,
+      "signals": [
+        {
+          "key": "sales_capacity",
+          "label": "Sales capacity growth",
+          "why_it_matters": "Account executives and sales engineers hired in volume create pipeline pressure roughly one quarter later.",
+          "distinct_roles": 12,
+          "postings": 12,
+          "counted": 6,
+          "points": 24,
+          "evidence": [
+            {
+              "title": "Manager, Account Executive | Mid-Market",
+              "location": "New York, NY (HQ)",
+              "url": "https://jobs.ashbyhq.com/ramp/60ed4fac-3833-4495-9b0f-75e6dfe4b36c"
+            },
+            {
+              "title": "Account Executive | Commercial",
+              "location": "New York, NY (HQ)",
+              "url": "https://jobs.ashbyhq.com/ramp/8c004352-f162-4d89-858f-75a649e77ec4"
+            },
+            {
+              "title": "Commercial Account Executive, Canada",
+              "location": "Toronto, ON",
+              "url": "https://jobs.ashbyhq.com/ramp/3f94674f-6af8-4e10-9631-77b1b0a410bf"
+            },
+            {
+              "title": "Solutions Consultant | Enterprise",
+              "location": "New York, NY (HQ)",
+              "url": "https://jobs.ashbyhq.com/ramp/29b679a8-9990-48c1-b91e-001c566ced27"
+            },
+            {
+              "title": "Solutions Consultant, Mid-Market",
+              "location": "New York, NY (HQ)",
+              "url": "https://jobs.ashbyhq.com/ramp/f36f233b-bb27-4334-87df-8dc02b897724"
+            },
+            {
+              "title": "Solutions Consultant, Commercial",
+              "location": "Remote (US)",
+              "url": "https://jobs.ashbyhq.com/ramp/220e674a-fc70-439f-bacf-687553ca59c9"
+            },
+            {
+              "title": "Account Executive | Mid-Market",
+              "location": "New York, NY (HQ)",
+              "url": "https://jobs.ashbyhq.com/ramp/f7c4de3c-1d64-42e9-8111-f38e265327d8"
+            },
+            {
+              "title": "Enterprise Account Executive, Juno",
+              "location": "New York, NY (HQ)",
+              "url": "https://jobs.ashbyhq.com/ramp/b4cbb19e-8249-4339-8eac-20e3806d7999"
+            }
+          ]
+        },
+        {
+          "key": "gtm_function_forming",
+          "label": "GTM function being built",
+          "why_it_matters": "They are standing up go-to-market engineering right now. Budget is approved, the process is not yet fixed, and outside help is cheapest to adopt at this exact moment.",
+          "distinct_roles": 1,
+          "postings": 1,
+          "counted": 1,
+          "points": 20,
+          "evidence": [
+            {
+              "title": "GTM Systems Engineer, Salesforce",
+              "location": "New York, NY (HQ)",
+              "url": "https://jobs.ashbyhq.com/ramp/ffc09fc0-7785-48db-a203-a148f62534be"
+            }
+          ]
+        },
+        {
+          "key": "revops_investment",
+          "label": "RevOps investment",
+          "why_it_matters": "Revenue operations hires signal that pipeline data and routing are already painful enough to staff against.",
+          "distinct_roles": 1,
+          "postings": 1,
+          "counted": 1,
+          "points": 12,
+          "evidence": [
+            {
+              "title": "Senior Manager, Deal Desk",
+              "location": "New York, NY (HQ)",
+              "url": "https://jobs.ashbyhq.com/ramp/c826e3bf-f165-4b7c-af8e-301ad7e2dcda"
+            }
+          ]
+        },
+        {
+          "key": "outbound_scaling",
+          "label": "Outbound being scaled",
+          "why_it_matters": "SDR and BDR headcount is the clearest tell that a company is betting on outbound. Every new rep multiplies the need for lists, enrichment and routing.",
+          "distinct_roles": 1,
+          "postings": 1,
+          "counted": 1,
+          "points": 12,
+          "evidence": [
+            {
+              "title": "Sales Enablement | SDR",
+              "location": "New York, NY (HQ)",
+              "url": "https://jobs.ashbyhq.com/ramp/504e34ff-dbd9-49a7-8f68-327092672164"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "company": "Figma",
+      "segment": "Design",
+      "score": 29,
+      "tier": "B",
+      "why_now": "Figma has 2 open revenue operations roles.",
+      "open_roles_total": 164,
+      "signals": [
+        {
+          "key": "revops_investment",
+          "label": "RevOps investment",
+          "why_it_matters": "Revenue operations hires signal that pipeline data and routing are already painful enough to staff against.",
+          "distinct_roles": 2,
+          "postings": 2,
+          "counted": 2,
+          "points": 24,
+          "evidence": [
+            {
+              "title": "Sales Operations Manager, New Business",
+              "location": "San Francisco, CA \u2022 New York, NY \u2022 United States",
+              "url": "https://boards.greenhouse.io/figma/jobs/5998224004?gh_jid=5998224004"
+            },
+            {
+              "title": "Sales Operations Manager (Singapore)",
+              "location": "Singapore",
+              "url": "https://boards.greenhouse.io/figma/jobs/6123146004?gh_jid=6123146004"
+            }
+          ]
+        },
+        {
+          "key": "sales_capacity",
+          "label": "Sales capacity growth",
+          "why_it_matters": "Account executives and sales engineers hired in volume create pipeline pressure roughly one quarter later.",
+          "distinct_roles": 30,
+          "postings": 30,
+          "counted": 6,
+          "points": 24,
+          "evidence": [
+            {
+              "title": "Account Executive, Emerging Enterprise (Berlin, Germany)",
+              "location": "Berlin, Germany",
+              "url": "https://boards.greenhouse.io/figma/jobs/5364702004?gh_jid=5364702004"
+            },
+            {
+              "title": "Account Executive, Enterprise",
+              "location": "San Francisco, CA \u2022 New York, NY \u2022 United States",
+              "url": "https://boards.greenhouse.io/figma/jobs/5426468004?gh_jid=5426468004"
+            },
+            {
+              "title": "Account Executive, Enterprise (Bengaluru, India)",
+              "location": "Bengaluru, India",
+              "url": "https://boards.greenhouse.io/figma/jobs/5579204004?gh_jid=5579204004"
+            },
+            {
+              "title": "Account Executive, Enterprise (Berlin, Germany)",
+              "location": "Berlin, Germany",
+              "url": "https://boards.greenhouse.io/figma/jobs/5783812004?gh_jid=5783812004"
+            },
+            {
+              "title": "Account Executive, Enterprise (Paris, France)",
+              "location": "Paris, France",
+              "url": "https://boards.greenhouse.io/figma/jobs/5428656004?gh_jid=5428656004"
+            },
+            {
+              "title": "Account Executive, Enterprise (Singapore)",
+              "location": "Singapore",
+              "url": "https://boards.greenhouse.io/figma/jobs/5753209004?gh_jid=5753209004"
+            },
+            {
+              "title": "Account Executive, Enterprise (Sydney or Melbourne, Australia)",
+              "location": "Sydney, Australia \u2022 Melbourne, Australia",
+              "url": "https://boards.greenhouse.io/figma/jobs/5803515004?gh_jid=5803515004"
+            },
+            {
+              "title": "Account Executive, Enterprise (Tokyo, Japan)",
+              "location": "Tokyo, Japan",
+              "url": "https://boards.greenhouse.io/figma/jobs/5806875004?gh_jid=5806875004"
+            }
+          ]
+        },
+        {
+          "key": "demand_leadership",
+          "label": "New demand leadership",
+          "why_it_matters": "A new growth or demand-gen leader arrives with a mandate and a budget, and replaces incumbent vendors early in their tenure.",
+          "distinct_roles": 1,
+          "postings": 1,
+          "counted": 1,
+          "points": 10,
+          "evidence": [
+            {
+              "title": "Head of Marketing, LATAM (S\u00e3o Paulo, Brazil)",
+              "location": "S\u00e3o Paulo, Brazil",
+              "url": "https://boards.greenhouse.io/figma/jobs/5810842004?gh_jid=5810842004"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "company": "Amplitude",
+      "segment": "Analytics",
+      "score": 29,
+      "tier": "B",
+      "why_now": "Amplitude has 6 open sales capacity roles across 7 postings.",
+      "open_roles_total": 33,
+      "signals": [
+        {
+          "key": "sales_capacity",
+          "label": "Sales capacity growth",
+          "why_it_matters": "Account executives and sales engineers hired in volume create pipeline pressure roughly one quarter later.",
+          "distinct_roles": 6,
+          "postings": 7,
+          "counted": 6,
+          "points": 24,
+          "evidence": [
+            {
+              "title": "Emerging Account Executive (India)",
+              "location": "Bangalore, India",
+              "url": "https://job-boards.greenhouse.io/amplitude/jobs/8651132002"
+            },
+            {
+              "title": "Enterprise Account Executive",
+              "location": "London, UK",
+              "url": "https://job-boards.greenhouse.io/amplitude/jobs/8640250002"
+            },
+            {
+              "title": "Senior Enterprise Account Executive",
+              "location": "Remote - Saudi Arabia",
+              "url": "https://job-boards.greenhouse.io/amplitude/jobs/8654708002"
+            },
+            {
+              "title": "Senior Sales Engineer - Enterprise",
+              "location": "Arlington, VA; Boston, MA; Charlotte, NC; Hartford, CT; New Haven, CT; New York, NY; Philadelphia, PA; Raleigh, NC",
+              "url": "https://job-boards.greenhouse.io/amplitude/jobs/8623085002"
+            },
+            {
+              "title": "Senior Solutions Engineer",
+              "location": "Stockholm, Sweden",
+              "url": "https://job-boards.greenhouse.io/amplitude/jobs/8582258002"
+            },
+            {
+              "title": "Strategic Account Executive",
+              "location": "New York, NY",
+              "url": "https://job-boards.greenhouse.io/amplitude/jobs/8572134002"
+            },
+            {
+              "title": "Strategic Account Executive",
+              "location": "Remote - Northeast",
+              "url": "https://job-boards.greenhouse.io/amplitude/jobs/8593702002"
+            }
+          ]
+        },
+        {
+          "key": "revops_investment",
+          "label": "RevOps investment",
+          "why_it_matters": "Revenue operations hires signal that pipeline data and routing are already painful enough to staff against.",
+          "distinct_roles": 1,
+          "postings": 1,
+          "counted": 1,
+          "points": 12,
+          "evidence": [
+            {
+              "title": "Senior Deal Desk Manager - EMEA",
+              "location": "London, UK",
+              "url": "https://job-boards.greenhouse.io/amplitude/jobs/8675452002"
+            }
+          ]
+        },
+        {
+          "key": "outbound_scaling",
+          "label": "Outbound being scaled",
+          "why_it_matters": "SDR and BDR headcount is the clearest tell that a company is betting on outbound. Every new rep multiplies the need for lists, enrichment and routing.",
+          "distinct_roles": 1,
+          "postings": 2,
+          "counted": 1,
+          "points": 12,
+          "evidence": [
+            {
+              "title": "Sales Development Representative",
+              "location": "New York, NY",
+              "url": "https://job-boards.greenhouse.io/amplitude/jobs/8608983002"
+            },
+            {
+              "title": "Sales Development Representative",
+              "location": "San Francisco, CA",
+              "url": "https://job-boards.greenhouse.io/amplitude/jobs/8603488002"
+            }
+          ]
+        },
+        {
+          "key": "demand_leadership",
+          "label": "New demand leadership",
+          "why_it_matters": "A new growth or demand-gen leader arrives with a mandate and a budget, and replaces incumbent vendors early in their tenure.",
+          "distinct_roles": 1,
+          "postings": 1,
+          "counted": 1,
+          "points": 10,
+          "evidence": [
+            {
+              "title": "Web Growth Marketing Manager",
+              "location": "San Francisco, CA",
+              "url": "https://job-boards.greenhouse.io/amplitude/jobs/8590452002"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "company": "ClickHouse",
+      "segment": "Data / AI",
+      "score": 28,
+      "tier": "B",
+      "why_now": "ClickHouse has 14 open sales capacity roles across 15 postings.",
+      "open_roles_total": 166,
+      "signals": [
+        {
+          "key": "sales_capacity",
+          "label": "Sales capacity growth",
+          "why_it_matters": "Account executives and sales engineers hired in volume create pipeline pressure roughly one quarter later.",
+          "distinct_roles": 14,
+          "postings": 15,
+          "counted": 6,
+          "points": 24,
+          "evidence": [
+            {
+              "title": "Commercial Account Executive",
+              "location": "San Francisco, CA",
+              "url": "https://job-boards.greenhouse.io/clickhouse/jobs/5842235004"
+            },
+            {
+              "title": "Commercial Account Executive - Canada",
+              "location": "Canada",
+              "url": "https://job-boards.greenhouse.io/clickhouse/jobs/6135668004"
+            },
+            {
+              "title": "Commercial Account Executive - Canada",
+              "location": "Toronto or Montreal",
+              "url": "https://job-boards.greenhouse.io/clickhouse/jobs/6111021004"
+            },
+            {
+              "title": "Commercial Account Executive - UK",
+              "location": "United Kingdom",
+              "url": "https://job-boards.greenhouse.io/clickhouse/jobs/6029837004"
+            },
+            {
+              "title": "Digital Native Account Executive-Israel",
+              "location": "Israel",
+              "url": "https://job-boards.greenhouse.io/clickhouse/jobs/5798957004"
+            },
+            {
+              "title": "Enterprise Account Executive - Chicago",
+              "location": "Chicago",
+              "url": "https://job-boards.greenhouse.io/clickhouse/jobs/5856920004"
+            },
+            {
+              "title": "Enterprise Account Executive - Mumbai",
+              "location": "India",
+              "url": "https://job-boards.greenhouse.io/clickhouse/jobs/5802802004"
+            },
+            {
+              "title": "Enterprise Account Executive - New England",
+              "location": "Boston",
+              "url": "https://job-boards.greenhouse.io/clickhouse/jobs/5800037004"
+            }
+          ]
+        },
+        {
+          "key": "gtm_function_forming",
+          "label": "GTM function being built",
+          "why_it_matters": "They are standing up go-to-market engineering right now. Budget is approved, the process is not yet fixed, and outside help is cheapest to adopt at this exact moment.",
+          "distinct_roles": 1,
+          "postings": 1,
+          "counted": 1,
+          "points": 20,
+          "evidence": [
+            {
+              "title": "GTM Engineer, AI & Automation",
+              "location": "United States",
+              "url": "https://job-boards.greenhouse.io/clickhouse/jobs/6122325004"
+            }
+          ]
+        },
+        {
+          "key": "revops_investment",
+          "label": "RevOps investment",
+          "why_it_matters": "Revenue operations hires signal that pipeline data and routing are already painful enough to staff against.",
+          "distinct_roles": 1,
+          "postings": 1,
+          "counted": 1,
+          "points": 12,
+          "evidence": [
+            {
+              "title": "Marketing Operations Manager",
+              "location": "United States",
+              "url": "https://job-boards.greenhouse.io/clickhouse/jobs/6134480004"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "company": "Airtable",
+      "segment": "Productivity",
+      "score": 24,
+      "tier": "B",
+      "why_now": "Airtable has 2 open outbound sales roles.",
+      "open_roles_total": 38,
+      "signals": [
+        {
+          "key": "outbound_scaling",
+          "label": "Outbound being scaled",
+          "why_it_matters": "SDR and BDR headcount is the clearest tell that a company is betting on outbound. Every new rep multiplies the need for lists, enrichment and routing.",
+          "distinct_roles": 2,
+          "postings": 2,
+          "counted": 2,
+          "points": 24,
+          "evidence": [
+            {
+              "title": "Business Development Representative",
+              "location": "London, United Kingdom",
+              "url": "https://job-boards.greenhouse.io/airtable/jobs/8090503002"
+            },
+            {
+              "title": "Manager, Business Development Representatives",
+              "location": "Austin, TX",
+              "url": "https://job-boards.greenhouse.io/airtable/jobs/8626638002"
+            }
+          ]
+        },
+        {
+          "key": "sales_capacity",
+          "label": "Sales capacity growth",
+          "why_it_matters": "Account executives and sales engineers hired in volume create pipeline pressure roughly one quarter later.",
+          "distinct_roles": 7,
+          "postings": 7,
+          "counted": 6,
+          "points": 24,
+          "evidence": [
+            {
+              "title": "Account Executive, Strategic Accounts",
+              "location": "Remote - US",
+              "url": "https://job-boards.greenhouse.io/airtable/jobs/8403127002"
+            },
+            {
+              "title": "Account Executive, Strategic Accounts | Southern Europe",
+              "location": "Paris, France",
+              "url": "https://job-boards.greenhouse.io/airtable/jobs/7497304002"
+            },
+            {
+              "title": "Senior Mid Market Account Executive, AI Native",
+              "location": "Austin, TX",
+              "url": "https://job-boards.greenhouse.io/airtable/jobs/8209823002"
+            },
+            {
+              "title": "Senior Partner Solutions Architect",
+              "location": "London, England UK, Remote - US",
+              "url": "https://job-boards.greenhouse.io/airtable/jobs/8461582002"
+            },
+            {
+              "title": "Senior Solutions Architect",
+              "location": "Remote - US",
+              "url": "https://job-boards.greenhouse.io/airtable/jobs/8498915002"
+            },
+            {
+              "title": "Senior Solutions Architect- West Coast",
+              "location": "Remote-US",
+              "url": "https://job-boards.greenhouse.io/airtable/jobs/8597941002"
+            },
+            {
+              "title": "Strategic Account Executive, AI Native",
+              "location": "San Francisco, CA",
+              "url": "https://job-boards.greenhouse.io/airtable/jobs/8551939002"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "company": "Checkr",
+      "segment": "HR Tech",
+      "score": 22,
+      "tier": "B",
+      "why_now": "Checkr has 5 open sales capacity roles.",
+      "open_roles_total": 49,
+      "signals": [
+        {
+          "key": "sales_capacity",
+          "label": "Sales capacity growth",
+          "why_it_matters": "Account executives and sales engineers hired in volume create pipeline pressure roughly one quarter later.",
+          "distinct_roles": 5,
+          "postings": 5,
+          "counted": 5,
+          "points": 20,
+          "evidence": [
+            {
+              "title": "Commercial Account Executive",
+              "location": "San Francisco, California, United States",
+              "url": "https://job-boards.greenhouse.io/checkr/jobs/8027296"
+            },
+            {
+              "title": "Enterprise Account Executive, Upper Mid-Market",
+              "location": "Atlanta, Georgia, United States; Chicago, Illinois, United States; Dallas, Texas, United States",
+              "url": "https://job-boards.greenhouse.io/checkr/jobs/7397715"
+            },
+            {
+              "title": "Senior Account Executive, Insurance",
+              "location": "San Francisco, California, United States",
+              "url": "https://job-boards.greenhouse.io/checkr/jobs/8027310"
+            },
+            {
+              "title": "Staff AI Solutions Engineer",
+              "location": "San Francisco, California, United States",
+              "url": "https://job-boards.greenhouse.io/checkr/jobs/8104088"
+            },
+            {
+              "title": "Strategic Account Executive",
+              "location": "Remote, United States; San Francisco, California, United States",
+              "url": "https://job-boards.greenhouse.io/checkr/jobs/8052671"
+            }
+          ]
+        },
+        {
+          "key": "revops_investment",
+          "label": "RevOps investment",
+          "why_it_matters": "Revenue operations hires signal that pipeline data and routing are already painful enough to staff against.",
+          "distinct_roles": 1,
+          "postings": 1,
+          "counted": 1,
+          "points": 12,
+          "evidence": [
+            {
+              "title": "Revenue Operations Manager - Post Sales",
+              "location": "San Francisco, California, United States",
+              "url": "https://job-boards.greenhouse.io/checkr/jobs/8075269"
+            }
+          ]
+        },
+        {
+          "key": "outbound_scaling",
+          "label": "Outbound being scaled",
+          "why_it_matters": "SDR and BDR headcount is the clearest tell that a company is betting on outbound. Every new rep multiplies the need for lists, enrichment and routing.",
+          "distinct_roles": 1,
+          "postings": 1,
+          "counted": 1,
+          "points": 12,
+          "evidence": [
+            {
+              "title": "Enterprise Business Development Representative",
+              "location": "Denver, Colorado, United States",
+              "url": "https://job-boards.greenhouse.io/checkr/jobs/8092999"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "company": "Gusto",
+      "segment": "HR / Payroll",
+      "score": 22,
+      "tier": "B",
+      "why_now": "Gusto has 2 open revenue operations roles.",
+      "open_roles_total": 91,
+      "signals": [
+        {
+          "key": "revops_investment",
+          "label": "RevOps investment",
+          "why_it_matters": "Revenue operations hires signal that pipeline data and routing are already painful enough to staff against.",
+          "distinct_roles": 2,
+          "postings": 2,
+          "counted": 2,
+          "points": 24,
+          "evidence": [
+            {
+              "title": "Health Insurance Sales Operations Analyst",
+              "location": "Scottsdale, AZ;Denver, CO;San Francisco, CA;New York, NY",
+              "url": "https://job-boards.greenhouse.io/gusto/jobs/8075901"
+            },
+            {
+              "title": "Sales Operations Analyst",
+              "location": "Scottsdale, AZ;Denver, CO;San Francisco, CA; New York, NY",
+              "url": "https://job-boards.greenhouse.io/gusto/jobs/8105993"
+            }
+          ]
+        },
+        {
+          "key": "outbound_scaling",
+          "label": "Outbound being scaled",
+          "why_it_matters": "SDR and BDR headcount is the clearest tell that a company is betting on outbound. Every new rep multiplies the need for lists, enrichment and routing.",
+          "distinct_roles": 1,
+          "postings": 1,
+          "counted": 1,
+          "points": 12,
+          "evidence": [
+            {
+              "title": "Small Business Outbound PE",
+              "location": "Denver, CO",
+              "url": "https://job-boards.greenhouse.io/gusto/jobs/8097576"
+            }
+          ]
+        },
+        {
+          "key": "sales_capacity",
+          "label": "Sales capacity growth",
+          "why_it_matters": "Account executives and sales engineers hired in volume create pipeline pressure roughly one quarter later.",
+          "distinct_roles": 2,
+          "postings": 2,
+          "counted": 2,
+          "points": 8,
+          "evidence": [
+            {
+              "title": "Expansion Account Executive",
+              "location": "Denver, CO;Atlanta, GA;Phoenix, AZ",
+              "url": "https://job-boards.greenhouse.io/gusto/jobs/8092462"
+            },
+            {
+              "title": "Retirement Sales Account Executive",
+              "location": "Denver, CO; Atlanta, GA; Phoenix, AZ",
+              "url": "https://job-boards.greenhouse.io/gusto/jobs/8075935"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "company": "Perplexity",
+      "segment": "AI",
+      "score": 21,
+      "tier": "B",
+      "why_now": "Perplexity has 1 open revenue operations role.",
+      "open_roles_total": 92,
+      "signals": [
+        {
+          "key": "revops_investment",
+          "label": "RevOps investment",
+          "why_it_matters": "Revenue operations hires signal that pipeline data and routing are already painful enough to staff against.",
+          "distinct_roles": 1,
+          "postings": 1,
+          "counted": 1,
+          "points": 12,
+          "evidence": [
+            {
+              "title": "Revenue Operations Analyst",
+              "location": "San Francisco",
+              "url": "https://jobs.ashbyhq.com/perplexity/03f8f956-1cb3-4945-81d1-73b7ff048d4e"
+            }
+          ]
+        },
+        {
+          "key": "outbound_scaling",
+          "label": "Outbound being scaled",
+          "why_it_matters": "SDR and BDR headcount is the clearest tell that a company is betting on outbound. Every new rep multiplies the need for lists, enrichment and routing.",
+          "distinct_roles": 1,
+          "postings": 1,
+          "counted": 1,
+          "points": 12,
+          "evidence": [
+            {
+              "title": "Business Development Representative",
+              "location": "San Francisco",
+              "url": "https://jobs.ashbyhq.com/perplexity/a5b97109-222d-49e1-b2ac-e101487a5ddd"
+            }
+          ]
+        },
+        {
+          "key": "demand_leadership",
+          "label": "New demand leadership",
+          "why_it_matters": "A new growth or demand-gen leader arrives with a mandate and a budget, and replaces incumbent vendors early in their tenure.",
+          "distinct_roles": 1,
+          "postings": 1,
+          "counted": 1,
+          "points": 10,
+          "evidence": [
+            {
+              "title": "Demand Generation Lead",
+              "location": "San Francisco",
+              "url": "https://jobs.ashbyhq.com/perplexity/2be717cb-ad3e-4052-a464-79b107a70406"
+            }
+          ]
+        },
+        {
+          "key": "sales_capacity",
+          "label": "Sales capacity growth",
+          "why_it_matters": "Account executives and sales engineers hired in volume create pipeline pressure roughly one quarter later.",
+          "distinct_roles": 2,
+          "postings": 2,
+          "counted": 2,
+          "points": 8,
+          "evidence": [
+            {
+              "title": "Enterprise Account Executive",
+              "location": "San Francisco",
+              "url": "https://jobs.ashbyhq.com/perplexity/acd466ba-536f-49da-968a-15b8c53298f8"
+            },
+            {
+              "title": "Commercial Account Executive",
+              "location": "San Francisco",
+              "url": "https://jobs.ashbyhq.com/perplexity/e0e8188a-9c92-4795-82a5-7384f1b25bc7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "company": "Webflow",
+      "segment": "Web",
+      "score": 18,
+      "tier": "C",
+      "why_now": "Webflow has 10 open sales capacity roles.",
+      "open_roles_total": 29,
+      "signals": [
+        {
+          "key": "sales_capacity",
+          "label": "Sales capacity growth",
+          "why_it_matters": "Account executives and sales engineers hired in volume create pipeline pressure roughly one quarter later.",
+          "distinct_roles": 10,
+          "postings": 10,
+          "counted": 6,
+          "points": 24,
+          "evidence": [
+            {
+              "title": "Account Executive, EMEA (Germany)",
+              "location": "London, U.K. (Hybrid)",
+              "url": "https://job-boards.greenhouse.io/webflow/jobs/7951430"
+            },
+            {
+              "title": "Corporate Account Executive - East",
+              "location": "CA Remote (BC & ON only); U.S. Remote",
+              "url": "https://job-boards.greenhouse.io/webflow/jobs/6124408"
+            },
+            {
+              "title": "Corporate Account Executive - West",
+              "location": "CA Remote (BC & ON only); U.S. Remote",
+              "url": "https://job-boards.greenhouse.io/webflow/jobs/6709861"
+            },
+            {
+              "title": "Enterprise Account Executive - Central",
+              "location": "U.S. Remote",
+              "url": "https://job-boards.greenhouse.io/webflow/jobs/7595470"
+            },
+            {
+              "title": "Growth Account Executive - East",
+              "location": "U.S. Remote",
+              "url": "https://job-boards.greenhouse.io/webflow/jobs/7833360"
+            },
+            {
+              "title": "Growth Account Executive - Washington D.C.",
+              "location": "Washington D.C. (Hybrid)",
+              "url": "https://job-boards.greenhouse.io/webflow/jobs/7793286"
+            },
+            {
+              "title": "Lead Solutions Engineer - West",
+              "location": "CA Remote (BC & ON only); U.S. Remote",
+              "url": "https://job-boards.greenhouse.io/webflow/jobs/8002892"
+            },
+            {
+              "title": "Senior Partner Solutions Engineer - Pacific Time",
+              "location": "CA Remote (BC & ON only); U.S. Remote",
+              "url": "https://job-boards.greenhouse.io/webflow/jobs/8075059"
+            }
+          ]
+        },
+        {
+          "key": "outbound_scaling",
+          "label": "Outbound being scaled",
+          "why_it_matters": "SDR and BDR headcount is the clearest tell that a company is betting on outbound. Every new rep multiplies the need for lists, enrichment and routing.",
+          "distinct_roles": 1,
+          "postings": 1,
+          "counted": 1,
+          "points": 12,
+          "evidence": [
+            {
+              "title": "Sales Development Representative (SDR)",
+              "location": "Chicago, U.S. (Hybrid)",
+              "url": "https://job-boards.greenhouse.io/webflow/jobs/7203091"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "company": "Baseten",
+      "segment": "AI Infra",
+      "score": 16,
+      "tier": "C",
+      "why_now": "Baseten has 5 open sales capacity roles across 8 postings.",
+      "open_roles_total": 65,
+      "signals": [
+        {
+          "key": "sales_capacity",
+          "label": "Sales capacity growth",
+          "why_it_matters": "Account executives and sales engineers hired in volume create pipeline pressure roughly one quarter later.",
+          "distinct_roles": 5,
+          "postings": 8,
+          "counted": 5,
+          "points": 20,
+          "evidence": [
+            {
+              "title": "Account Executive - AI Native: Startups",
+              "location": "San Francisco",
+              "url": "https://jobs.ashbyhq.com/baseten/df2f0ebb-a84a-45c2-bc74-dc9589fcc1ae"
+            },
+            {
+              "title": "Account Executive - AI Native: Strategic",
+              "location": "San Francisco",
+              "url": "https://jobs.ashbyhq.com/baseten/0d1f68d4-ee6c-4b5f-9ef9-21a2dabbc152"
+            },
+            {
+              "title": "Account Executive - AI Native: Strategic",
+              "location": "New York",
+              "url": "https://jobs.ashbyhq.com/baseten/8608bdbc-1b8b-4b69-a433-83864f151375"
+            },
+            {
+              "title": "Account Executive - AI Native: Startups",
+              "location": "New York",
+              "url": "https://jobs.ashbyhq.com/baseten/1261fe76-f577-4b3d-aac8-df65846ae445"
+            },
+            {
+              "title": "Solutions Architect",
+              "location": "San Francisco",
+              "url": "https://jobs.ashbyhq.com/baseten/c64515f9-a8f7-4633-9340-17cda56b1ef0"
+            },
+            {
+              "title": "Account Executive - Enterprise",
+              "location": "New York",
+              "url": "https://jobs.ashbyhq.com/baseten/223f44cf-c7b8-416c-b694-e265579aa1c2"
+            },
+            {
+              "title": "Manager, Solutions Architect",
+              "location": "San Francisco",
+              "url": "https://jobs.ashbyhq.com/baseten/1532aa00-5a93-4967-bb24-6561495d9605"
+            },
+            {
+              "title": "Account Executive - Enterprise",
+              "location": "San Francisco",
+              "url": "https://jobs.ashbyhq.com/baseten/75d81d67-465a-4d65-9745-d1c06b0c7aec"
+            }
+          ]
+        },
+        {
+          "key": "outbound_scaling",
+          "label": "Outbound being scaled",
+          "why_it_matters": "SDR and BDR headcount is the clearest tell that a company is betting on outbound. Every new rep multiplies the need for lists, enrichment and routing.",
+          "distinct_roles": 1,
+          "postings": 1,
+          "counted": 1,
+          "points": 12,
+          "evidence": [
+            {
+              "title": "Sales Development Representative - Outbound",
+              "location": "San Francisco",
+              "url": "https://jobs.ashbyhq.com/baseten/fdbbf773-0857-4771-8b90-f3dfa1d8683f"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "company": "Dropbox",
+      "segment": "Storage",
+      "score": 16,
+      "tier": "C",
+      "why_now": "Dropbox has 2 open revenue operations roles across 4 postings.",
+      "open_roles_total": 39,
+      "signals": [
+        {
+          "key": "revops_investment",
+          "label": "RevOps investment",
+          "why_it_matters": "Revenue operations hires signal that pipeline data and routing are already painful enough to staff against.",
+          "distinct_roles": 2,
+          "postings": 4,
+          "counted": 2,
+          "points": 24,
+          "evidence": [
+            {
+              "title": "Senior Director, Revenue Operations",
+              "location": "Remote - Canada: Select locations",
+              "url": "https://jobs.dropbox.com/listing/8067367?gh_jid=8067367"
+            },
+            {
+              "title": "Senior Director, Revenue Operations",
+              "location": "Remote - US: All locations",
+              "url": "https://jobs.dropbox.com/listing/8067362?gh_jid=8067362"
+            },
+            {
+              "title": "Senior Product Marketing Operations Manager",
+              "location": "Remote - US: Select locations",
+              "url": "https://jobs.dropbox.com/listing/8070685?gh_jid=8070685"
+            },
+            {
+              "title": "Senior Product Marketing Operations Manager",
+              "location": "Remote - Canada: Select locations",
+              "url": "https://jobs.dropbox.com/listing/8070686?gh_jid=8070686"
+            }
+          ]
+        },
+        {
+          "key": "sales_capacity",
+          "label": "Sales capacity growth",
+          "why_it_matters": "Account executives and sales engineers hired in volume create pipeline pressure roughly one quarter later.",
+          "distinct_roles": 2,
+          "postings": 2,
+          "counted": 2,
+          "points": 8,
+          "evidence": [
+            {
+              "title": "Account Executive",
+              "location": "Remote - US: Select locations",
+              "url": "https://jobs.dropbox.com/listing/8107794?gh_jid=8107794"
+            },
+            {
+              "title": "Senior Account Executive UKI",
+              "location": "Remote - Ireland; Remote - United Kingdom",
+              "url": "https://jobs.dropbox.com/listing/8051403?gh_jid=8051403"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "company": "Linear",
+      "segment": "Productivity",
+      "score": 13,
+      "tier": "C",
+      "why_now": "Linear has 4 open sales capacity roles.",
+      "open_roles_total": 27,
+      "signals": [
+        {
+          "key": "sales_capacity",
+          "label": "Sales capacity growth",
+          "why_it_matters": "Account executives and sales engineers hired in volume create pipeline pressure roughly one quarter later.",
+          "distinct_roles": 4,
+          "postings": 4,
+          "counted": 4,
+          "points": 16,
+          "evidence": [
+            {
+              "title": "Account Executive, Growth",
+              "location": "North America",
+              "url": "https://jobs.ashbyhq.com/linear/453f1ba0-a35e-4ed2-8215-1514e0a30b92"
+            },
+            {
+              "title": "Account Executive, Startups",
+              "location": "North America",
+              "url": "https://jobs.ashbyhq.com/linear/c21af93e-210f-4969-8eaa-90fb16a5b720"
+            },
+            {
+              "title": "Solutions Engineer, Europe",
+              "location": "London",
+              "url": "https://jobs.ashbyhq.com/linear/d37b3d76-3080-47f9-8a19-60505573112c"
+            },
+            {
+              "title": "Account Executive, Enterprise",
+              "location": "North America",
+              "url": "https://jobs.ashbyhq.com/linear/1bfdcabe-aa5f-4999-9a6d-b8a824dd779b"
+            }
+          ]
+        },
+        {
+          "key": "demand_leadership",
+          "label": "New demand leadership",
+          "why_it_matters": "A new growth or demand-gen leader arrives with a mandate and a budget, and replaces incumbent vendors early in their tenure.",
+          "distinct_roles": 1,
+          "postings": 1,
+          "counted": 1,
+          "points": 10,
+          "evidence": [
+            {
+              "title": "Demand Generation Lead, Growth",
+              "location": "North America",
+              "url": "https://jobs.ashbyhq.com/linear/910805ac-96e8-42b9-a8e9-8adf4c4ef536"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "company": "Modal",
+      "segment": "AI Infra",
+      "score": 10,
+      "tier": "C",
+      "why_now": "Modal has 1 open revenue operations role.",
+      "open_roles_total": 31,
+      "signals": [
+        {
+          "key": "revops_investment",
+          "label": "RevOps investment",
+          "why_it_matters": "Revenue operations hires signal that pipeline data and routing are already painful enough to staff against.",
+          "distinct_roles": 1,
+          "postings": 1,
+          "counted": 1,
+          "points": 12,
+          "evidence": [
+            {
+              "title": "Revenue Operations",
+              "location": "San Francisco",
+              "url": "https://jobs.ashbyhq.com/modal/a5d0e0e2-8d15-491d-9169-64be23f62034"
+            }
+          ]
+        },
+        {
+          "key": "sales_capacity",
+          "label": "Sales capacity growth",
+          "why_it_matters": "Account executives and sales engineers hired in volume create pipeline pressure roughly one quarter later.",
+          "distinct_roles": 2,
+          "postings": 2,
+          "counted": 2,
+          "points": 8,
+          "evidence": [
+            {
+              "title": "Account Executive - Enterprise",
+              "location": "New York",
+              "url": "https://jobs.ashbyhq.com/modal/5778babc-3f59-4b5f-9c60-10bc2b9a32e3"
+            },
+            {
+              "title": "Solutions Architect",
+              "location": "San Francisco",
+              "url": "https://jobs.ashbyhq.com/modal/2f5d046a-bd5f-44bb-a606-98bf13577c69"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "company": "Affirm",
+      "segment": "Fintech",
+      "score": 4,
+      "tier": "C",
+      "why_now": "Affirm has 2 open sales capacity roles across 3 postings.",
+      "open_roles_total": 200,
+      "signals": [
+        {
+          "key": "sales_capacity",
+          "label": "Sales capacity growth",
+          "why_it_matters": "Account executives and sales engineers hired in volume create pipeline pressure roughly one quarter later.",
+          "distinct_roles": 2,
+          "postings": 3,
+          "counted": 2,
+          "points": 8,
+          "evidence": [
+            {
+              "title": "AI Solutions Engineer",
+              "location": "Remote Canada",
+              "url": "https://job-boards.greenhouse.io/affirm/jobs/7778206003"
+            },
+            {
+              "title": "AI Solutions Engineer",
+              "location": "Remote US",
+              "url": "https://job-boards.greenhouse.io/affirm/jobs/7778204003"
+            },
+            {
+              "title": "Small Business Account Executive I",
+              "location": "Remote UK",
+              "url": "https://job-boards.greenhouse.io/affirm/jobs/7820003003"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "company": "Coinbase",
+      "segment": "Crypto",
+      "score": 2,
+      "tier": "C",
+      "why_now": "Coinbase has 1 open sales capacity role across 2 postings.",
+      "open_roles_total": 174,
+      "signals": [
+        {
+          "key": "sales_capacity",
+          "label": "Sales capacity growth",
+          "why_it_matters": "Account executives and sales engineers hired in volume create pipeline pressure roughly one quarter later.",
+          "distinct_roles": 1,
+          "postings": 2,
+          "counted": 1,
+          "points": 4,
+          "evidence": [
+            {
+              "title": "Solutions Architect",
+              "location": "Hybrid - New York, NY",
+              "url": "https://www.coinbase.com/careers/positions/8056065?gh_jid=8056065"
+            },
+            {
+              "title": "Solutions Architect",
+              "location": "Hybrid - London, UK",
+              "url": "https://www.coinbase.com/careers/positions/8096720?gh_jid=8096720"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "company": "Robinhood",
+      "segment": "Fintech",
+      "score": 0,
+      "tier": "C",
+      "why_now": "No active go-to-market hiring signal.",
+      "open_roles_total": 138,
+      "signals": []
+    }
+  ]
+}
