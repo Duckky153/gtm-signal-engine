@@ -1,31 +1,27 @@
 company,segment,score,tier,why_now,top_signal,open_roles_total
-Stripe,Payments,84,A,Stripe has 9 open outbound sales roles across 11 postings.,Outbound being scaled,550
-Cloudflare,Infrastructure,70,A,Cloudflare has 9 open outbound sales roles.,Outbound being scaled,300
-OpenAI,AI,70,A,OpenAI has 3 open go-to-market engineering roles.,GTM function being built,747
-Asana,Productivity,50,A,Asana has 2 open go-to-market engineering roles.,GTM function being built,150
+Fivetran,Data,59,A,Fivetran has 4 open outbound sales roles across 6 postings.,Outbound being scaled,197
+n8n,Automation,50,A,n8n has 4 open outbound sales roles.,Outbound being scaled,39
 Sierra,AI,48,A,Sierra has 4 open go-to-market engineering roles across 6 postings.,GTM function being built,191
 Decagon,AI,48,A,Decagon has 3 open revenue operations roles.,RevOps investment,126
-Twilio,Communications,47,A,Twilio has 3 open revenue operations roles.,RevOps investment,173
-Databricks,Data / AI,46,A,Databricks has 4 open outbound sales roles across 5 postings.,Outbound being scaled,819
-Brex,Fintech,44,A,Brex has 3 open outbound sales roles across 14 postings.,Outbound being scaled,303
 Replit,DevTools,44,A,Replit has 2 open revenue operations roles.,RevOps investment,88
-GitLab,DevTools,42,A,GitLab has 3 open outbound sales roles across 4 postings.,Outbound being scaled,189
-Instacart,Marketplace,42,A,Instacart has 6 open outbound sales roles.,Outbound being scaled,116
-Samsara,IoT / Fleet,40,A,Samsara has 6 open revenue operations roles across 7 postings.,RevOps investment,292
 Cursor,DevTools,36,B,Cursor has 3 open outbound sales roles.,Outbound being scaled,119
-Ramp,Fintech,34,B,Ramp has 12 open sales capacity roles.,Sales capacity growth,123
-Figma,Design,29,B,Figma has 2 open revenue operations roles.,RevOps investment,164
 Amplitude,Analytics,29,B,Amplitude has 6 open sales capacity roles across 7 postings.,Sales capacity growth,33
-ClickHouse,Data / AI,28,B,ClickHouse has 14 open sales capacity roles across 15 postings.,Sales capacity growth,166
+ClickHouse,Data,28,B,ClickHouse has 14 open sales capacity roles across 15 postings.,Sales capacity growth,166
 Airtable,Productivity,24,B,Airtable has 2 open outbound sales roles.,Outbound being scaled,38
 Checkr,HR Tech,22,B,Checkr has 5 open sales capacity roles.,Sales capacity growth,49
 Gusto,HR / Payroll,22,B,Gusto has 2 open revenue operations roles.,RevOps investment,91
+WorkOS,DevTools,22,B,WorkOS has 1 open go-to-market engineering role.,GTM function being built,25
 Perplexity,AI,21,B,Perplexity has 1 open revenue operations role.,RevOps investment,92
+LaunchDarkly,DevTools,18,C,LaunchDarkly has 11 open sales capacity roles.,Sales capacity growth,38
 Webflow,Web,18,C,Webflow has 10 open sales capacity roles.,Sales capacity growth,29
+Attio,CRM,16,C,Attio has 2 open demand-generation leadership roles.,New demand leadership,42
 Baseten,AI Infra,16,C,Baseten has 5 open sales capacity roles across 8 postings.,Sales capacity growth,65
-Dropbox,Storage,16,C,Dropbox has 2 open revenue operations roles across 4 postings.,RevOps investment,39
 Linear,Productivity,13,C,Linear has 4 open sales capacity roles.,Sales capacity growth,27
 Modal,AI Infra,10,C,Modal has 1 open revenue operations role.,RevOps investment,31
-Affirm,Fintech,4,C,Affirm has 2 open sales capacity roles across 3 postings.,Sales capacity growth,200
-Coinbase,Crypto,2,C,Coinbase has 1 open sales capacity role across 2 postings.,Sales capacity growth,174
-Robinhood,Fintech,0,C,No active go-to-market hiring signal.,,138
+Lovable,AI,8,C,Lovable has 4 open sales capacity roles.,Sales capacity growth,67
+Gamma,AI,7,C,Gamma has 1 open demand-generation leadership role.,New demand leadership,33
+Common Room,GTM Data,4,C,Common Room has 2 open sales capacity roles.,Sales capacity growth,10
+Browserbase,AI Infra,2,C,Browserbase has 1 open sales capacity role.,Sales capacity growth,8
+Resend,DevTools,2,C,Resend has 1 open sales capacity role.,Sales capacity growth,12
+Supabase,DevTools,2,C,Supabase has 1 open sales capacity role.,Sales capacity growth,58
+Pylon,Support,0,C,No active go-to-market hiring signal.,,12
