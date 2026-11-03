@@ -1,14 +1,14 @@
 # GTM Signal Engine
 
-**Live demo → https://duckky153.github.io/gtm-signal-engine/**
+**[Live demo](https://duckky153.github.io/gtm-signal-engine/)**
 
 A job board is a public statement of where a company is about to spend money.
 
-This reads 30 public ATS boards, finds the hiring patterns that mean a company is
+This reads 26 public ATS boards, finds the hiring patterns that mean a company is
 building or scaling go-to-market, and ranks every account by how ready it is to buy —
 with the exact requisition behind every score.
 
-**No API keys. No paid data vendor.** Clone it and you get the same numbers.
+**No API keys. No paid data vendor.** Clone it and run it; the boards are public.
 
 ```bash
 git clone https://github.com/Duckky153/gtm-signal-engine
@@ -18,7 +18,22 @@ python3 -m unittest discover -s tests   # 14 tests
 ```
 
 Python 3.9+, standard library only. No install step, no credentials. A full run over
-30 boards and ~5,600 postings takes about 3 seconds.
+the 26 boards takes about 2 seconds.
+
+## Sample output
+
+The committed snapshot in `out/` (generated August 8, 2026) read 1,686 postings
+from all 26 boards. Top of `out/report.md`:
+
+| # | Company | Score | Tier | Why now |
+|---|---------|-------|------|---------|
+| 1 | Fivetran | 59 | A | Fivetran has 4 open outbound sales roles across 6 postings. |
+| 2 | n8n | 50 | A | n8n has 4 open outbound sales roles. |
+| 3 | Sierra | 48 | A | Sierra has 4 open go-to-market engineering roles across 6 postings. |
+| 4 | Decagon | 48 | A | Decagon has 3 open revenue operations roles. |
+| 5 | Replit | 44 | A | Replit has 2 open revenue operations roles. |
+
+A fresh run gives different numbers, because the boards change.
 
 ## The five signals
 
@@ -46,7 +61,11 @@ Weights live in `engine/signals.py` and are meant to be argued with, not trusted
 - It sees **public ATS boards only**. A company hiring privately is invisible to it.
 - Hiring intent is **correlated with** buying intent, not identical to it. This ranks who
   to research first; it does not close anyone.
-- The 30-company target list exists to prove the mechanism. Pointing it at a real ICP is
+- Board addresses change. On November 2, 2026, three of the 26 boards (ClickHouse,
+  Amplitude, Common Room) returned HTTP 404; the run listed them as failures instead
+  of scoring them zero, and read 1,467 postings from 22 companies. The demo page and
+  `out/` still show the August 8 snapshot.
+- The 26-company target list exists to prove the mechanism. Pointing it at a real ICP is
   a change to one JSON file.
 
 ## Output
