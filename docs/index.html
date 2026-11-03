@@ -191,7 +191,7 @@
 </div></nav>
 
 <div class="hero"><div class="wrap">
-  <span class="kicker"><b>LIVE</b> Rebuilt from public data on every run</span>
+  <span class="kicker"><b>SNAPSHOT</b> Public job-board data, re-read each time the engine runs</span>
   <h1>Your next clients are <span>hiring right now.</span></h1>
   <p class="sub">We read public job boards and find the companies scaling their sales team.
     You get the list, the reason they're a fit, and the proof — in three seconds.</p>
@@ -205,7 +205,7 @@
 <section id="ranking">
   <div class="wrap">
     <div class="shead">
-      <span class="tag">Live results</span>
+      <span class="tag">Results</span>
       <h2>Every company, ranked by how ready they are to buy</h2>
       <p>Click any company to see the job postings behind its score. Every link goes
         straight to that company's own careers page — check us.</p>
@@ -268,9 +268,15 @@
 $ cd gtm-signal-engine
 
 $ python3 -m engine.run
+<span class="c"># sample output, from the August 8, 2026 run</span>
 <span class="c">Reading 26 public job boards...</span>
-<span class="g">  1,686 postings from 26 companies</span>
-<span class="g">  5 companies worth calling now</span></pre>
+<span class="g">  1686 postings from 26 companies</span>
+
+<span class="c">Top accounts by buying signal (25 scored above zero):</span>
+
+   59  [A]  Fivetran       Fivetran has 4 open outbound sales roles across 6 postings.
+   50  [A]  n8n            n8n has 4 open outbound sales roles.
+   48  [A]  Sierra         Sierra has 4 open go-to-market engineering roles across 6 postings.</pre>
   </div>
 </section>
 
